@@ -1,11 +1,13 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Volume2, VolumeX, ArrowRight, ArrowLeft, Settings2, Headphones, BookOpen, RotateCcw, Upload, Download, Check, Sparkles } from 'lucide-react'
 import { Rating } from 'ts-fsrs'
 import extraCsv from '../data/vocabulario_chino_extra.csv?raw'
+import { ListeningExercise } from './ListeningExercise'
+import { belongsToTopic, topics } from './topics'
 import { eligible, initial, load, offlineAudioUrls, parseVocabulary, rate, restore, save, shuffleIds, stats, toggleLearned, type Settings, type Snapshot, type Word } from './model'
 import './style.css'
 
-type Mode = 'study' | 'explore'
+type Mode = 'study' | 'explore' | 'listen'
 const audioPath = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
   const [settingsOpen, setSettingsOpen] = useState(false)
   const [level, setLevel] = useState('all')
   const [category, setCategory] = useState('all')
+  const [topic, setTopic] = useState('all')
   const [learnedFilter, setLearnedFilter] = useState('all')
   const [randomOrder, setRandomOrder] = useState<string[] | null>(null)
   const [listenFirst, setListenFirst] = useState(false)
@@ -58,9 +61,11 @@ function App() {
   }
   const words = data?.cards ?? []
   const learnedIds = new Set(data?.learned ?? [])
-  const matches = (word: Word) => (level === 'all' || (level === 'other' ? !word.hskLevel : word.hskLevel === Number(level))) && (category === 'all' || word.categories?.includes(category))
+  const matches = (word: Word) => (level === 'all' || (level === 'other' ? !word.hskLevel : word.hskLevel === Number(level))) && (category === 'all' || word.categories?.includes(category)) && belongsToTopic(word, topic)
+  const matchesState = (word: Word) => learnedFilter === 'all' || (learnedFilter === 'seen' ? !!data?.progress[word.id] || learnedIds.has(word.id) : (learnedFilter === 'learned') === learnedIds.has(word.id))
+  const exerciseWords = useMemo(() => words.filter(word => matches(word) && matchesState(word)), [words, level, category, topic, learnedFilter, data?.learned, data?.progress])
   const available = data ? eligible(data).filter(matches) : []
-  const exploreWords = words.filter(word => matches(word) && (learnedFilter === 'all' || (learnedFilter === 'learned') === learnedIds.has(word.id)))
+  const exploreWords = words.filter(word => matches(word) && matchesState(word))
   if (randomOrder) { const order = new Map(randomOrder.map((id, i) => [id, i])); exploreWords.sort((a, b) => (order.get(a.id) ?? Infinity) - (order.get(b.id) ?? Infinity)) }
   const current = mode === 'explore' ? exploreWords[index % (exploreWords.length || 1)] : available.find(c => c.id === currentId) ?? available[0]
   const stop = useCallback(() => { serial.current++; if (audio.current) { audio.current.pause(); try { audio.current.currentTime = 0 } catch { /* media may not be seekable yet */ } } if ('speechSynthesis' in window) speechSynthesis.cancel() }, [])
@@ -76,8 +81,8 @@ function App() {
     }
     setStatus('Audio no disponible. Instala una voz china en tu dispositivo para escuchar esta tarjeta.')
   }, [stop])
-  useEffect(() => { if (!current || !data) { stop(); return } setRevealed(false); if (enabled && data.settings.autoplay) void play(current, data.settings.speed); else stop() }, [current?.id, mode]) // playback follows card changes, not settings changes
-  useEffect(() => { if (!current || !data) return; const next = mode === 'explore' ? exploreWords[(index + 1) % exploreWords.length] : available.find(c => c.id !== current.id); if (next?.audioUrl) { const a = new Audio(); a.preload = 'auto'; a.src = audioPath(next.audioUrl); a.load() } }, [current?.id, mode, index, data, randomOrder, level, category, learnedFilter])
+  useEffect(() => { if (mode === 'listen' || !current || !data) { stop(); return } setRevealed(false); if (enabled && data.settings.autoplay) void play(current, data.settings.speed); else stop() }, [current?.id, mode]) // playback follows card changes, not settings changes
+  useEffect(() => { if (mode === 'listen' || !current || !data) return; const next = mode === 'explore' ? exploreWords[(index + 1) % exploreWords.length] : available.find(c => c.id !== current.id); if (next?.audioUrl) { const a = new Audio(); a.preload = 'auto'; a.src = audioPath(next.audioUrl); a.load() } }, [current?.id, mode, index, data, randomOrder, level, category, learnedFilter])
   useEffect(() => () => stop(), [stop])
   if (!data) return <main className="loading">Preparando tu espacio de estudio…</main>
   const summary = stats(data)
@@ -93,9 +98,10 @@ function App() {
   return <div className="app-shell">
     <header className="header"><div className="brand"><div className="brand-mark">汉</div><div><strong>汉字 <span>Chill</span></strong><small>CHINO A TU RITMO</small></div></div><button className="icon-button" aria-label="Abrir ajustes" aria-expanded={settingsOpen} onClick={() => setSettingsOpen(!settingsOpen)}><Settings2 size={20}/></button></header>
     <main>
-      <section className="intro"><div><p className="eyebrow"><span className="dot"/> UN MOMENTO PARA TI</p><h1>Un poco de chino,<br/><em>cada día.</em></h1><p>Escucha, descubre y recuerda. Sin prisas.</p></div><div className="intro-symbol" aria-hidden="true">好</div></section>
-      <nav className="tabs" aria-label="Modo de estudio"><button className={mode === 'study' ? 'active' : ''} aria-pressed={mode === 'study'} onClick={() => changeMode('study')}><BookOpen size={17}/> Repasar</button><button className={mode === 'explore' ? 'active' : ''} aria-pressed={mode === 'explore'} onClick={() => changeMode('explore')}><Headphones size={17}/> Explorar</button></nav>
-      <div className="filters"><label>Nivel<select value={level} onChange={e => { setLevel(e.target.value); setIndex(0) }}><option value="all">Todos</option><option value="1">HSK 3.0 · 1</option><option value="2">HSK 3.0 · 2</option><option value="other">Sin nivel</option></select></label><label>Tipo<select value={category} onChange={e => { setCategory(e.target.value); setIndex(0) }}><option value="all">Todos</option><option value="noun">Sustantivos</option><option value="verb">Verbos</option><option value="adjective">Adjetivos</option><option value="pronoun">Pronombres</option><option value="numeral">Números</option><option value="measure word">Clasificadores</option><option value="particle">Partículas</option></select></label>{mode === 'explore' && <label>Estado<select value={learnedFilter} onChange={e => { setLearnedFilter(e.target.value); setIndex(0) }}><option value="all">Todas</option><option value="active">Por aprender</option><option value="learned">Aprendidas</option></select></label>}</div>
+      <section className="intro" hidden={mode === 'listen'}><div><p className="eyebrow"><span className="dot"/> UN MOMENTO PARA TI</p><h1>Un poco de chino,<br/><em>cada día.</em></h1><p>Escucha, descubre y recuerda. Sin prisas.</p></div><div className="intro-symbol" aria-hidden="true">好</div></section>
+      <nav className="tabs" aria-label="Modo de estudio"><button className={mode === 'study' ? 'active' : ''} aria-pressed={mode === 'study'} onClick={() => changeMode('study')}><BookOpen size={17}/> Repasar</button><button className={mode === 'explore' ? 'active' : ''} aria-pressed={mode === 'explore'} onClick={() => changeMode('explore')}><Headphones size={17}/> Explorar</button><button className={mode === 'listen' ? 'active' : ''} aria-pressed={mode === 'listen'} onClick={() => changeMode('listen')}><Volume2 size={17}/> Oído</button></nav>
+      <div className="filters"><label>Nivel<select value={level} onChange={e => { setLevel(e.target.value); setIndex(0) }}><option value="all">Todos</option><option value="1">HSK 3.0 · 1</option><option value="2">HSK 3.0 · 2</option><option value="other">Sin nivel</option></select></label><label className="filter-topic">Tema<select value={topic} onChange={e => { setTopic(e.target.value); setIndex(0) }}><option value="all">Todos</option>{topics.map(t => <option key={t.id} value={t.id}>{t.label}</option>)}<option value="other">Otras palabras</option></select></label><label>Tipo<select value={category} onChange={e => { setCategory(e.target.value); setIndex(0) }}><option value="all">Todos</option><option value="noun">Sustantivos</option><option value="verb">Verbos</option><option value="adjective">Adjetivos</option><option value="pronoun">Pronombres</option><option value="numeral">Números</option><option value="measure word">Clasificadores</option><option value="particle">Partículas</option></select></label>{mode !== 'study' && <label>Estado<select value={learnedFilter} onChange={e => { setLearnedFilter(e.target.value); setIndex(0) }}><option value="all">Todas</option><option value="active">Por aprender</option><option value="seen">Ya vistas</option><option value="learned">Aprendidas</option></select></label>}</div>
+      {mode === 'listen' ? <ListeningExercise words={exerciseWords} autoplay={data.settings.autoplay} stop={stop} play={word => { setEnabled(true); void play(word, data.settings.speed) }}/> : <>
       <div className="practice-options">{mode === 'explore' ? <button className={randomOrder ? 'selected' : ''} aria-pressed={!!randomOrder} onClick={() => { setRandomOrder(randomOrder ? null : shuffleIds(words)); setIndex(0) }}>⤨ {randomOrder ? 'Desactivar orden aleatorio' : 'Activar orden aleatorio'}</button> : <button className={listenFirst ? 'selected' : ''} aria-pressed={listenFirst} onClick={() => { setListenFirst(!listenFirst); setRevealed(false) }}><Headphones size={16}/> {listenFirst ? 'Escuchar primero: sí' : 'Escuchar primero: no'}</button>}</div>
       <div className="section-heading"><div><span className="eyebrow">{mode === 'study' ? 'TU SESIÓN' : 'A TU AIRE'}</span><h2>{mode === 'study' ? 'Vamos a recordar' : 'Explora el mazo'}</h2></div><span className="counter">{mode === 'explore' ? `${current ? index % exploreWords.length + 1 : 0} / ${exploreWords.length}` : `${available.filter(c => !!data.progress[c.id]).length} pendientes`}</span></div>
       <section className="study-card" aria-label="Tarjeta de estudio">
@@ -104,9 +110,10 @@ function App() {
       {current && <><div className="actions"><button className="secondary" onClick={() => setRevealed(!revealed)}>{revealed ? 'Ocultar respuesta' : 'Mostrar respuesta'}</button>{mode === 'explore' ? <><button className="back" aria-label="Tarjeta anterior" onClick={() => advance(-1)}><ArrowLeft size={19}/></button><button className="primary" onClick={() => advance()}>Siguiente <ArrowRight size={18}/></button></> : <button className="primary" onClick={() => advance()}>Saltar <ArrowRight size={18}/></button>}</div>
       {mode === 'study' && revealed && <div className="rating-area"><p>¿Qué tal la recordabas?</p><div className="ratings">{([[Rating.Again,'Otra vez'],[Rating.Hard,'Difícil'],[Rating.Good,'Bien'],[Rating.Easy,'Fácil']] as const).map(([r,label]) => <button key={r} disabled={busy || !ready.current} onClick={() => void answer(r)}>{label}</button>)}</div></div>}</>}
       {!enabled && current && <button className="enable-audio" onClick={activate}><VolumeX size={19}/><span><strong>Activar audio</strong><small>Un toque para escuchar al avanzar</small></span><ArrowRight size={18}/></button>}
+      </>}
       <p className="status" role="status">{status}</p>{error && <p className="error" role="alert">{error}</p>}
       {offlineProgress && <p className="offline-status" role="status">{offlineProgress.ready ? `✓ Listo para usar sin conexión · ${offlineProgress.count} audios` : `Preparando uso sin conexión · ${offlineProgress.count} / ${offlineAudioUrls.length} audios`}</p>}
-      <div className="session-summary"><div><span>PARA HOY</span><strong>{summary.newLeft}</strong><small>nuevas disponibles</small></div><div><span>TU RITMO</span><strong>{summary.reviewed}</strong><small>repasos de hoy</small></div><div><span>ACIERTOS</span><strong>{summary.accuracy === null ? '—' : `${summary.accuracy}%`}</strong><small>sin contar «Otra vez»</small></div></div>
+      {mode !== 'listen' && <div className="session-summary"><div><span>PARA HOY</span><strong>{summary.newLeft}</strong><small>nuevas disponibles</small></div><div><span>TU RITMO</span><strong>{summary.reviewed}</strong><small>repasos de hoy</small></div><div><span>ACIERTOS</span><strong>{summary.accuracy === null ? '—' : `${summary.accuracy}%`}</strong><small>sin contar «Otra vez»</small></div></div>}
       <section className="settings" hidden={!settingsOpen}><div className="settings-head"><div><span className="eyebrow">HAZLO TUYO</span><h2>Ajustes</h2></div><button className="icon-button" aria-label="Cerrar ajustes" onClick={() => setSettingsOpen(false)}>×</button></div>
         <label className="setting"><span><strong>Velocidad de audio</strong><small>Encuentra tu ritmo para escuchar.</small></span><span className="range"><input type="range" min="0.55" max="1.15" step="0.05" value={data.settings.speed} onChange={e => setSetting({ speed: Number(e.target.value) })}/><output>{data.settings.speed.toFixed(2).replace('.',',')}×</output></span></label>
         <label className="setting"><span><strong>Reproducción automática</strong><small>Escuchar al cambiar de tarjeta.</small></span><input type="checkbox" checked={data.settings.autoplay} onChange={e => setSetting({ autoplay: e.target.checked })}/></label>
