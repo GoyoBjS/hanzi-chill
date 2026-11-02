@@ -6,3 +6,6 @@
 .exercise-choices button{overflow-wrap:anywhere}
 @media(max-width:600px){.filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.filters .filter-topic{grid-column:1/-1;order:-1}}
 .intro[hidden]{display:none}
+.practice-options{gap:8px;flex-wrap:wrap}
+.context-example{margin-top:16px;padding:20px 22px;border:1px solid #dfe8dc;border-radius:14px;background:#f2f7ef}
+.context-example .eyebrow{margin-bottom:10px}.context-hanzi{font:25px/1.5 "PingFang SC","Microsoft YaHei",sans-serif;color:#214b3b;margin:0}.context-pinyin{font-size:14px;color:#668977;margin:4px 0}.context-meaning{font-size:13px;color:#536f5e;margin:8px 0 14px}.context-example .listen{background:#fffefa;min-height:44px}

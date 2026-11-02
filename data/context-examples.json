@@ -1,0 +1,202 @@
+[
+  {
+    "id": "context-001",
+    "hanzi": "你好，我是学生。",
+    "pinyin": "Nǐ hǎo, wǒ shì xuésheng.",
+    "meaning": "Hola, soy estudiante.",
+    "hskIds": [
+      "w00147",
+      "w00248"
+    ],
+    "audioUrl": "/audio/context-001.mp3"
+  },
+  {
+    "id": "context-002",
+    "hanzi": "谢谢你！",
+    "pinyin": "Xièxie nǐ!",
+    "meaning": "¡Gracias!",
+    "hskIds": [
+      "w00241",
+      "w00146"
+    ],
+    "audioUrl": "/audio/context-002.mp3"
+  },
+  {
+    "id": "context-003",
+    "hanzi": "我想喝水。",
+    "pinyin": "Wǒ xiǎng hē shuǐ.",
+    "meaning": "Quiero beber agua.",
+    "hskIds": [
+      "w00221",
+      "w00233",
+      "w00077",
+      "w00192"
+    ],
+    "audioUrl": "/audio/context-003.mp3"
+  },
+  {
+    "id": "context-004",
+    "hanzi": "我喜欢喝茶。",
+    "pinyin": "Wǒ xǐhuan hē chá.",
+    "meaning": "Me gusta beber té.",
+    "hskIds": [
+      "w00225",
+      "w00017"
+    ],
+    "audioUrl": "/audio/context-004.mp3"
+  },
+  {
+    "id": "context-005",
+    "hanzi": "我想吃米饭。",
+    "pinyin": "Wǒ xiǎng chī mǐfàn.",
+    "meaning": "Quiero comer arroz.",
+    "hskIds": [
+      "w00021",
+      "w00125"
+    ],
+    "audioUrl": "/audio/context-005.mp3"
+  },
+  {
+    "id": "context-006",
+    "hanzi": "你喜欢吃苹果吗？",
+    "pinyin": "Nǐ xǐhuan chī píngguǒ ma?",
+    "meaning": "¿Te gusta comer manzanas?",
+    "hskIds": [
+      "w00159",
+      "w00115"
+    ],
+    "audioUrl": "/audio/context-006.mp3"
+  },
+  {
+    "id": "context-007",
+    "hanzi": "她是我的朋友。",
+    "pinyin": "Tā shì wǒ de péngyou.",
+    "meaning": "Ella es mi amiga.",
+    "hskIds": [
+      "w00202",
+      "w00188",
+      "w00156"
+    ],
+    "audioUrl": "/audio/context-007.mp3"
+  },
+  {
+    "id": "context-008",
+    "hanzi": "这个多少钱？",
+    "pinyin": "Zhège duōshao qián?",
+    "meaning": "¿Cuánto cuesta esto?",
+    "hskIds": [
+      "w00047",
+      "w00164"
+    ],
+    "audioUrl": "/audio/context-008.mp3"
+  },
+  {
+    "id": "context-009",
+    "hanzi": "我想买这个。",
+    "pinyin": "Wǒ xiǎng mǎi zhège.",
+    "meaning": "Quiero comprar esto.",
+    "hskIds": [
+      "w00116",
+      "w00281"
+    ],
+    "audioUrl": "/audio/context-009.mp3"
+  },
+  {
+    "id": "context-010",
+    "hanzi": "洗手间在哪里？",
+    "pinyin": "Xǐshǒujiān zài nǎlǐ?",
+    "meaning": "¿Dónde está el baño?",
+    "hskIds": [
+      "w00457",
+      "w00133"
+    ],
+    "audioUrl": "/audio/context-010.mp3"
+  },
+  {
+    "id": "context-011",
+    "hanzi": "我们明天见。",
+    "pinyin": "Wǒmen míngtiān jiàn.",
+    "meaning": "Nos vemos mañana.",
+    "hskIds": [
+      "w00222",
+      "w00129"
+    ],
+    "audioUrl": "/audio/context-011.mp3"
+  },
+  {
+    "id": "context-012",
+    "hanzi": "我今天很忙。",
+    "pinyin": "Wǒ jīntiān hěn máng.",
+    "meaning": "Hoy estoy ocupado u ocupada.",
+    "hskIds": [
+      "w00094",
+      "w00118"
+    ],
+    "audioUrl": "/audio/context-012.mp3"
+  },
+  {
+    "id": "context-013",
+    "hanzi": "我在家。",
+    "pinyin": "Wǒ zài jiā.",
+    "meaning": "Estoy en casa.",
+    "hskIds": [
+      "w00271",
+      "w00086"
+    ],
+    "audioUrl": "/audio/context-013.mp3"
+  },
+  {
+    "id": "context-014",
+    "hanzi": "我去学校。",
+    "pinyin": "Wǒ qù xuéxiào.",
+    "meaning": "Voy a la escuela.",
+    "hskIds": [
+      "w00167",
+      "w00250"
+    ],
+    "audioUrl": "/audio/context-014.mp3"
+  },
+  {
+    "id": "context-015",
+    "hanzi": "我们一起吃饭。",
+    "pinyin": "Wǒmen yìqǐ chīfàn.",
+    "meaning": "Comemos juntos.",
+    "hskIds": [
+      "w00473",
+      "w00050"
+    ],
+    "audioUrl": "/audio/context-015.mp3"
+  },
+  {
+    "id": "context-016",
+    "hanzi": "再见，明天见！",
+    "pinyin": "Zàijiàn, míngtiān jiàn!",
+    "meaning": "¡Adiós, hasta mañana!",
+    "hskIds": [
+      "w00272"
+    ],
+    "audioUrl": "/audio/context-016.mp3"
+  },
+  {
+    "id": "context-017",
+    "hanzi": "今天天气很好。",
+    "pinyin": "Jīntiān tiānqì hěn hǎo.",
+    "meaning": "Hoy hace buen tiempo.",
+    "hskIds": [
+      "w00208",
+      "w00071"
+    ],
+    "audioUrl": "/audio/context-017.mp3"
+  },
+  {
+    "id": "context-018",
+    "hanzi": "我喜欢听歌。",
+    "pinyin": "Wǒ xǐhuan tīng gē.",
+    "meaning": "Me gusta escuchar canciones.",
+    "hskIds": [
+      "w00209",
+      "w00058"
+    ],
+    "audioUrl": "/audio/context-018.mp3"
+  }
+]

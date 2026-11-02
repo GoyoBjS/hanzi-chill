@@ -3,13 +3,14 @@ import { createEmptyCard, fsrs, Rating, State, type Card as FSRSCard, type Grade
 import Papa from 'papaparse'
 import baseDeck from '../data/base-deck.json'
 import hskDeck from '../data/hsk3-levels-1-2.json'
+import { contextExamples } from './context'
 
 export interface Word { id: string; hanzi: string; pinyin: string; meaning: string; audioUrl?: string; source?: string; hskId?: string; hskLevel?: 1 | 2; categories?: string[] }
 export interface Settings { speed: number; autoplay: boolean; showPinyin: boolean; newLimit: number }
 export interface Review { id: string; cardId: string; at: string; rating: number; introduced?: boolean }
 export interface Snapshot { version: 3; cards: Word[]; progress: Record<string, FSRSCard>; settings: Settings; reviews: Review[]; learned?: string[]; legacyArchive?: unknown }
 export const defaults: Settings = { speed: 1, autoplay: true, showPinyin: false, newLimit: 5 }
-export const offlineAudioUrls = [...baseDeck, ...hskDeck].flatMap(card => card.audioUrl ? [card.audioUrl] : [])
+export const offlineAudioUrls = [...baseDeck, ...hskDeck, ...contextExamples].flatMap(card => card.audioUrl ? [card.audioUrl] : [])
 export const keyOf = (word: Pick<Word, 'hanzi' | 'pinyin'>) => `${word.hanzi.normalize('NFKC').trim()}|${word.pinyin.normalize('NFKC').trim().toLocaleLowerCase()}`
 export function withCatalog(data: Snapshot): Snapshot {
   const cards = data.cards.map(c => ({ ...c }))
