@@ -83,10 +83,8 @@ function App() {
         <div className="data-tools"><h3>Tu vocabulario y progreso</h3><p>Todo se guarda en este dispositivo. Exporta una copia para llevarla contigo.</p><div className="tool-grid"><button onClick={() => void addVocabulary(extraCsv)}><Sparkles size={17}/> Añadir vocabulario extra</button><button onClick={() => csvInput.current?.click()}><Upload size={17}/> Importar CSV / TSV</button><button onClick={exportBackup}><Download size={17}/> Exportar copia</button><button onClick={() => jsonInput.current?.click()}><RotateCcw size={17}/> Restaurar copia</button></div><input ref={csvInput} hidden type="file" accept=".csv,.tsv,text/csv,text/tab-separated-values" onChange={e => { const f=e.target.files?.[0]; if (f) void f.text().then(addVocabulary).catch(() => setError('No se pudo leer el archivo.')); e.target.value='' }}/><input ref={jsonInput} hidden type="file" accept=".json,application/json" onChange={e => { const f=e.target.files?.[0]; if (f && window.confirm('Restaurar sustituirá el mazo, los ajustes y el progreso actuales. ¿Continuar?')) void importBackup(f); e.target.value='' }}/></div>
         <div className="install"><strong>En tu iPhone</strong><p>Abre esta página en Safari, toca Compartir y después «Añadir a pantalla de inicio». Necesitas HTTPS o localhost para instalarla y usarla sin conexión tras la primera carga.</p></div>
       </section>
-      <footer><span>汉字 CHILL</span><p>Un pequeño momento para aprender algo nuevo.<br/>Los audios incluidos son heredados y no han sido revisados profesionalmente.</p></footer>
+      <footer><span>汉字 CHILL</span><p>Un pequeño momento para aprender algo nuevo.<br/>Las voces son sintéticas y no han sido revisadas profesionalmente.</p></footer>
     </main>
   </div>
 }
 export default App
-
-
