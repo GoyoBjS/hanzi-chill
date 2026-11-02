@@ -9,13 +9,13 @@ Hay dos referencias que conviene mantener separadas:
 - La documentación clásica de HSK 2.0 describe HSK 1 como 150 palabras y HSK 2 como 300 palabras acumuladas. Esa cifra aparece en el manual publicado por el servicio oficial de exámenes, pero el PDF es un documento antiguo y no debe presentarse como la única lista vigente: [HSKbyWord.pdf, páginas 3–4](https://www.chinesetest.cn/userfiles/file/HSKbyWord.pdf).
 - La web oficial actual muestra HSK 3.0 con un marco de tres etapas y nueve niveles. Explica que el programa cubre tareas, temas, vocabulario, gramática y caracteres; por tanto, una aplicación debe modelar palabras y caracteres como entidades relacionadas, no como una sola lista plana: [página oficial HSK](https://www.chinesetest.cn/HSK), [página oficial del nivel 1](https://www.chinesetest.cn/HSK/1?type=2).
 
-La transición es relevante para el producto. El sitio oficial anuncia que HSK 3.0 se lanzará mundialmente el 13 de diciembre de 2026, así que a fecha de esta nota no conviene llamar «lista oficial HSK 1–2» a una mezcla de listas de internet: [aviso oficial de lanzamiento](https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=51336883). Para el próximo mazo propongo guardar `hskVersion` y `hskLevel` en cada tarjeta, y ofrecer explícitamente dos filtros: «HSK 2.0 (150/300 acumuladas)» y «HSK 3.0», cuando el programa oficial descargable se haya verificado.
+La transición es relevante para el producto. El sitio oficial anuncia que HSK 3.0 se lanzará mundialmente el 13 de diciembre de 2026, así que a fecha de esta nota no conviene llamar «lista oficial HSK 1–2» a una mezcla de listas de internet: [aviso oficial de lanzamiento](https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=51336883). La aplicación usa ahora el programa HSK 3.0 de 2025: 300 entradas del nivel 1 y 200 adicionales del nivel 2. Se indica expresamente la versión en el filtro, sin mezclarla con la lista clásica.
 
 La web oficial también enlaza el programa y materiales de cada nivel desde el servicio de exámenes: [centro de recursos oficial](https://admin.chinesetest.cn/godownload.do). Debemos descargar la fuente, fijar la versión y conservar el aviso de procedencia antes de distribuir datos dentro de la PWA.
 
 ## Datos reutilizables y límites de licencia
 
-No he encontrado una licencia abierta del listado oficial HSK que permita copiar y redistribuir sin más la tabla completa con traducciones al español y audio. El camino prudente es:
+No se ha verificado una licencia abierta del documento oficial que permita redistribuir directamente toda su tabla. Se ha seleccionado el conjunto derivado [HearMandarin](https://hearmandarin.com/datasets/), que declara licencia CC BY 4.0 y rastrea su origen al programa oficial, junto con traducciones adaptadas de una fuente que declara licencia MIT. Los detalles están en [créditos del mazo](creditos-datos-hsk.md). El camino prudente es:
 
 1. Usar el programa oficial como referencia de cobertura y de etiquetado.
 2. Crear un mazo propio con contenido redactado por nosotros y audio generado o revisado, y marcar la procedencia de cada entrada.
@@ -57,7 +57,7 @@ Estas fuentes no justifican convertir cada sesión en un examen duro. La inferen
 
 - `nueva`: nunca presentada.
 - `en_aprendizaje`: ya introducida en FSRS.
-- `aprendida`: el usuario la marca como conocida; se conserva el historial y deja de entrar en nuevas, pero puede volver a aparecer si está pendiente.
+- `aprendida`: el usuario la marca como conocida; se conserva el historial y se excluye de los repasos hasta que el usuario la reactive.
 - `suspendida`: fuera de las sesiones hasta reactivarla.
 - `favorita`: acceso rápido, sin alterar el algoritmo.
 
@@ -85,4 +85,3 @@ La sesión aleatoria debe ser un modo de práctica, no el sustituto del calendar
 - Estadísticas útiles: tarjetas nuevas, repasos, acierto por modo y tarjetas que más se olvidan; sin rachas obligatorias.
 
 El orden recomendado es: metadatos y packs HSK versionados, filtros/estados, sesión aleatoria segura y modo escucha/reconocimiento. Eso aporta más aprendizaje por tarjeta que simplemente inflar el mazo.
-

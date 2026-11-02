@@ -1,0 +1,6571 @@
+[
+  {
+    "id": "hsk-w00001",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "meaning": "Amar; Querer",
+    "audioUrl": "/audio/hsk-w00001.mp3",
+    "hskLevel": 1,
+    "hskId": "w00001",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00002",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "meaning": "Ocho",
+    "audioUrl": "/audio/hsk-w00002.mp3",
+    "hskLevel": 1,
+    "hskId": "w00002",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00003",
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "papá",
+    "audioUrl": "/audio/hsk-w00003.mp3",
+    "hskLevel": 1,
+    "hskId": "w00003",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00004",
+    "hanzi": "吧",
+    "pinyin": "ba",
+    "meaning": "Partícula (sugerencia, duda, petición)",
+    "audioUrl": "/audio/hsk-w00004.mp3",
+    "hskLevel": 1,
+    "hskId": "w00004",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00005",
+    "hanzi": "白天",
+    "pinyin": "báitiān",
+    "meaning": "durante el día",
+    "audioUrl": "/audio/hsk-w00005.mp3",
+    "hskLevel": 1,
+    "hskId": "w00005",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00006",
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "meaning": "Cien",
+    "audioUrl": "/audio/hsk-w00006.mp3",
+    "hskLevel": 1,
+    "hskId": "w00006",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00007",
+    "hanzi": "半",
+    "pinyin": "bàn",
+    "meaning": "Medio; Mitad",
+    "audioUrl": "/audio/hsk-w00007.mp3",
+    "hskLevel": 1,
+    "hskId": "w00007",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00008",
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "meaning": "Baozi (empanadilla al vapor)",
+    "audioUrl": "/audio/hsk-w00008.mp3",
+    "hskLevel": 1,
+    "hskId": "w00008",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00009",
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "meaning": "Vaso; Taza",
+    "audioUrl": "/audio/hsk-w00009.mp3",
+    "hskLevel": 1,
+    "hskId": "w00009",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00010",
+    "hanzi": "本",
+    "pinyin": "běn",
+    "meaning": "clasificador para libros; raíz",
+    "audioUrl": "/audio/hsk-w00010.mp3",
+    "hskLevel": 1,
+    "hskId": "w00010",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00011",
+    "hanzi": "边",
+    "pinyin": "biān",
+    "meaning": "lado; borde",
+    "audioUrl": "/audio/hsk-w00011.mp3",
+    "hskLevel": 1,
+    "hskId": "w00011",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "suffix"
+    ]
+  },
+  {
+    "id": "hsk-w00012",
+    "hanzi": "病",
+    "pinyin": "bìng",
+    "meaning": "enfermedad; enfermar",
+    "audioUrl": "/audio/hsk-w00012.mp3",
+    "hskLevel": 1,
+    "hskId": "w00012",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00013",
+    "hanzi": "不",
+    "pinyin": "bù",
+    "meaning": "No",
+    "audioUrl": "/audio/hsk-w00013.mp3",
+    "hskLevel": 1,
+    "hskId": "w00013",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00014",
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "meaning": "de nada",
+    "audioUrl": "/audio/hsk-w00014.mp3",
+    "hskLevel": 1,
+    "hskId": "w00014",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00015",
+    "hanzi": "不要",
+    "pinyin": "búyào",
+    "meaning": "no; no hagas",
+    "audioUrl": "/audio/hsk-w00015.mp3",
+    "hskLevel": 1,
+    "hskId": "w00015",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00016",
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "meaning": "Verdura; Plato (comida)",
+    "audioUrl": "/audio/hsk-w00016.mp3",
+    "hskLevel": 1,
+    "hskId": "w00016",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00017",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "meaning": "Té",
+    "audioUrl": "/audio/hsk-w00017.mp3",
+    "hskLevel": 1,
+    "hskId": "w00017",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00018",
+    "hanzi": "唱",
+    "pinyin": "chàng",
+    "meaning": "Cantar",
+    "audioUrl": "/audio/hsk-w00018.mp3",
+    "hskLevel": 1,
+    "hskId": "w00018",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00019",
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "meaning": "Supermercado (abreviatura de 超级市场)",
+    "audioUrl": "/audio/hsk-w00019.mp3",
+    "hskLevel": 1,
+    "hskId": "w00019",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00020",
+    "hanzi": "车",
+    "pinyin": "chē",
+    "meaning": "Coche; Vehículo",
+    "audioUrl": "/audio/hsk-w00020.mp3",
+    "hskLevel": 1,
+    "hskId": "w00020",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00021",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "meaning": "Comer",
+    "audioUrl": "/audio/hsk-w00021.mp3",
+    "hskLevel": 1,
+    "hskId": "w00021",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00022",
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "meaning": "taxi",
+    "audioUrl": "/audio/hsk-w00022.mp3",
+    "hskLevel": 1,
+    "hskId": "w00022",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00023",
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "meaning": "Usar (ropa); Ponerse",
+    "audioUrl": "/audio/hsk-w00023.mp3",
+    "hskLevel": 1,
+    "hskId": "w00023",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00024",
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "meaning": "Llamar por teléfono",
+    "audioUrl": "/audio/hsk-w00024.mp3",
+    "hskLevel": 1,
+    "hskId": "w00024",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00025",
+    "hanzi": "大",
+    "pinyin": "dà",
+    "meaning": "Grande",
+    "audioUrl": "/audio/hsk-w00025.mp3",
+    "hskLevel": 1,
+    "hskId": "w00025",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00026",
+    "hanzi": "大家",
+    "pinyin": "dàjiā",
+    "meaning": "todo el mundo",
+    "audioUrl": "/audio/hsk-w00026.mp3",
+    "hskLevel": 1,
+    "hskId": "w00026",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00027",
+    "hanzi": "大学",
+    "pinyin": "dàxué",
+    "meaning": "Universidad",
+    "audioUrl": "/audio/hsk-w00027.mp3",
+    "hskLevel": 1,
+    "hskId": "w00027",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00028",
+    "hanzi": "大学生",
+    "pinyin": "dàxuéshēng",
+    "meaning": "Estudiante universitario",
+    "audioUrl": "/audio/hsk-w00028.mp3",
+    "hskLevel": 1,
+    "hskId": "w00028",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00029",
+    "hanzi": "到",
+    "pinyin": "dào",
+    "meaning": "Llegar",
+    "audioUrl": "/audio/hsk-w00029.mp3",
+    "hskLevel": 1,
+    "hskId": "w00029",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00030",
+    "hanzi": "的",
+    "pinyin": "de",
+    "meaning": "Partícula posesiva; adjetivadora",
+    "audioUrl": "/audio/hsk-w00030.mp3",
+    "hskLevel": 1,
+    "hskId": "w00030",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00031",
+    "hanzi": "第",
+    "pinyin": "dì",
+    "meaning": "prefijo que indica orden",
+    "audioUrl": "/audio/hsk-w00031.mp3",
+    "hskLevel": 1,
+    "hskId": "w00031",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "prefix"
+    ]
+  },
+  {
+    "id": "hsk-w00032",
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "meaning": "hermano menor",
+    "audioUrl": "/audio/hsk-w00032.mp3",
+    "hskLevel": 1,
+    "hskId": "w00032",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00033",
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "meaning": "en punto; un poco; punto",
+    "audioUrl": "/audio/hsk-w00033.mp3",
+    "hskLevel": 1,
+    "hskId": "w00033",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00034",
+    "hanzi": "店",
+    "pinyin": "diàn",
+    "meaning": "tienda",
+    "audioUrl": "/audio/hsk-w00034.mp3",
+    "hskLevel": 1,
+    "hskId": "w00034",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00035",
+    "hanzi": "电话",
+    "pinyin": "diànhuà",
+    "meaning": "Teléfono",
+    "audioUrl": "/audio/hsk-w00035.mp3",
+    "hskLevel": 1,
+    "hskId": "w00035",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00036",
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning": "Computadora; Ordenador",
+    "audioUrl": "/audio/hsk-w00036.mp3",
+    "hskLevel": 1,
+    "hskId": "w00036",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00037",
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "meaning": "Televisión",
+    "audioUrl": "/audio/hsk-w00037.mp3",
+    "hskLevel": 1,
+    "hskId": "w00037",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00038",
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "meaning": "Película",
+    "audioUrl": "/audio/hsk-w00038.mp3",
+    "hskLevel": 1,
+    "hskId": "w00038",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00039",
+    "hanzi": "电影院",
+    "pinyin": "diànyǐngyuàn",
+    "meaning": "Cine",
+    "audioUrl": "/audio/hsk-w00039.mp3",
+    "hskLevel": 1,
+    "hskId": "w00039",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00040",
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "meaning": "Cosa; Objeto",
+    "audioUrl": "/audio/hsk-w00040.mp3",
+    "hskLevel": 1,
+    "hskId": "w00040",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00041",
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "meaning": "Todo; Ambos",
+    "audioUrl": "/audio/hsk-w00041.mp3",
+    "hskLevel": 1,
+    "hskId": "w00041",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00042",
+    "hanzi": "读",
+    "pinyin": "dú",
+    "meaning": "Leer",
+    "audioUrl": "/audio/hsk-w00042.mp3",
+    "hskLevel": 1,
+    "hskId": "w00042",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00043",
+    "hanzi": "读书",
+    "pinyin": "dúshū",
+    "meaning": "Leer; Estudiar",
+    "audioUrl": "/audio/hsk-w00043.mp3",
+    "hskLevel": 1,
+    "hskId": "w00043",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00044",
+    "hanzi": "对",
+    "pinyin": "duì",
+    "meaning": "correcto; hacia; pareja",
+    "audioUrl": "/audio/hsk-w00044.mp3",
+    "hskLevel": 1,
+    "hskId": "w00044",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "preposition",
+      "verb",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00045",
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "meaning": "lo siento; perdón",
+    "audioUrl": "/audio/hsk-w00045.mp3",
+    "hskLevel": 1,
+    "hskId": "w00045",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00046",
+    "hanzi": "多",
+    "pinyin": "duō",
+    "meaning": "mucho; muchos; más",
+    "audioUrl": "/audio/hsk-w00046.mp3",
+    "hskLevel": 1,
+    "hskId": "w00046",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "verb",
+      "pronoun",
+      "numeral",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00047",
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "meaning": "¿Cuánto?; ¿Cuántos?",
+    "audioUrl": "/audio/hsk-w00047.mp3",
+    "hskLevel": 1,
+    "hskId": "w00047",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00048",
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "meaning": "hijo",
+    "audioUrl": "/audio/hsk-w00048.mp3",
+    "hskLevel": 1,
+    "hskId": "w00048",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00049",
+    "hanzi": "二",
+    "pinyin": "èr",
+    "meaning": "Dos",
+    "audioUrl": "/audio/hsk-w00049.mp3",
+    "hskLevel": 1,
+    "hskId": "w00049",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00050",
+    "hanzi": "饭",
+    "pinyin": "fàn",
+    "meaning": "Arroz cocido; Comida",
+    "audioUrl": "/audio/hsk-w00050.mp3",
+    "hskLevel": 1,
+    "hskId": "w00050",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00051",
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "meaning": "restaurante; hotel",
+    "audioUrl": "/audio/hsk-w00051.mp3",
+    "hskLevel": 1,
+    "hskId": "w00051",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00052",
+    "hanzi": "房间",
+    "pinyin": "fángjiān",
+    "meaning": "Habitación",
+    "audioUrl": "/audio/hsk-w00052.mp3",
+    "hskLevel": 1,
+    "hskId": "w00052",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00053",
+    "hanzi": "非常",
+    "pinyin": "fēicháng",
+    "meaning": "Muy; Extremadamente",
+    "audioUrl": "/audio/hsk-w00053.mp3",
+    "hskLevel": 1,
+    "hskId": "w00053",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00054",
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "meaning": "Avión",
+    "audioUrl": "/audio/hsk-w00054.mp3",
+    "hskLevel": 1,
+    "hskId": "w00054",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00055",
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "meaning": "minuto; céntimo; dividir",
+    "audioUrl": "/audio/hsk-w00055.mp3",
+    "hskLevel": 1,
+    "hskId": "w00055",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word",
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00056",
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "meaning": "Minuto",
+    "audioUrl": "/audio/hsk-w00056.mp3",
+    "hskLevel": 1,
+    "hskId": "w00056",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00057",
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "meaning": "Feliz; Contento",
+    "audioUrl": "/audio/hsk-w00057.mp3",
+    "hskLevel": 1,
+    "hskId": "w00057",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00058",
+    "hanzi": "歌",
+    "pinyin": "gē",
+    "meaning": "Canción",
+    "audioUrl": "/audio/hsk-w00058.mp3",
+    "hskLevel": 1,
+    "hskId": "w00058",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00059",
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "meaning": "hermano mayor",
+    "audioUrl": "/audio/hsk-w00059.mp3",
+    "hskLevel": 1,
+    "hskId": "w00059",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00060",
+    "hanzi": "个",
+    "pinyin": "gè",
+    "meaning": "(Clasificador general)",
+    "audioUrl": "/audio/hsk-w00060.mp3",
+    "hskLevel": 1,
+    "hskId": "w00060",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00061",
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "meaning": "dar; para; a",
+    "audioUrl": "/audio/hsk-w00061.mp3",
+    "hskLevel": 1,
+    "hskId": "w00061",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "hsk-w00062",
+    "hanzi": "公司",
+    "pinyin": "gōngsī",
+    "meaning": "empresa; compañía",
+    "audioUrl": "/audio/hsk-w00062.mp3",
+    "hskLevel": 1,
+    "hskId": "w00062",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00063",
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "meaning": "Trabajar; Trabajo",
+    "audioUrl": "/audio/hsk-w00063.mp3",
+    "hskLevel": 1,
+    "hskId": "w00063",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00064",
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "meaning": "Perro",
+    "audioUrl": "/audio/hsk-w00064.mp3",
+    "hskLevel": 1,
+    "hskId": "w00064",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00065",
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "meaning": "Caro",
+    "audioUrl": "/audio/hsk-w00065.mp3",
+    "hskLevel": 1,
+    "hskId": "w00065",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00066",
+    "hanzi": "国",
+    "pinyin": "guó",
+    "meaning": "País",
+    "audioUrl": "/audio/hsk-w00066.mp3",
+    "hskLevel": 1,
+    "hskId": "w00066",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00067",
+    "hanzi": "还",
+    "pinyin": "hái",
+    "meaning": "todavía; además",
+    "audioUrl": "/audio/hsk-w00067.mp3",
+    "hskLevel": 1,
+    "hskId": "w00067",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00068",
+    "hanzi": "孩子",
+    "pinyin": "háizi",
+    "meaning": "Niño(s); Hijo(s)",
+    "audioUrl": "/audio/hsk-w00068.mp3",
+    "hskLevel": 1,
+    "hskId": "w00068",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00069",
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "meaning": "Chino (idioma)",
+    "audioUrl": "/audio/hsk-w00069.mp3",
+    "hskLevel": 1,
+    "hskId": "w00069",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00070",
+    "hanzi": "汉字",
+    "pinyin": "Hànzì",
+    "meaning": "Carácter chino",
+    "audioUrl": "/audio/hsk-w00070.mp3",
+    "hskLevel": 1,
+    "hskId": "w00070",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00071",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaning": "bueno; bien",
+    "audioUrl": "/audio/hsk-w00071.mp3",
+    "hskLevel": 1,
+    "hskId": "w00071",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "adverb",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00072",
+    "hanzi": "好吃",
+    "pinyin": "hǎochī",
+    "meaning": "rico; delicioso",
+    "audioUrl": "/audio/hsk-w00072.mp3",
+    "hskLevel": 1,
+    "hskId": "w00072",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00073",
+    "hanzi": "好看",
+    "pinyin": "hǎokàn",
+    "meaning": "Bonito; Guapo",
+    "audioUrl": "/audio/hsk-w00073.mp3",
+    "hskLevel": 1,
+    "hskId": "w00073",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00074",
+    "hanzi": "好听",
+    "pinyin": "hǎotīng",
+    "meaning": "Bonito (de sonido); Melódico",
+    "audioUrl": "/audio/hsk-w00074.mp3",
+    "hskLevel": 1,
+    "hskId": "w00074",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00075",
+    "hanzi": "好玩儿",
+    "pinyin": "hǎowánr",
+    "meaning": "Divertido",
+    "audioUrl": "/audio/hsk-w00075.mp3",
+    "hskLevel": 1,
+    "hskId": "w00075",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00076",
+    "hanzi": "号",
+    "pinyin": "hào",
+    "meaning": "Número; Día del mes",
+    "audioUrl": "/audio/hsk-w00076.mp3",
+    "hskLevel": 1,
+    "hskId": "w00076",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00077",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "meaning": "Beber",
+    "audioUrl": "/audio/hsk-w00077.mp3",
+    "hskLevel": 1,
+    "hskId": "w00077",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00078",
+    "hanzi": "和",
+    "pinyin": "hé",
+    "meaning": "y; con",
+    "audioUrl": "/audio/hsk-w00078.mp3",
+    "hskLevel": 1,
+    "hskId": "w00078",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "preposition",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00079",
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "meaning": "Muy",
+    "audioUrl": "/audio/hsk-w00079.mp3",
+    "hskLevel": 1,
+    "hskId": "w00079",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00080",
+    "hanzi": "后",
+    "pinyin": "hòu",
+    "meaning": "Después; Detrás",
+    "audioUrl": "/audio/hsk-w00080.mp3",
+    "hskLevel": 1,
+    "hskId": "w00080",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00081",
+    "hanzi": "回",
+    "pinyin": "huí",
+    "meaning": "volver; vez",
+    "audioUrl": "/audio/hsk-w00081.mp3",
+    "hskLevel": 1,
+    "hskId": "w00081",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00082",
+    "hanzi": "会",
+    "pinyin": "huì",
+    "meaning": "saber; poder",
+    "audioUrl": "/audio/hsk-w00082.mp3",
+    "hskLevel": 1,
+    "hskId": "w00082",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00083",
+    "hanzi": "火车",
+    "pinyin": "huǒchē",
+    "meaning": "Tren",
+    "audioUrl": "/audio/hsk-w00083.mp3",
+    "hskLevel": 1,
+    "hskId": "w00083",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00084",
+    "hanzi": "鸡蛋",
+    "pinyin": "jīdàn",
+    "meaning": "Huevo (de gallina)",
+    "audioUrl": "/audio/hsk-w00084.mp3",
+    "hskLevel": 1,
+    "hskId": "w00084",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00085",
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "meaning": "¿Cuántos? (menos de 10)",
+    "audioUrl": "/audio/hsk-w00085.mp3",
+    "hskLevel": 1,
+    "hskId": "w00085",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun",
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00086",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "meaning": "Casa; Hogar",
+    "audioUrl": "/audio/hsk-w00086.mp3",
+    "hskLevel": 1,
+    "hskId": "w00086",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word",
+      "suffix"
+    ]
+  },
+  {
+    "id": "hsk-w00087",
+    "hanzi": "家人",
+    "pinyin": "jiārén",
+    "meaning": "Familiares",
+    "audioUrl": "/audio/hsk-w00087.mp3",
+    "hskLevel": 1,
+    "hskId": "w00087",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00088",
+    "hanzi": "见",
+    "pinyin": "jiàn",
+    "meaning": "Ver; Encontrarse",
+    "audioUrl": "/audio/hsk-w00088.mp3",
+    "hskLevel": 1,
+    "hskId": "w00088",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00089",
+    "hanzi": "件",
+    "pinyin": "jiàn",
+    "meaning": "Clasificador de eventos, cosas, ropa, etc; Artículo; Componente",
+    "audioUrl": "/audio/hsk-w00089.mp3",
+    "hskLevel": 1,
+    "hskId": "w00089",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00090",
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "meaning": "empanadilla china",
+    "audioUrl": "/audio/hsk-w00090.mp3",
+    "hskLevel": 1,
+    "hskId": "w00090",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00091",
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "meaning": "llamar; llamarse",
+    "audioUrl": "/audio/hsk-w00091.mp3",
+    "hskLevel": 1,
+    "hskId": "w00091",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "hsk-w00092",
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "meaning": "hermana mayor",
+    "audioUrl": "/audio/hsk-w00092.mp3",
+    "hskLevel": 1,
+    "hskId": "w00092",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00093",
+    "hanzi": "今年",
+    "pinyin": "jīnnián",
+    "meaning": "Este año",
+    "audioUrl": "/audio/hsk-w00093.mp3",
+    "hskLevel": 1,
+    "hskId": "w00093",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00094",
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "meaning": "Hoy",
+    "audioUrl": "/audio/hsk-w00094.mp3",
+    "hskLevel": 1,
+    "hskId": "w00094",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00095",
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "meaning": "Nueve",
+    "audioUrl": "/audio/hsk-w00095.mp3",
+    "hskLevel": 1,
+    "hskId": "w00095",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00096",
+    "hanzi": "觉得",
+    "pinyin": "juéde",
+    "meaning": "Sentir; Creer; Opinar",
+    "audioUrl": "/audio/hsk-w00096.mp3",
+    "hskLevel": 1,
+    "hskId": "w00096",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00097",
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "meaning": "Abrir; Conducir",
+    "audioUrl": "/audio/hsk-w00097.mp3",
+    "hskLevel": 1,
+    "hskId": "w00097",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00098",
+    "hanzi": "开车",
+    "pinyin": "kāichē",
+    "meaning": "Conducir",
+    "audioUrl": "/audio/hsk-w00098.mp3",
+    "hskLevel": 1,
+    "hskId": "w00098",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00099",
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "meaning": "mirar; ver; leer",
+    "audioUrl": "/audio/hsk-w00099.mp3",
+    "hskLevel": 1,
+    "hskId": "w00099",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00100",
+    "hanzi": "看病",
+    "pinyin": "kànbìng",
+    "meaning": "Ir al médico; Consultar",
+    "audioUrl": "/audio/hsk-w00100.mp3",
+    "hskLevel": 1,
+    "hskId": "w00100",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00101",
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "meaning": "Ver; Percibir",
+    "audioUrl": "/audio/hsk-w00101.mp3",
+    "hskLevel": 1,
+    "hskId": "w00101",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00102",
+    "hanzi": "可以",
+    "pinyin": "kěyǐ",
+    "meaning": "poder; estar permitido",
+    "audioUrl": "/audio/hsk-w00102.mp3",
+    "hskLevel": 1,
+    "hskId": "w00102",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00103",
+    "hanzi": "课",
+    "pinyin": "kè",
+    "meaning": "Clase; Lección",
+    "audioUrl": "/audio/hsk-w00103.mp3",
+    "hskLevel": 1,
+    "hskId": "w00103",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00104",
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "meaning": "Boca; (clasificador para personas)",
+    "audioUrl": "/audio/hsk-w00104.mp3",
+    "hskLevel": 1,
+    "hskId": "w00104",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00105",
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "meaning": "Pedazo; (medida para dinero)",
+    "audioUrl": "/audio/hsk-w00105.mp3",
+    "hskLevel": 1,
+    "hskId": "w00105",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00106",
+    "hanzi": "来",
+    "pinyin": "lái",
+    "meaning": "Venir",
+    "audioUrl": "/audio/hsk-w00106.mp3",
+    "hskLevel": 1,
+    "hskId": "w00106",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00107",
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "meaning": "Profesor; Maestro",
+    "audioUrl": "/audio/hsk-w00107.mp3",
+    "hskLevel": 1,
+    "hskId": "w00107",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00108",
+    "hanzi": "了",
+    "pinyin": "le",
+    "meaning": "partícula que indica acción completada o cambio de estado",
+    "audioUrl": "/audio/hsk-w00108.mp3",
+    "hskLevel": 1,
+    "hskId": "w00108",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00109",
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "meaning": "Frío",
+    "audioUrl": "/audio/hsk-w00109.mp3",
+    "hskLevel": 1,
+    "hskId": "w00109",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00110",
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "meaning": "Dentro",
+    "audioUrl": "/audio/hsk-w00110.mp3",
+    "hskLevel": 1,
+    "hskId": "w00110",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00111",
+    "hanzi": "两",
+    "pinyin": "liǎng",
+    "meaning": "dos; un par",
+    "audioUrl": "/audio/hsk-w00111.mp3",
+    "hskLevel": 1,
+    "hskId": "w00111",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00112",
+    "hanzi": "零",
+    "pinyin": "líng",
+    "meaning": "cero",
+    "audioUrl": "/audio/hsk-w00112.mp3",
+    "hskLevel": 1,
+    "hskId": "w00112",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00113",
+    "hanzi": "六",
+    "pinyin": "liù",
+    "meaning": "Seis",
+    "audioUrl": "/audio/hsk-w00113.mp3",
+    "hskLevel": 1,
+    "hskId": "w00113",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00114",
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "meaning": "mamá",
+    "audioUrl": "/audio/hsk-w00114.mp3",
+    "hskLevel": 1,
+    "hskId": "w00114",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00115",
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "meaning": "Partícula interrogativa",
+    "audioUrl": "/audio/hsk-w00115.mp3",
+    "hskLevel": 1,
+    "hskId": "w00115",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00116",
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "meaning": "Comprar",
+    "audioUrl": "/audio/hsk-w00116.mp3",
+    "hskLevel": 1,
+    "hskId": "w00116",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00117",
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "meaning": "vender",
+    "audioUrl": "/audio/hsk-w00117.mp3",
+    "hskLevel": 1,
+    "hskId": "w00117",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00118",
+    "hanzi": "忙",
+    "pinyin": "máng",
+    "meaning": "Ocupado",
+    "audioUrl": "/audio/hsk-w00118.mp3",
+    "hskLevel": 1,
+    "hskId": "w00118",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00119",
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "meaning": "gato",
+    "audioUrl": "/audio/hsk-w00119.mp3",
+    "hskLevel": 1,
+    "hskId": "w00119",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00120",
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "meaning": "No importa; De nada",
+    "audioUrl": "/audio/hsk-w00120.mp3",
+    "hskLevel": 1,
+    "hskId": "w00120",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00121",
+    "hanzi": "没事",
+    "pinyin": "méishì",
+    "meaning": "no pasa nada; estar libre",
+    "audioUrl": "/audio/hsk-w00121.mp3",
+    "hskLevel": 1,
+    "hskId": "w00121",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00122",
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "meaning": "No tener; No haber",
+    "audioUrl": "/audio/hsk-w00122.mp3",
+    "hskLevel": 1,
+    "hskId": "w00122",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00123",
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "meaning": "hermana menor",
+    "audioUrl": "/audio/hsk-w00123.mp3",
+    "hskLevel": 1,
+    "hskId": "w00123",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00124",
+    "hanzi": "们",
+    "pinyin": "men",
+    "meaning": "sufijo de plural para personas",
+    "audioUrl": "/audio/hsk-w00124.mp3",
+    "hskLevel": 1,
+    "hskId": "w00124",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "suffix"
+    ]
+  },
+  {
+    "id": "hsk-w00125",
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning": "Arroz cocido",
+    "audioUrl": "/audio/hsk-w00125.mp3",
+    "hskLevel": 1,
+    "hskId": "w00125",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00126",
+    "hanzi": "面包",
+    "pinyin": "miànbāo",
+    "meaning": "Pan",
+    "audioUrl": "/audio/hsk-w00126.mp3",
+    "hskLevel": 1,
+    "hskId": "w00126",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00127",
+    "hanzi": "面条儿",
+    "pinyin": "miàntiáor",
+    "meaning": "Fideos",
+    "audioUrl": "/audio/hsk-w00127.mp3",
+    "hskLevel": 1,
+    "hskId": "w00127",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00128",
+    "hanzi": "明年",
+    "pinyin": "míngnián",
+    "meaning": "El año que viene",
+    "audioUrl": "/audio/hsk-w00128.mp3",
+    "hskLevel": 1,
+    "hskId": "w00128",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00129",
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "meaning": "Mañana",
+    "audioUrl": "/audio/hsk-w00129.mp3",
+    "hskLevel": 1,
+    "hskId": "w00129",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00130",
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "meaning": "nombre",
+    "audioUrl": "/audio/hsk-w00130.mp3",
+    "hskLevel": 1,
+    "hskId": "w00130",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00131",
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "meaning": "cuál",
+    "audioUrl": "/audio/hsk-w00131.mp3",
+    "hskLevel": 1,
+    "hskId": "w00131",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00132",
+    "hanzi": "哪个",
+    "pinyin": "nǎge",
+    "meaning": "cuál",
+    "audioUrl": "/audio/hsk-w00132.mp3",
+    "hskLevel": 1,
+    "hskId": "w00132",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00133",
+    "hanzi": "哪里",
+    "pinyin": "nǎlǐ",
+    "meaning": "¿Dónde?",
+    "audioUrl": "/audio/hsk-w00133.mp3",
+    "hskLevel": 1,
+    "hskId": "w00133",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00134",
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "meaning": "¿Dónde? (coloquial)",
+    "audioUrl": "/audio/hsk-w00134.mp3",
+    "hskLevel": 1,
+    "hskId": "w00134",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00135",
+    "hanzi": "哪些",
+    "pinyin": "nǎxiē",
+    "meaning": "¿Cuáles?; ¿Qué (plural)?",
+    "audioUrl": "/audio/hsk-w00135.mp3",
+    "hskLevel": 1,
+    "hskId": "w00135",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00136",
+    "hanzi": "那",
+    "pinyin": "nà",
+    "meaning": "ese; aquel",
+    "audioUrl": "/audio/hsk-w00136.mp3",
+    "hskLevel": 1,
+    "hskId": "w00136",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00137",
+    "hanzi": "那边",
+    "pinyin": "nàbiān",
+    "meaning": "Allí; Al lado de allá",
+    "audioUrl": "/audio/hsk-w00137.mp3",
+    "hskLevel": 1,
+    "hskId": "w00137",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00138",
+    "hanzi": "那个",
+    "pinyin": "nàge",
+    "meaning": "ese; aquel",
+    "audioUrl": "/audio/hsk-w00138.mp3",
+    "hskLevel": 1,
+    "hskId": "w00138",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00139",
+    "hanzi": "那里",
+    "pinyin": "nàlǐ",
+    "meaning": "Allí; Ese lugar",
+    "audioUrl": "/audio/hsk-w00139.mp3",
+    "hskLevel": 1,
+    "hskId": "w00139",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00140",
+    "hanzi": "那儿",
+    "pinyin": "nàr",
+    "meaning": "Allí (coloquial)",
+    "audioUrl": "/audio/hsk-w00140.mp3",
+    "hskLevel": 1,
+    "hskId": "w00140",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00141",
+    "hanzi": "那些",
+    "pinyin": "nàxiē",
+    "meaning": "Esos; Aquellos",
+    "audioUrl": "/audio/hsk-w00141.mp3",
+    "hskLevel": 1,
+    "hskId": "w00141",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00142",
+    "hanzi": "男",
+    "pinyin": "nán",
+    "meaning": "Hombre; Masculino",
+    "audioUrl": "/audio/hsk-w00142.mp3",
+    "hskLevel": 1,
+    "hskId": "w00142",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00143",
+    "hanzi": "男朋友",
+    "pinyin": "nánpéngyou",
+    "meaning": "Novio",
+    "audioUrl": "/audio/hsk-w00143.mp3",
+    "hskLevel": 1,
+    "hskId": "w00143",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00144",
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "meaning": "Partícula interrogativa (eco)",
+    "audioUrl": "/audio/hsk-w00144.mp3",
+    "hskLevel": 1,
+    "hskId": "w00144",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00145",
+    "hanzi": "能",
+    "pinyin": "néng",
+    "meaning": "Poder; Ser capaz",
+    "audioUrl": "/audio/hsk-w00145.mp3",
+    "hskLevel": 1,
+    "hskId": "w00145",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00146",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "meaning": "Tú",
+    "audioUrl": "/audio/hsk-w00146.mp3",
+    "hskLevel": 1,
+    "hskId": "w00146",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00147",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning": "hola",
+    "audioUrl": "/audio/hsk-w00147.mp3",
+    "hskLevel": 1,
+    "hskId": "w00147",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00148",
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "meaning": "Vosotros; Ustedes",
+    "audioUrl": "/audio/hsk-w00148.mp3",
+    "hskLevel": 1,
+    "hskId": "w00148",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00149",
+    "hanzi": "年",
+    "pinyin": "nián",
+    "meaning": "Año",
+    "audioUrl": "/audio/hsk-w00149.mp3",
+    "hskLevel": 1,
+    "hskId": "w00149",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00150",
+    "hanzi": "您",
+    "pinyin": "nín",
+    "meaning": "usted (tratamiento respetuoso)",
+    "audioUrl": "/audio/hsk-w00150.mp3",
+    "hskLevel": 1,
+    "hskId": "w00150",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00151",
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaning": "Leche (de vaca)",
+    "audioUrl": "/audio/hsk-w00151.mp3",
+    "hskLevel": 1,
+    "hskId": "w00151",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00152",
+    "hanzi": "女",
+    "pinyin": "nǚ",
+    "meaning": "Mujer; Femenino",
+    "audioUrl": "/audio/hsk-w00152.mp3",
+    "hskLevel": 1,
+    "hskId": "w00152",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00153",
+    "hanzi": "女儿",
+    "pinyin": "nǚ’ér",
+    "meaning": "Hija",
+    "audioUrl": "/audio/hsk-w00153.mp3",
+    "hskLevel": 1,
+    "hskId": "w00153",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00154",
+    "hanzi": "女朋友",
+    "pinyin": "nǚpéngyou",
+    "meaning": "Novia",
+    "audioUrl": "/audio/hsk-w00154.mp3",
+    "hskLevel": 1,
+    "hskId": "w00154",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00155",
+    "hanzi": "女士",
+    "pinyin": "nǚshì",
+    "meaning": "señora",
+    "audioUrl": "/audio/hsk-w00155.mp3",
+    "hskLevel": 1,
+    "hskId": "w00155",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00156",
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "meaning": "Amigo",
+    "audioUrl": "/audio/hsk-w00156.mp3",
+    "hskLevel": 1,
+    "hskId": "w00156",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00157",
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "meaning": "barato",
+    "audioUrl": "/audio/hsk-w00157.mp3",
+    "hskLevel": 1,
+    "hskId": "w00157",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00158",
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning": "Bonito; Hermoso",
+    "audioUrl": "/audio/hsk-w00158.mp3",
+    "hskLevel": 1,
+    "hskId": "w00158",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00159",
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "meaning": "Manzana",
+    "audioUrl": "/audio/hsk-w00159.mp3",
+    "hskLevel": 1,
+    "hskId": "w00159",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00160",
+    "hanzi": "七",
+    "pinyin": "qī",
+    "meaning": "Siete",
+    "audioUrl": "/audio/hsk-w00160.mp3",
+    "hskLevel": 1,
+    "hskId": "w00160",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00161",
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "meaning": "Levantarse",
+    "audioUrl": "/audio/hsk-w00161.mp3",
+    "hskLevel": 1,
+    "hskId": "w00161",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00162",
+    "hanzi": "千",
+    "pinyin": "qiān",
+    "meaning": "mil",
+    "audioUrl": "/audio/hsk-w00162.mp3",
+    "hskLevel": 1,
+    "hskId": "w00162",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00163",
+    "hanzi": "前",
+    "pinyin": "qián",
+    "meaning": "Delante; Anterior",
+    "audioUrl": "/audio/hsk-w00163.mp3",
+    "hskLevel": 1,
+    "hskId": "w00163",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00164",
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "meaning": "Dinero",
+    "audioUrl": "/audio/hsk-w00164.mp3",
+    "hskLevel": 1,
+    "hskId": "w00164",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00165",
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "meaning": "Por favor; Invitar",
+    "audioUrl": "/audio/hsk-w00165.mp3",
+    "hskLevel": 1,
+    "hskId": "w00165",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00166",
+    "hanzi": "请问",
+    "pinyin": "qǐngwèn",
+    "meaning": "Por favor, ¿podría decirme?",
+    "audioUrl": "/audio/hsk-w00166.mp3",
+    "hskLevel": 1,
+    "hskId": "w00166",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00167",
+    "hanzi": "去",
+    "pinyin": "qù",
+    "meaning": "Ir",
+    "audioUrl": "/audio/hsk-w00167.mp3",
+    "hskLevel": 1,
+    "hskId": "w00167",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00168",
+    "hanzi": "去年",
+    "pinyin": "qùnián",
+    "meaning": "El año pasado",
+    "audioUrl": "/audio/hsk-w00168.mp3",
+    "hskLevel": 1,
+    "hskId": "w00168",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00169",
+    "hanzi": "热",
+    "pinyin": "rè",
+    "meaning": "Caliente",
+    "audioUrl": "/audio/hsk-w00169.mp3",
+    "hskLevel": 1,
+    "hskId": "w00169",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00170",
+    "hanzi": "人",
+    "pinyin": "rén",
+    "meaning": "Persona; Gente",
+    "audioUrl": "/audio/hsk-w00170.mp3",
+    "hskLevel": 1,
+    "hskId": "w00170",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00171",
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "meaning": "Conocer (a alguien)",
+    "audioUrl": "/audio/hsk-w00171.mp3",
+    "hskLevel": 1,
+    "hskId": "w00171",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00172",
+    "hanzi": "日",
+    "pinyin": "rì",
+    "meaning": "Día; Sol",
+    "audioUrl": "/audio/hsk-w00172.mp3",
+    "hskLevel": 1,
+    "hskId": "w00172",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00173",
+    "hanzi": "三",
+    "pinyin": "sān",
+    "meaning": "Tres",
+    "audioUrl": "/audio/hsk-w00173.mp3",
+    "hskLevel": 1,
+    "hskId": "w00173",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00174",
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "meaning": "Tienda",
+    "audioUrl": "/audio/hsk-w00174.mp3",
+    "hskLevel": 1,
+    "hskId": "w00174",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00175",
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "meaning": "Sobre; Arriba; Ir a",
+    "audioUrl": "/audio/hsk-w00175.mp3",
+    "hskLevel": 1,
+    "hskId": "w00175",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00176",
+    "hanzi": "上班",
+    "pinyin": "shàngbān",
+    "meaning": "Ir a trabajar; Estar de turno",
+    "audioUrl": "/audio/hsk-w00176.mp3",
+    "hskLevel": 1,
+    "hskId": "w00176",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00177",
+    "hanzi": "上课",
+    "pinyin": "shàngkè",
+    "meaning": "Asistir a clase; Dar clase",
+    "audioUrl": "/audio/hsk-w00177.mp3",
+    "hskLevel": 1,
+    "hskId": "w00177",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00178",
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "meaning": "Mañana (antes del mediodía)",
+    "audioUrl": "/audio/hsk-w00178.mp3",
+    "hskLevel": 1,
+    "hskId": "w00178",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00179",
+    "hanzi": "上学",
+    "pinyin": "shàngxué",
+    "meaning": "Ir a la escuela; Asistir a la escuela",
+    "audioUrl": "/audio/hsk-w00179.mp3",
+    "hskLevel": 1,
+    "hskId": "w00179",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00180",
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "meaning": "poco; pocos",
+    "audioUrl": "/audio/hsk-w00180.mp3",
+    "hskLevel": 1,
+    "hskId": "w00180",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00181",
+    "hanzi": "谁",
+    "pinyin": "shéi/shuí",
+    "meaning": "Quién",
+    "audioUrl": "/audio/hsk-w00181.mp3",
+    "hskLevel": 1,
+    "hskId": "w00181",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00182",
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "meaning": "¿Qué?",
+    "audioUrl": "/audio/hsk-w00182.mp3",
+    "hskLevel": 1,
+    "hskId": "w00182",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00183",
+    "hanzi": "生病",
+    "pinyin": "shēngbìng",
+    "meaning": "enfermar; estar enfermo",
+    "audioUrl": "/audio/hsk-w00183.mp3",
+    "hskLevel": 1,
+    "hskId": "w00183",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00184",
+    "hanzi": "十",
+    "pinyin": "shí",
+    "meaning": "Diez",
+    "audioUrl": "/audio/hsk-w00184.mp3",
+    "hskLevel": 1,
+    "hskId": "w00184",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00185",
+    "hanzi": "时候",
+    "pinyin": "shíhou",
+    "meaning": "Momento; Hora (cuándo)",
+    "audioUrl": "/audio/hsk-w00185.mp3",
+    "hskLevel": 1,
+    "hskId": "w00185",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00186",
+    "hanzi": "时间",
+    "pinyin": "shíjiān",
+    "meaning": "Tiempo (duración)",
+    "audioUrl": "/audio/hsk-w00186.mp3",
+    "hskLevel": 1,
+    "hskId": "w00186",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00187",
+    "hanzi": "事",
+    "pinyin": "shì",
+    "meaning": "Cosa; Asunto",
+    "audioUrl": "/audio/hsk-w00187.mp3",
+    "hskLevel": 1,
+    "hskId": "w00187",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00188",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "meaning": "Ser (verbo copulativo)",
+    "audioUrl": "/audio/hsk-w00188.mp3",
+    "hskLevel": 1,
+    "hskId": "w00188",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00189",
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "meaning": "Teléfono móvil",
+    "audioUrl": "/audio/hsk-w00189.mp3",
+    "hskLevel": 1,
+    "hskId": "w00189",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00190",
+    "hanzi": "书",
+    "pinyin": "shū",
+    "meaning": "Libro",
+    "audioUrl": "/audio/hsk-w00190.mp3",
+    "hskLevel": 1,
+    "hskId": "w00190",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00191",
+    "hanzi": "书店",
+    "pinyin": "shūdiàn",
+    "meaning": "Librería",
+    "audioUrl": "/audio/hsk-w00191.mp3",
+    "hskLevel": 1,
+    "hskId": "w00191",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00192",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "meaning": "Agua",
+    "audioUrl": "/audio/hsk-w00192.mp3",
+    "hskLevel": 1,
+    "hskId": "w00192",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00193",
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "meaning": "Fruta",
+    "audioUrl": "/audio/hsk-w00193.mp3",
+    "hskLevel": 1,
+    "hskId": "w00193",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00194",
+    "hanzi": "睡",
+    "pinyin": "shuì",
+    "meaning": "Dormir",
+    "audioUrl": "/audio/hsk-w00194.mp3",
+    "hskLevel": 1,
+    "hskId": "w00194",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00195",
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "meaning": "Dormir",
+    "audioUrl": "/audio/hsk-w00195.mp3",
+    "hskLevel": 1,
+    "hskId": "w00195",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00196",
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "meaning": "Hablar; Decir",
+    "audioUrl": "/audio/hsk-w00196.mp3",
+    "hskLevel": 1,
+    "hskId": "w00196",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00197",
+    "hanzi": "说话",
+    "pinyin": "shuōhuà",
+    "meaning": "Hablar",
+    "audioUrl": "/audio/hsk-w00197.mp3",
+    "hskLevel": 1,
+    "hskId": "w00197",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00198",
+    "hanzi": "四",
+    "pinyin": "sì",
+    "meaning": "Cuatro",
+    "audioUrl": "/audio/hsk-w00198.mp3",
+    "hskLevel": 1,
+    "hskId": "w00198",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00199",
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "meaning": "Año (de edad)",
+    "audioUrl": "/audio/hsk-w00199.mp3",
+    "hskLevel": 1,
+    "hskId": "w00199",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00200",
+    "hanzi": "他",
+    "pinyin": "tā",
+    "meaning": "Él",
+    "audioUrl": "/audio/hsk-w00200.mp3",
+    "hskLevel": 1,
+    "hskId": "w00200",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00201",
+    "hanzi": "它",
+    "pinyin": "tā",
+    "meaning": "él; ella (para cosas o animales)",
+    "audioUrl": "/audio/hsk-w00201.mp3",
+    "hskLevel": 1,
+    "hskId": "w00201",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00202",
+    "hanzi": "她",
+    "pinyin": "tā",
+    "meaning": "Ella",
+    "audioUrl": "/audio/hsk-w00202.mp3",
+    "hskLevel": 1,
+    "hskId": "w00202",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00203",
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "meaning": "Ellos",
+    "audioUrl": "/audio/hsk-w00203.mp3",
+    "hskLevel": 1,
+    "hskId": "w00203",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00204",
+    "hanzi": "它们",
+    "pinyin": "tāmen",
+    "meaning": "ellos; ellas (para cosas o animales)",
+    "audioUrl": "/audio/hsk-w00204.mp3",
+    "hskLevel": 1,
+    "hskId": "w00204",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00205",
+    "hanzi": "她们",
+    "pinyin": "tāmen",
+    "meaning": "Ellas",
+    "audioUrl": "/audio/hsk-w00205.mp3",
+    "hskLevel": 1,
+    "hskId": "w00205",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00206",
+    "hanzi": "太",
+    "pinyin": "tài",
+    "meaning": "demasiado; muy",
+    "audioUrl": "/audio/hsk-w00206.mp3",
+    "hskLevel": 1,
+    "hskId": "w00206",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00207",
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "meaning": "Día; Cielo",
+    "audioUrl": "/audio/hsk-w00207.mp3",
+    "hskLevel": 1,
+    "hskId": "w00207",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00208",
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "meaning": "Tiempo (clima)",
+    "audioUrl": "/audio/hsk-w00208.mp3",
+    "hskLevel": 1,
+    "hskId": "w00208",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00209",
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "meaning": "Escuchar",
+    "audioUrl": "/audio/hsk-w00209.mp3",
+    "hskLevel": 1,
+    "hskId": "w00209",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00210",
+    "hanzi": "听见",
+    "pinyin": "tīngjiàn",
+    "meaning": "Oír; Percibir",
+    "audioUrl": "/audio/hsk-w00210.mp3",
+    "hskLevel": 1,
+    "hskId": "w00210",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00211",
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "meaning": "Compañero de clase",
+    "audioUrl": "/audio/hsk-w00211.mp3",
+    "hskLevel": 1,
+    "hskId": "w00211",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00212",
+    "hanzi": "外",
+    "pinyin": "wài",
+    "meaning": "Fuera; Exterior",
+    "audioUrl": "/audio/hsk-w00212.mp3",
+    "hskLevel": 1,
+    "hskId": "w00212",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00213",
+    "hanzi": "外边",
+    "pinyin": "wàibian",
+    "meaning": "Fuera; Exterior",
+    "audioUrl": "/audio/hsk-w00213.mp3",
+    "hskLevel": 1,
+    "hskId": "w00213",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00214",
+    "hanzi": "玩",
+    "pinyin": "wán",
+    "meaning": "jugar; divertirse",
+    "audioUrl": "/audio/hsk-w00214.mp3",
+    "hskLevel": 1,
+    "hskId": "w00214",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00215",
+    "hanzi": "晚",
+    "pinyin": "wǎn",
+    "meaning": "Tarde; Noche",
+    "audioUrl": "/audio/hsk-w00215.mp3",
+    "hskLevel": 1,
+    "hskId": "w00215",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00216",
+    "hanzi": "晚饭",
+    "pinyin": "wǎnfàn",
+    "meaning": "Cena",
+    "audioUrl": "/audio/hsk-w00216.mp3",
+    "hskLevel": 1,
+    "hskId": "w00216",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00217",
+    "hanzi": "晚上",
+    "pinyin": "wǎnshang",
+    "meaning": "Noche; Tarde-noche",
+    "audioUrl": "/audio/hsk-w00217.mp3",
+    "hskLevel": 1,
+    "hskId": "w00217",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00218",
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "meaning": "hola (al teléfono)",
+    "audioUrl": "/audio/hsk-w00218.mp3",
+    "hskLevel": 1,
+    "hskId": "w00218",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "interjection"
+    ]
+  },
+  {
+    "id": "hsk-w00219",
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "meaning": "Preguntar",
+    "audioUrl": "/audio/hsk-w00219.mp3",
+    "hskLevel": 1,
+    "hskId": "w00219",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00220",
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "meaning": "pregunta; problema",
+    "audioUrl": "/audio/hsk-w00220.mp3",
+    "hskLevel": 1,
+    "hskId": "w00220",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00221",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "meaning": "Yo",
+    "audioUrl": "/audio/hsk-w00221.mp3",
+    "hskLevel": 1,
+    "hskId": "w00221",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00222",
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "meaning": "Nosotros",
+    "audioUrl": "/audio/hsk-w00222.mp3",
+    "hskLevel": 1,
+    "hskId": "w00222",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00223",
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "meaning": "Cinco",
+    "audioUrl": "/audio/hsk-w00223.mp3",
+    "hskLevel": 1,
+    "hskId": "w00223",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00224",
+    "hanzi": "午饭",
+    "pinyin": "wǔfàn",
+    "meaning": "Almuerzo; Comida",
+    "audioUrl": "/audio/hsk-w00224.mp3",
+    "hskLevel": 1,
+    "hskId": "w00224",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00225",
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "meaning": "Gustar",
+    "audioUrl": "/audio/hsk-w00225.mp3",
+    "hskLevel": 1,
+    "hskId": "w00225",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00226",
+    "hanzi": "下",
+    "pinyin": "xià",
+    "meaning": "abajo; bajar; clasificador de acciones breves",
+    "audioUrl": "/audio/hsk-w00226.mp3",
+    "hskLevel": 1,
+    "hskId": "w00226",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "verb",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00227",
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "meaning": "Llover",
+    "audioUrl": "/audio/hsk-w00227.mp3",
+    "hskLevel": 1,
+    "hskId": "w00227",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00228",
+    "hanzi": "下班",
+    "pinyin": "xiàbān",
+    "meaning": "Salir del trabajo; Terminar turno",
+    "audioUrl": "/audio/hsk-w00228.mp3",
+    "hskLevel": 1,
+    "hskId": "w00228",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00229",
+    "hanzi": "下课",
+    "pinyin": "xiàkè",
+    "meaning": "Terminar la clase; Salir de clase",
+    "audioUrl": "/audio/hsk-w00229.mp3",
+    "hskLevel": 1,
+    "hskId": "w00229",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00230",
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "meaning": "Tarde (después del mediodía)",
+    "audioUrl": "/audio/hsk-w00230.mp3",
+    "hskLevel": 1,
+    "hskId": "w00230",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00231",
+    "hanzi": "先生",
+    "pinyin": "xiānsheng",
+    "meaning": "Señor; Sr; Maestro (anticuado)",
+    "audioUrl": "/audio/hsk-w00231.mp3",
+    "hskLevel": 1,
+    "hskId": "w00231",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00232",
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "meaning": "Ahora",
+    "audioUrl": "/audio/hsk-w00232.mp3",
+    "hskLevel": 1,
+    "hskId": "w00232",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00233",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "meaning": "pensar; querer; echar de menos",
+    "audioUrl": "/audio/hsk-w00233.mp3",
+    "hskLevel": 1,
+    "hskId": "w00233",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00234",
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "meaning": "Pequeño",
+    "audioUrl": "/audio/hsk-w00234.mp3",
+    "hskLevel": 1,
+    "hskId": "w00234",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "prefix"
+    ]
+  },
+  {
+    "id": "hsk-w00235",
+    "hanzi": "小朋友",
+    "pinyin": "xiǎopéngyǒu",
+    "meaning": "Niño; Pequeño (trato cariñoso)",
+    "audioUrl": "/audio/hsk-w00235.mp3",
+    "hskLevel": 1,
+    "hskId": "w00235",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00236",
+    "hanzi": "小时",
+    "pinyin": "xiǎoshí",
+    "meaning": "Hora (unidad de tiempo)",
+    "audioUrl": "/audio/hsk-w00236.mp3",
+    "hskLevel": 1,
+    "hskId": "w00236",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00237",
+    "hanzi": "小学",
+    "pinyin": "xiǎoxué",
+    "meaning": "Escuela primaria",
+    "audioUrl": "/audio/hsk-w00237.mp3",
+    "hskLevel": 1,
+    "hskId": "w00237",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00238",
+    "hanzi": "小学生",
+    "pinyin": "xiǎoxuéshēng",
+    "meaning": "Estudiante de primaria",
+    "audioUrl": "/audio/hsk-w00238.mp3",
+    "hskLevel": 1,
+    "hskId": "w00238",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00239",
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "meaning": "algunos; un poco",
+    "audioUrl": "/audio/hsk-w00239.mp3",
+    "hskLevel": 1,
+    "hskId": "w00239",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00240",
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "meaning": "Escribir",
+    "audioUrl": "/audio/hsk-w00240.mp3",
+    "hskLevel": 1,
+    "hskId": "w00240",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00241",
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "meaning": "Gracias",
+    "audioUrl": "/audio/hsk-w00241.mp3",
+    "hskLevel": 1,
+    "hskId": "w00241",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00242",
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "meaning": "Nuevo",
+    "audioUrl": "/audio/hsk-w00242.mp3",
+    "hskLevel": 1,
+    "hskId": "w00242",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00243",
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "meaning": "Semana",
+    "audioUrl": "/audio/hsk-w00243.mp3",
+    "hskLevel": 1,
+    "hskId": "w00243",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00244",
+    "hanzi": "星期日",
+    "pinyin": "xīngqīrì",
+    "meaning": "Domingo",
+    "audioUrl": "/audio/hsk-w00244.mp3",
+    "hskLevel": 1,
+    "hskId": "w00244",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00245",
+    "hanzi": "星期天",
+    "pinyin": "xīngqītiān",
+    "meaning": "Domingo",
+    "audioUrl": "/audio/hsk-w00245.mp3",
+    "hskLevel": 1,
+    "hskId": "w00245",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00246",
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "meaning": "Descansar",
+    "audioUrl": "/audio/hsk-w00246.mp3",
+    "hskLevel": 1,
+    "hskId": "w00246",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00247",
+    "hanzi": "学",
+    "pinyin": "xué",
+    "meaning": "Estudiar; Aprender",
+    "audioUrl": "/audio/hsk-w00247.mp3",
+    "hskLevel": 1,
+    "hskId": "w00247",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00248",
+    "hanzi": "学生",
+    "pinyin": "xuéshēng",
+    "meaning": "Estudiante",
+    "audioUrl": "/audio/hsk-w00248.mp3",
+    "hskLevel": 1,
+    "hskId": "w00248",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00249",
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "meaning": "Estudiar; Aprender",
+    "audioUrl": "/audio/hsk-w00249.mp3",
+    "hskLevel": 1,
+    "hskId": "w00249",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00250",
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "meaning": "Escuela; Colegio",
+    "audioUrl": "/audio/hsk-w00250.mp3",
+    "hskLevel": 1,
+    "hskId": "w00250",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00251",
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "meaning": "nieve",
+    "audioUrl": "/audio/hsk-w00251.mp3",
+    "hskLevel": 1,
+    "hskId": "w00251",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00252",
+    "hanzi": "要",
+    "pinyin": "yào",
+    "meaning": "querer; necesitar; deber",
+    "audioUrl": "/audio/hsk-w00252.mp3",
+    "hskLevel": 1,
+    "hskId": "w00252",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00253",
+    "hanzi": "也",
+    "pinyin": "yě",
+    "meaning": "También",
+    "audioUrl": "/audio/hsk-w00253.mp3",
+    "hskLevel": 1,
+    "hskId": "w00253",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00254",
+    "hanzi": "一",
+    "pinyin": "yī",
+    "meaning": "Uno",
+    "audioUrl": "/audio/hsk-w00254.mp3",
+    "hskLevel": 1,
+    "hskId": "w00254",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00255",
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "meaning": "Ropa",
+    "audioUrl": "/audio/hsk-w00255.mp3",
+    "hskLevel": 1,
+    "hskId": "w00255",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00256",
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "meaning": "Médico",
+    "audioUrl": "/audio/hsk-w00256.mp3",
+    "hskLevel": 1,
+    "hskId": "w00256",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00257",
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "meaning": "Hospital",
+    "audioUrl": "/audio/hsk-w00257.mp3",
+    "hskLevel": 1,
+    "hskId": "w00257",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00258",
+    "hanzi": "一半",
+    "pinyin": "yíbàn",
+    "meaning": "La mitad",
+    "audioUrl": "/audio/hsk-w00258.mp3",
+    "hskLevel": 1,
+    "hskId": "w00258",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00259",
+    "hanzi": "一下",
+    "pinyin": "yíxià",
+    "meaning": "un momento; un poco",
+    "audioUrl": "/audio/hsk-w00259.mp3",
+    "hskLevel": 1,
+    "hskId": "w00259",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "quantity",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00260",
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "Silla",
+    "audioUrl": "/audio/hsk-w00260.mp3",
+    "hskLevel": 1,
+    "hskId": "w00260",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00261",
+    "hanzi": "一点儿",
+    "pinyin": "yìdiǎnr",
+    "meaning": "Un poco",
+    "audioUrl": "/audio/hsk-w00261.mp3",
+    "hskLevel": 1,
+    "hskId": "w00261",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "quantity"
+    ]
+  },
+  {
+    "id": "hsk-w00262",
+    "hanzi": "一些",
+    "pinyin": "yìxiē",
+    "meaning": "Unos; Algunos",
+    "audioUrl": "/audio/hsk-w00262.mp3",
+    "hskLevel": 1,
+    "hskId": "w00262",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "quantity"
+    ]
+  },
+  {
+    "id": "hsk-w00263",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "meaning": "haber; tener",
+    "audioUrl": "/audio/hsk-w00263.mp3",
+    "hskLevel": 1,
+    "hskId": "w00263",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00264",
+    "hanzi": "有的",
+    "pinyin": "yǒude",
+    "meaning": "algunos",
+    "audioUrl": "/audio/hsk-w00264.mp3",
+    "hskLevel": 1,
+    "hskId": "w00264",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00265",
+    "hanzi": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "meaning": "un poco",
+    "audioUrl": "/audio/hsk-w00265.mp3",
+    "hskLevel": 1,
+    "hskId": "w00265",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00266",
+    "hanzi": "有些",
+    "pinyin": "yǒuxiē",
+    "meaning": "algunos; un poco",
+    "audioUrl": "/audio/hsk-w00266.mp3",
+    "hskLevel": 1,
+    "hskId": "w00266",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00267",
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "meaning": "Lluvia",
+    "audioUrl": "/audio/hsk-w00267.mp3",
+    "hskLevel": 1,
+    "hskId": "w00267",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00268",
+    "hanzi": "元",
+    "pinyin": "yuán",
+    "meaning": "Yuan (moneda china)",
+    "audioUrl": "/audio/hsk-w00268.mp3",
+    "hskLevel": 1,
+    "hskId": "w00268",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00269",
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "meaning": "Luna; Mes",
+    "audioUrl": "/audio/hsk-w00269.mp3",
+    "hskLevel": 1,
+    "hskId": "w00269",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00270",
+    "hanzi": "再",
+    "pinyin": "zài",
+    "meaning": "Otra vez; De nuevo",
+    "audioUrl": "/audio/hsk-w00270.mp3",
+    "hskLevel": 1,
+    "hskId": "w00270",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00271",
+    "hanzi": "在",
+    "pinyin": "zài",
+    "meaning": "Estar en (lugar; tiempo)",
+    "audioUrl": "/audio/hsk-w00271.mp3",
+    "hskLevel": 1,
+    "hskId": "w00271",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "preposition",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00272",
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "meaning": "Adiós; Hasta luego",
+    "audioUrl": "/audio/hsk-w00272.mp3",
+    "hskLevel": 1,
+    "hskId": "w00272",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00273",
+    "hanzi": "早",
+    "pinyin": "zǎo",
+    "meaning": "Temprano; Buenos días",
+    "audioUrl": "/audio/hsk-w00273.mp3",
+    "hskLevel": 1,
+    "hskId": "w00273",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00274",
+    "hanzi": "早饭",
+    "pinyin": "zǎofàn",
+    "meaning": "Desayuno",
+    "audioUrl": "/audio/hsk-w00274.mp3",
+    "hskLevel": 1,
+    "hskId": "w00274",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00275",
+    "hanzi": "早上",
+    "pinyin": "zǎoshang",
+    "meaning": "por la mañana; temprano",
+    "audioUrl": "/audio/hsk-w00275.mp3",
+    "hskLevel": 1,
+    "hskId": "w00275",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00276",
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "meaning": "cómo",
+    "audioUrl": "/audio/hsk-w00276.mp3",
+    "hskLevel": 1,
+    "hskId": "w00276",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00277",
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "meaning": "¿cómo fue?; ¿cómo son las cosas?; ¿Qué tal?",
+    "audioUrl": "/audio/hsk-w00277.mp3",
+    "hskLevel": 1,
+    "hskId": "w00277",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00278",
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "meaning": "Buscar",
+    "audioUrl": "/audio/hsk-w00278.mp3",
+    "hskLevel": 1,
+    "hskId": "w00278",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00279",
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "meaning": "Este; Esta",
+    "audioUrl": "/audio/hsk-w00279.mp3",
+    "hskLevel": 1,
+    "hskId": "w00279",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00280",
+    "hanzi": "这边",
+    "pinyin": "zhèbiān",
+    "meaning": "Por aquí; Este lado",
+    "audioUrl": "/audio/hsk-w00280.mp3",
+    "hskLevel": 1,
+    "hskId": "w00280",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00281",
+    "hanzi": "这个",
+    "pinyin": "zhège",
+    "meaning": "este",
+    "audioUrl": "/audio/hsk-w00281.mp3",
+    "hskLevel": 1,
+    "hskId": "w00281",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00282",
+    "hanzi": "这里",
+    "pinyin": "zhèlǐ",
+    "meaning": "Aquí",
+    "audioUrl": "/audio/hsk-w00282.mp3",
+    "hskLevel": 1,
+    "hskId": "w00282",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00283",
+    "hanzi": "这儿",
+    "pinyin": "zhèr",
+    "meaning": "Aquí (coloquial)",
+    "audioUrl": "/audio/hsk-w00283.mp3",
+    "hskLevel": 1,
+    "hskId": "w00283",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00284",
+    "hanzi": "这些",
+    "pinyin": "zhèxiē",
+    "meaning": "Estos; Estas",
+    "audioUrl": "/audio/hsk-w00284.mp3",
+    "hskLevel": 1,
+    "hskId": "w00284",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00285",
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "meaning": "Real; Verdadero; Muy",
+    "audioUrl": "/audio/hsk-w00285.mp3",
+    "hskLevel": 1,
+    "hskId": "w00285",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb",
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00286",
+    "hanzi": "正在",
+    "pinyin": "zhèngzài",
+    "meaning": "Estar (en proceso de)",
+    "audioUrl": "/audio/hsk-w00286.mp3",
+    "hskLevel": 1,
+    "hskId": "w00286",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00287",
+    "hanzi": "只",
+    "pinyin": "zhī",
+    "meaning": "clasificador para animales y objetos de un par",
+    "audioUrl": "/audio/hsk-w00287.mp3",
+    "hskLevel": 1,
+    "hskId": "w00287",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00288",
+    "hanzi": "知道",
+    "pinyin": "zhīdào",
+    "meaning": "Saber; Conocer (información)",
+    "audioUrl": "/audio/hsk-w00288.mp3",
+    "hskLevel": 1,
+    "hskId": "w00288",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00289",
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "meaning": "China",
+    "audioUrl": "/audio/hsk-w00289.mp3",
+    "hskLevel": 1,
+    "hskId": "w00289",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00290",
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "meaning": "Chino (idioma escrito y hablado)",
+    "audioUrl": "/audio/hsk-w00290.mp3",
+    "hskLevel": 1,
+    "hskId": "w00290",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00291",
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "meaning": "Mediodía",
+    "audioUrl": "/audio/hsk-w00291.mp3",
+    "hskLevel": 1,
+    "hskId": "w00291",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00292",
+    "hanzi": "中学",
+    "pinyin": "zhōngxué",
+    "meaning": "Escuela secundaria",
+    "audioUrl": "/audio/hsk-w00292.mp3",
+    "hskLevel": 1,
+    "hskId": "w00292",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00293",
+    "hanzi": "中学生",
+    "pinyin": "zhōngxuéshēng",
+    "meaning": "Estudiante de secundaria",
+    "audioUrl": "/audio/hsk-w00293.mp3",
+    "hskLevel": 1,
+    "hskId": "w00293",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00294",
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "meaning": "Vivir; Residir",
+    "audioUrl": "/audio/hsk-w00294.mp3",
+    "hskLevel": 1,
+    "hskId": "w00294",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00295",
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning": "Mesa",
+    "audioUrl": "/audio/hsk-w00295.mp3",
+    "hskLevel": 1,
+    "hskId": "w00295",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00296",
+    "hanzi": "字",
+    "pinyin": "zì",
+    "meaning": "Carácter; Letra",
+    "audioUrl": "/audio/hsk-w00296.mp3",
+    "hskLevel": 1,
+    "hskId": "w00296",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00297",
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "meaning": "Ayer",
+    "audioUrl": "/audio/hsk-w00297.mp3",
+    "hskLevel": 1,
+    "hskId": "w00297",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00298",
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "meaning": "Sentarse; Viajar en",
+    "audioUrl": "/audio/hsk-w00298.mp3",
+    "hskLevel": 1,
+    "hskId": "w00298",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00299",
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "meaning": "Hacer; Realizar",
+    "audioUrl": "/audio/hsk-w00299.mp3",
+    "hskLevel": 1,
+    "hskId": "w00299",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00300",
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "meaning": "Preparar una comida; Cocinar",
+    "audioUrl": "/audio/hsk-w00300.mp3",
+    "hskLevel": 1,
+    "hskId": "w00300",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00301",
+    "hanzi": "啊",
+    "pinyin": "a",
+    "meaning": "partícula de exclamación o acuerdo",
+    "audioUrl": "/audio/hsk-w00301.mp3",
+    "hskLevel": 2,
+    "hskId": "w00301",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00302",
+    "hanzi": "爱好",
+    "pinyin": "àihào",
+    "meaning": "Pasatiempo; Gusto",
+    "audioUrl": "/audio/hsk-w00302.mp3",
+    "hskLevel": 2,
+    "hskId": "w00302",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00303",
+    "hanzi": "白色",
+    "pinyin": "báisè",
+    "meaning": "blanco",
+    "audioUrl": "/audio/hsk-w00303.mp3",
+    "hskLevel": 2,
+    "hskId": "w00303",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00304",
+    "hanzi": "班",
+    "pinyin": "bān",
+    "meaning": "Clase (grupo); Turno",
+    "audioUrl": "/audio/hsk-w00304.mp3",
+    "hskLevel": 2,
+    "hskId": "w00304",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00305",
+    "hanzi": "帮",
+    "pinyin": "bāng",
+    "meaning": "Ayudar",
+    "audioUrl": "/audio/hsk-w00305.mp3",
+    "hskLevel": 2,
+    "hskId": "w00305",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00306",
+    "hanzi": "帮忙",
+    "pinyin": "bāngmáng",
+    "meaning": "Ayudar; Echar una mano",
+    "audioUrl": "/audio/hsk-w00306.mp3",
+    "hskLevel": 2,
+    "hskId": "w00306",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00307",
+    "hanzi": "包",
+    "pinyin": "bāo",
+    "meaning": "Bolsa; Paquete; Empaquetar",
+    "audioUrl": "/audio/hsk-w00307.mp3",
+    "hskLevel": 2,
+    "hskId": "w00307",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00308",
+    "hanzi": "本子",
+    "pinyin": "běnzi",
+    "meaning": "Cuaderno; Libreta",
+    "audioUrl": "/audio/hsk-w00308.mp3",
+    "hskLevel": 2,
+    "hskId": "w00308",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00309",
+    "hanzi": "比",
+    "pinyin": "bǐ",
+    "meaning": "Comparar",
+    "audioUrl": "/audio/hsk-w00309.mp3",
+    "hskLevel": 2,
+    "hskId": "w00309",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "hsk-w00310",
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "meaning": "bolígrafo; lápiz",
+    "audioUrl": "/audio/hsk-w00310.mp3",
+    "hskLevel": 2,
+    "hskId": "w00310",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00311",
+    "hanzi": "别",
+    "pinyin": "bié",
+    "meaning": "no; otro",
+    "audioUrl": "/audio/hsk-w00311.mp3",
+    "hskLevel": 2,
+    "hskId": "w00311",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00312",
+    "hanzi": "不错",
+    "pinyin": "búcuò",
+    "meaning": "Nada mal; Correcto; Bien",
+    "audioUrl": "/audio/hsk-w00312.mp3",
+    "hskLevel": 2,
+    "hskId": "w00312",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00313",
+    "hanzi": "不好意思",
+    "pinyin": "bù hǎoyìsi",
+    "meaning": "perdón; sentir vergüenza",
+    "audioUrl": "/audio/hsk-w00313.mp3",
+    "hskLevel": 2,
+    "hskId": "w00313",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00314",
+    "hanzi": "长",
+    "pinyin": "cháng",
+    "meaning": "largo",
+    "audioUrl": "/audio/hsk-w00314.mp3",
+    "hskLevel": 2,
+    "hskId": "w00314",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00315",
+    "hanzi": "车站",
+    "pinyin": "chēzhàn",
+    "meaning": "Estación de autobús; Parada",
+    "audioUrl": "/audio/hsk-w00315.mp3",
+    "hskLevel": 2,
+    "hskId": "w00315",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00316",
+    "hanzi": "出",
+    "pinyin": "chū",
+    "meaning": "Salir",
+    "audioUrl": "/audio/hsk-w00316.mp3",
+    "hskLevel": 2,
+    "hskId": "w00316",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00317",
+    "hanzi": "出国",
+    "pinyin": "chūguó",
+    "meaning": "Ir al extranjero; salir del pais",
+    "audioUrl": "/audio/hsk-w00317.mp3",
+    "hskLevel": 2,
+    "hskId": "w00317",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00318",
+    "hanzi": "出来",
+    "pinyin": "chūlái",
+    "meaning": "Salir (hacia el hablante)",
+    "audioUrl": "/audio/hsk-w00318.mp3",
+    "hskLevel": 2,
+    "hskId": "w00318",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00319",
+    "hanzi": "出门",
+    "pinyin": "chūmén",
+    "meaning": "salir de casa",
+    "audioUrl": "/audio/hsk-w00319.mp3",
+    "hskLevel": 2,
+    "hskId": "w00319",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00320",
+    "hanzi": "出去",
+    "pinyin": "chūqù",
+    "meaning": "Salir (lejos del hablante)",
+    "audioUrl": "/audio/hsk-w00320.mp3",
+    "hskLevel": 2,
+    "hskId": "w00320",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00321",
+    "hanzi": "床",
+    "pinyin": "chuáng",
+    "meaning": "Cama",
+    "audioUrl": "/audio/hsk-w00321.mp3",
+    "hskLevel": 2,
+    "hskId": "w00321",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00322",
+    "hanzi": "词",
+    "pinyin": "cí",
+    "meaning": "palabra",
+    "audioUrl": "/audio/hsk-w00322.mp3",
+    "hskLevel": 2,
+    "hskId": "w00322",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00323",
+    "hanzi": "次",
+    "pinyin": "cì",
+    "meaning": "vez; ocasión",
+    "audioUrl": "/audio/hsk-w00323.mp3",
+    "hskLevel": 2,
+    "hskId": "w00323",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word",
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00324",
+    "hanzi": "从",
+    "pinyin": "cóng",
+    "meaning": "Desde",
+    "audioUrl": "/audio/hsk-w00324.mp3",
+    "hskLevel": 2,
+    "hskId": "w00324",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "preposition",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00325",
+    "hanzi": "从小",
+    "pinyin": "cóngxiǎo",
+    "meaning": "Desde muy joven; Desde niño",
+    "audioUrl": "/audio/hsk-w00325.mp3",
+    "hskLevel": 2,
+    "hskId": "w00325",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00326",
+    "hanzi": "错",
+    "pinyin": "cuò",
+    "meaning": "Equivocado; Error",
+    "audioUrl": "/audio/hsk-w00326.mp3",
+    "hskLevel": 2,
+    "hskId": "w00326",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00327",
+    "hanzi": "打",
+    "pinyin": "dǎ",
+    "meaning": "golpear; jugar; hacer",
+    "audioUrl": "/audio/hsk-w00327.mp3",
+    "hskLevel": 2,
+    "hskId": "w00327",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00328",
+    "hanzi": "打车",
+    "pinyin": "dǎchē",
+    "meaning": "Tomar un taxi",
+    "audioUrl": "/audio/hsk-w00328.mp3",
+    "hskLevel": 2,
+    "hskId": "w00328",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00329",
+    "hanzi": "打开",
+    "pinyin": "dǎkāi",
+    "meaning": "Abrir; Encender",
+    "audioUrl": "/audio/hsk-w00329.mp3",
+    "hskLevel": 2,
+    "hskId": "w00329",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00330",
+    "hanzi": "但",
+    "pinyin": "dàn",
+    "meaning": "pero; sin embargo",
+    "audioUrl": "/audio/hsk-w00330.mp3",
+    "hskLevel": 2,
+    "hskId": "w00330",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "conjunction",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00331",
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "meaning": "Pero; sin embargo",
+    "audioUrl": "/audio/hsk-w00331.mp3",
+    "hskLevel": 2,
+    "hskId": "w00331",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00332",
+    "hanzi": "得",
+    "pinyin": "de",
+    "meaning": "partícula que une el verbo con un complemento",
+    "audioUrl": "/audio/hsk-w00332.mp3",
+    "hskLevel": 2,
+    "hskId": "w00332",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00333",
+    "hanzi": "地",
+    "pinyin": "de",
+    "meaning": "(Partícula para adverbios)",
+    "audioUrl": "/audio/hsk-w00333.mp3",
+    "hskLevel": 2,
+    "hskId": "w00333",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00334",
+    "hanzi": "等",
+    "pinyin": "děng",
+    "meaning": "esperar; etcétera",
+    "audioUrl": "/audio/hsk-w00334.mp3",
+    "hskLevel": 2,
+    "hskId": "w00334",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "hsk-w00335",
+    "hanzi": "地铁",
+    "pinyin": "dìtiě",
+    "meaning": "Ferrocarril subterráneo; metro; Tren subterráneo",
+    "audioUrl": "/audio/hsk-w00335.mp3",
+    "hskLevel": 2,
+    "hskId": "w00335",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00336",
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "meaning": "pedir (comida); señalar; dar un toque",
+    "audioUrl": "/audio/hsk-w00336.mp3",
+    "hskLevel": 2,
+    "hskId": "w00336",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00337",
+    "hanzi": "懂",
+    "pinyin": "dǒng",
+    "meaning": "Comprender; Entender",
+    "audioUrl": "/audio/hsk-w00337.mp3",
+    "hskLevel": 2,
+    "hskId": "w00337",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00338",
+    "hanzi": "动",
+    "pinyin": "dòng",
+    "meaning": "Mover; Accionar",
+    "audioUrl": "/audio/hsk-w00338.mp3",
+    "hskLevel": 2,
+    "hskId": "w00338",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00339",
+    "hanzi": "饭馆",
+    "pinyin": "fànguǎn",
+    "meaning": "Restaurante",
+    "audioUrl": "/audio/hsk-w00339.mp3",
+    "hskLevel": 2,
+    "hskId": "w00339",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00340",
+    "hanzi": "飞",
+    "pinyin": "fēi",
+    "meaning": "Volar",
+    "audioUrl": "/audio/hsk-w00340.mp3",
+    "hskLevel": 2,
+    "hskId": "w00340",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00341",
+    "hanzi": "高",
+    "pinyin": "gāo",
+    "meaning": "Alto",
+    "audioUrl": "/audio/hsk-w00341.mp3",
+    "hskLevel": 2,
+    "hskId": "w00341",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00342",
+    "hanzi": "高中",
+    "pinyin": "gāozhōng",
+    "meaning": "bachillerato; escuela secundaria superior",
+    "audioUrl": "/audio/hsk-w00342.mp3",
+    "hskLevel": 2,
+    "hskId": "w00342",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00343",
+    "hanzi": "告诉",
+    "pinyin": "gàosu",
+    "meaning": "Decir; Contar",
+    "audioUrl": "/audio/hsk-w00343.mp3",
+    "hskLevel": 2,
+    "hskId": "w00343",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00344",
+    "hanzi": "个子",
+    "pinyin": "gèzi",
+    "meaning": "estatura",
+    "audioUrl": "/audio/hsk-w00344.mp3",
+    "hskLevel": 2,
+    "hskId": "w00344",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00345",
+    "hanzi": "跟",
+    "pinyin": "gēn",
+    "meaning": "Con; Seguir",
+    "audioUrl": "/audio/hsk-w00345.mp3",
+    "hskLevel": 2,
+    "hskId": "w00345",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "preposition",
+      "conjunction",
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00346",
+    "hanzi": "公交车",
+    "pinyin": "gōngjiāochē",
+    "meaning": "Vehículo de transporte público; Autobús urbano",
+    "audioUrl": "/audio/hsk-w00346.mp3",
+    "hskLevel": 2,
+    "hskId": "w00346",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00347",
+    "hanzi": "过",
+    "pinyin": "guò",
+    "meaning": "pasar; cruzar",
+    "audioUrl": "/audio/hsk-w00347.mp3",
+    "hskLevel": 2,
+    "hskId": "w00347",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00348",
+    "hanzi": "过来",
+    "pinyin": "guòlái",
+    "meaning": "venir hacia aquí",
+    "audioUrl": "/audio/hsk-w00348.mp3",
+    "hskLevel": 2,
+    "hskId": "w00348",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00349",
+    "hanzi": "过年",
+    "pinyin": "guònián",
+    "meaning": "celebrar el Año Nuevo chino",
+    "audioUrl": "/audio/hsk-w00349.mp3",
+    "hskLevel": 2,
+    "hskId": "w00349",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00350",
+    "hanzi": "过去",
+    "pinyin": "guòqù",
+    "meaning": "pasar; ir hacia allá",
+    "audioUrl": "/audio/hsk-w00350.mp3",
+    "hskLevel": 2,
+    "hskId": "w00350",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00351",
+    "hanzi": "过",
+    "pinyin": "guo",
+    "meaning": "partícula que expresa una experiencia pasada",
+    "audioUrl": "/audio/hsk-w00351.mp3",
+    "hskLevel": 2,
+    "hskId": "w00351",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00352",
+    "hanzi": "还是",
+    "pinyin": "háishi",
+    "meaning": "O (en preguntas); Todavía",
+    "audioUrl": "/audio/hsk-w00352.mp3",
+    "hskLevel": 2,
+    "hskId": "w00352",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00353",
+    "hanzi": "黑色",
+    "pinyin": "hēisè",
+    "meaning": "Negro",
+    "audioUrl": "/audio/hsk-w00353.mp3",
+    "hskLevel": 2,
+    "hskId": "w00353",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00354",
+    "hanzi": "红茶",
+    "pinyin": "hóngchá",
+    "meaning": "Té negro",
+    "audioUrl": "/audio/hsk-w00354.mp3",
+    "hskLevel": 2,
+    "hskId": "w00354",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00355",
+    "hanzi": "红色",
+    "pinyin": "hóngsè",
+    "meaning": "rojo",
+    "audioUrl": "/audio/hsk-w00355.mp3",
+    "hskLevel": 2,
+    "hskId": "w00355",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00356",
+    "hanzi": "后面",
+    "pinyin": "hòumiàn",
+    "meaning": "detrás; parte posterior",
+    "audioUrl": "/audio/hsk-w00356.mp3",
+    "hskLevel": 2,
+    "hskId": "w00356",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00357",
+    "hanzi": "花",
+    "pinyin": "huā",
+    "meaning": "gastar (tiempo o dinero)",
+    "audioUrl": "/audio/hsk-w00357.mp3",
+    "hskLevel": 2,
+    "hskId": "w00357",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00358",
+    "hanzi": "花",
+    "pinyin": "huā",
+    "meaning": "flor",
+    "audioUrl": "/audio/hsk-w00358.mp3",
+    "hskLevel": 2,
+    "hskId": "w00358",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00359",
+    "hanzi": "画",
+    "pinyin": "huà",
+    "meaning": "dibujar; pintar; dibujo",
+    "audioUrl": "/audio/hsk-w00359.mp3",
+    "hskLevel": 2,
+    "hskId": "w00359",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00360",
+    "hanzi": "坏",
+    "pinyin": "huài",
+    "meaning": "Malo; Estropeado",
+    "audioUrl": "/audio/hsk-w00360.mp3",
+    "hskLevel": 2,
+    "hskId": "w00360",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00361",
+    "hanzi": "回来",
+    "pinyin": "huílái",
+    "meaning": "Volver (hacia el hablante)",
+    "audioUrl": "/audio/hsk-w00361.mp3",
+    "hskLevel": 2,
+    "hskId": "w00361",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00362",
+    "hanzi": "回去",
+    "pinyin": "huíqù",
+    "meaning": "Volver (lejos del hablante)",
+    "audioUrl": "/audio/hsk-w00362.mp3",
+    "hskLevel": 2,
+    "hskId": "w00362",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00363",
+    "hanzi": "机场",
+    "pinyin": "jīchǎng",
+    "meaning": "Aeropuerto",
+    "audioUrl": "/audio/hsk-w00363.mp3",
+    "hskLevel": 2,
+    "hskId": "w00363",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00364",
+    "hanzi": "机票",
+    "pinyin": "jīpiào",
+    "meaning": "Boleto de avión",
+    "audioUrl": "/audio/hsk-w00364.mp3",
+    "hskLevel": 2,
+    "hskId": "w00364",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00365",
+    "hanzi": "记得",
+    "pinyin": "jìde",
+    "meaning": "Recordar",
+    "audioUrl": "/audio/hsk-w00365.mp3",
+    "hskLevel": 2,
+    "hskId": "w00365",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00366",
+    "hanzi": "间",
+    "pinyin": "jiān",
+    "meaning": "(Clasificador para habitaciones)",
+    "audioUrl": "/audio/hsk-w00366.mp3",
+    "hskLevel": 2,
+    "hskId": "w00366",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00367",
+    "hanzi": "教",
+    "pinyin": "jiāo",
+    "meaning": "Enseñar",
+    "audioUrl": "/audio/hsk-w00367.mp3",
+    "hskLevel": 2,
+    "hskId": "w00367",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00368",
+    "hanzi": "教室",
+    "pinyin": "jiàoshì",
+    "meaning": "Aula",
+    "audioUrl": "/audio/hsk-w00368.mp3",
+    "hskLevel": 2,
+    "hskId": "w00368",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00369",
+    "hanzi": "介绍",
+    "pinyin": "jièshào",
+    "meaning": "Presentar",
+    "audioUrl": "/audio/hsk-w00369.mp3",
+    "hskLevel": 2,
+    "hskId": "w00369",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00370",
+    "hanzi": "进",
+    "pinyin": "jìn",
+    "meaning": "Entrar",
+    "audioUrl": "/audio/hsk-w00370.mp3",
+    "hskLevel": 2,
+    "hskId": "w00370",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00371",
+    "hanzi": "近",
+    "pinyin": "jìn",
+    "meaning": "cerca",
+    "audioUrl": "/audio/hsk-w00371.mp3",
+    "hskLevel": 2,
+    "hskId": "w00371",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00372",
+    "hanzi": "进来",
+    "pinyin": "jìnlái",
+    "meaning": "Entrar (hacia el hablante)",
+    "audioUrl": "/audio/hsk-w00372.mp3",
+    "hskLevel": 2,
+    "hskId": "w00372",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00373",
+    "hanzi": "进去",
+    "pinyin": "jìnqù",
+    "meaning": "Entrar (lejos del hablante)",
+    "audioUrl": "/audio/hsk-w00373.mp3",
+    "hskLevel": 2,
+    "hskId": "w00373",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00374",
+    "hanzi": "经常",
+    "pinyin": "jīngcháng",
+    "meaning": "a menudo; frecuentemente",
+    "audioUrl": "/audio/hsk-w00374.mp3",
+    "hskLevel": 2,
+    "hskId": "w00374",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00375",
+    "hanzi": "酒店",
+    "pinyin": "jiǔdiàn",
+    "meaning": "hotel",
+    "audioUrl": "/audio/hsk-w00375.mp3",
+    "hskLevel": 2,
+    "hskId": "w00375",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00376",
+    "hanzi": "就",
+    "pinyin": "jiù",
+    "meaning": "Entonces; Justamente",
+    "audioUrl": "/audio/hsk-w00376.mp3",
+    "hskLevel": 2,
+    "hskId": "w00376",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "hsk-w00377",
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning": "Café (préstamo)",
+    "audioUrl": "/audio/hsk-w00377.mp3",
+    "hskLevel": 2,
+    "hskId": "w00377",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00378",
+    "hanzi": "开始",
+    "pinyin": "kāishǐ",
+    "meaning": "empezar; comienzo",
+    "audioUrl": "/audio/hsk-w00378.mp3",
+    "hskLevel": 2,
+    "hskId": "w00378",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00379",
+    "hanzi": "开学",
+    "pinyin": "kāixué",
+    "meaning": "comenzar las clases",
+    "audioUrl": "/audio/hsk-w00379.mp3",
+    "hskLevel": 2,
+    "hskId": "w00379",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00380",
+    "hanzi": "考",
+    "pinyin": "kǎo",
+    "meaning": "examinar; hacer un examen",
+    "audioUrl": "/audio/hsk-w00380.mp3",
+    "hskLevel": 2,
+    "hskId": "w00380",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00381",
+    "hanzi": "考试",
+    "pinyin": "kǎoshì",
+    "meaning": "Examen",
+    "audioUrl": "/audio/hsk-w00381.mp3",
+    "hskLevel": 2,
+    "hskId": "w00381",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00382",
+    "hanzi": "可能",
+    "pinyin": "kěnéng",
+    "meaning": "Tal vez; Podría (suceder); Posibilidad",
+    "audioUrl": "/audio/hsk-w00382.mp3",
+    "hskLevel": 2,
+    "hskId": "w00382",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00383",
+    "hanzi": "裤子",
+    "pinyin": "kùzi",
+    "meaning": "pantalones",
+    "audioUrl": "/audio/hsk-w00383.mp3",
+    "hskLevel": 2,
+    "hskId": "w00383",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00384",
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "meaning": "Rápido; Apresurado",
+    "audioUrl": "/audio/hsk-w00384.mp3",
+    "hskLevel": 2,
+    "hskId": "w00384",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00385",
+    "hanzi": "快乐",
+    "pinyin": "kuàilè",
+    "meaning": "Feliz; alegre",
+    "audioUrl": "/audio/hsk-w00385.mp3",
+    "hskLevel": 2,
+    "hskId": "w00385",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00386",
+    "hanzi": "快要",
+    "pinyin": "kuàiyào",
+    "meaning": "Casi en el punto de (hacer algo); a punto de (hacer algo)",
+    "audioUrl": "/audio/hsk-w00386.mp3",
+    "hskLevel": 2,
+    "hskId": "w00386",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00387",
+    "hanzi": "篮球",
+    "pinyin": "lánqiú",
+    "meaning": "Baloncesto",
+    "audioUrl": "/audio/hsk-w00387.mp3",
+    "hskLevel": 2,
+    "hskId": "w00387",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00388",
+    "hanzi": "累",
+    "pinyin": "lèi",
+    "meaning": "Cansado",
+    "audioUrl": "/audio/hsk-w00388.mp3",
+    "hskLevel": 2,
+    "hskId": "w00388",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00389",
+    "hanzi": "离",
+    "pinyin": "lí",
+    "meaning": "distar de; desde",
+    "audioUrl": "/audio/hsk-w00389.mp3",
+    "hskLevel": 2,
+    "hskId": "w00389",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00390",
+    "hanzi": "里面",
+    "pinyin": "lǐmiàn",
+    "meaning": "dentro; interior",
+    "audioUrl": "/audio/hsk-w00390.mp3",
+    "hskLevel": 2,
+    "hskId": "w00390",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00391",
+    "hanzi": "楼",
+    "pinyin": "lóu",
+    "meaning": "Edificio; Piso",
+    "audioUrl": "/audio/hsk-w00391.mp3",
+    "hskLevel": 2,
+    "hskId": "w00391",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00392",
+    "hanzi": "路",
+    "pinyin": "lù",
+    "meaning": "Camino; Calle",
+    "audioUrl": "/audio/hsk-w00392.mp3",
+    "hskLevel": 2,
+    "hskId": "w00392",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00393",
+    "hanzi": "路上",
+    "pinyin": "lùshang",
+    "meaning": "En el camino; De camino",
+    "audioUrl": "/audio/hsk-w00393.mp3",
+    "hskLevel": 2,
+    "hskId": "w00393",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00394",
+    "hanzi": "旅游",
+    "pinyin": "lǚyóu",
+    "meaning": "Viajar; Viaje; Recorrido",
+    "audioUrl": "/audio/hsk-w00394.mp3",
+    "hskLevel": 2,
+    "hskId": "w00394",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00395",
+    "hanzi": "绿茶",
+    "pinyin": "lǜchá",
+    "meaning": "té verde",
+    "audioUrl": "/audio/hsk-w00395.mp3",
+    "hskLevel": 2,
+    "hskId": "w00395",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00396",
+    "hanzi": "绿色",
+    "pinyin": "lǜsè",
+    "meaning": "Verde",
+    "audioUrl": "/audio/hsk-w00396.mp3",
+    "hskLevel": 2,
+    "hskId": "w00396",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00397",
+    "hanzi": "慢",
+    "pinyin": "màn",
+    "meaning": "Lento",
+    "audioUrl": "/audio/hsk-w00397.mp3",
+    "hskLevel": 2,
+    "hskId": "w00397",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00398",
+    "hanzi": "没意思",
+    "pinyin": "méi yìsi",
+    "meaning": "aburrido; sin interés",
+    "audioUrl": "/audio/hsk-w00398.mp3",
+    "hskLevel": 2,
+    "hskId": "w00398",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00399",
+    "hanzi": "每",
+    "pinyin": "měi",
+    "meaning": "Cada",
+    "audioUrl": "/audio/hsk-w00399.mp3",
+    "hskLevel": 2,
+    "hskId": "w00399",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00400",
+    "hanzi": "门",
+    "pinyin": "mén",
+    "meaning": "Puerta",
+    "audioUrl": "/audio/hsk-w00400.mp3",
+    "hskLevel": 2,
+    "hskId": "w00400",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00401",
+    "hanzi": "门口",
+    "pinyin": "ménkǒu",
+    "meaning": "Entrada; Puerta (lugar)",
+    "audioUrl": "/audio/hsk-w00401.mp3",
+    "hskLevel": 2,
+    "hskId": "w00401",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00402",
+    "hanzi": "门票",
+    "pinyin": "ménpiào",
+    "meaning": "Entrada; Boleto (de acceso)",
+    "audioUrl": "/audio/hsk-w00402.mp3",
+    "hskLevel": 2,
+    "hskId": "w00402",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00403",
+    "hanzi": "面",
+    "pinyin": "miàn",
+    "meaning": "cara; superficie; lado",
+    "audioUrl": "/audio/hsk-w00403.mp3",
+    "hskLevel": 2,
+    "hskId": "w00403",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "suffix",
+      "verb",
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00404",
+    "hanzi": "名",
+    "pinyin": "míng",
+    "meaning": "nombre; clasificador de personas",
+    "audioUrl": "/audio/hsk-w00404.mp3",
+    "hskLevel": 2,
+    "hskId": "w00404",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00405",
+    "hanzi": "拿",
+    "pinyin": "ná",
+    "meaning": "Tomar; Llevar (en la mano)",
+    "audioUrl": "/audio/hsk-w00405.mp3",
+    "hskLevel": 2,
+    "hskId": "w00405",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00406",
+    "hanzi": "那么",
+    "pinyin": "nàme",
+    "meaning": "así; entonces",
+    "audioUrl": "/audio/hsk-w00406.mp3",
+    "hskLevel": 2,
+    "hskId": "w00406",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00407",
+    "hanzi": "那样",
+    "pinyin": "nàyàng",
+    "meaning": "de esa manera",
+    "audioUrl": "/audio/hsk-w00407.mp3",
+    "hskLevel": 2,
+    "hskId": "w00407",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00408",
+    "hanzi": "奶茶",
+    "pinyin": "nǎichá",
+    "meaning": "Té con leche",
+    "audioUrl": "/audio/hsk-w00408.mp3",
+    "hskLevel": 2,
+    "hskId": "w00408",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00409",
+    "hanzi": "奶奶",
+    "pinyin": "nǎinai",
+    "meaning": "Abuela (paterna)",
+    "audioUrl": "/audio/hsk-w00409.mp3",
+    "hskLevel": 2,
+    "hskId": "w00409",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00410",
+    "hanzi": "男孩儿",
+    "pinyin": "nánháir",
+    "meaning": "Niño (varón)",
+    "audioUrl": "/audio/hsk-w00410.mp3",
+    "hskLevel": 2,
+    "hskId": "w00410",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00411",
+    "hanzi": "鸟",
+    "pinyin": "niǎo",
+    "meaning": "pájaro",
+    "audioUrl": "/audio/hsk-w00411.mp3",
+    "hskLevel": 2,
+    "hskId": "w00411",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00412",
+    "hanzi": "女孩儿",
+    "pinyin": "nǚháir",
+    "meaning": "Niña",
+    "audioUrl": "/audio/hsk-w00412.mp3",
+    "hskLevel": 2,
+    "hskId": "w00412",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00413",
+    "hanzi": "旁边",
+    "pinyin": "pángbiān",
+    "meaning": "Al lado; Junto a",
+    "audioUrl": "/audio/hsk-w00413.mp3",
+    "hskLevel": 2,
+    "hskId": "w00413",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00414",
+    "hanzi": "跑",
+    "pinyin": "pǎo",
+    "meaning": "Correr",
+    "audioUrl": "/audio/hsk-w00414.mp3",
+    "hskLevel": 2,
+    "hskId": "w00414",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00415",
+    "hanzi": "跑步",
+    "pinyin": "pǎobù",
+    "meaning": "correr; hacer footing",
+    "audioUrl": "/audio/hsk-w00415.mp3",
+    "hskLevel": 2,
+    "hskId": "w00415",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00416",
+    "hanzi": "票",
+    "pinyin": "piào",
+    "meaning": "Boleto; Entrada",
+    "audioUrl": "/audio/hsk-w00416.mp3",
+    "hskLevel": 2,
+    "hskId": "w00416",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00417",
+    "hanzi": "妻子",
+    "pinyin": "qīzi",
+    "meaning": "esposa",
+    "audioUrl": "/audio/hsk-w00417.mp3",
+    "hskLevel": 2,
+    "hskId": "w00417",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00418",
+    "hanzi": "起来",
+    "pinyin": "qǐlái",
+    "meaning": "Levantarse; Ponerse de pie",
+    "audioUrl": "/audio/hsk-w00418.mp3",
+    "hskLevel": 2,
+    "hskId": "w00418",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00419",
+    "hanzi": "前面",
+    "pinyin": "qiánmiàn",
+    "meaning": "delante; parte delantera",
+    "audioUrl": "/audio/hsk-w00419.mp3",
+    "hskLevel": 2,
+    "hskId": "w00419",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00420",
+    "hanzi": "晴",
+    "pinyin": "qíng",
+    "meaning": "Buen (tiempo); Claro",
+    "audioUrl": "/audio/hsk-w00420.mp3",
+    "hskLevel": 2,
+    "hskId": "w00420",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00421",
+    "hanzi": "球",
+    "pinyin": "qiú",
+    "meaning": "Pelota; Bola",
+    "audioUrl": "/audio/hsk-w00421.mp3",
+    "hskLevel": 2,
+    "hskId": "w00421",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00422",
+    "hanzi": "让",
+    "pinyin": "ràng",
+    "meaning": "dejar; permitir; hacer que",
+    "audioUrl": "/audio/hsk-w00422.mp3",
+    "hskLevel": 2,
+    "hskId": "w00422",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "hsk-w00423",
+    "hanzi": "肉",
+    "pinyin": "ròu",
+    "meaning": "Carne",
+    "audioUrl": "/audio/hsk-w00423.mp3",
+    "hskLevel": 2,
+    "hskId": "w00423",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00424",
+    "hanzi": "商场",
+    "pinyin": "shāngchǎng",
+    "meaning": "Centro comercial",
+    "audioUrl": "/audio/hsk-w00424.mp3",
+    "hskLevel": 2,
+    "hskId": "w00424",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00425",
+    "hanzi": "上来",
+    "pinyin": "shànglái",
+    "meaning": "subir hacia aquí",
+    "audioUrl": "/audio/hsk-w00425.mp3",
+    "hskLevel": 2,
+    "hskId": "w00425",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00426",
+    "hanzi": "上面",
+    "pinyin": "shàngmiàn",
+    "meaning": "encima; arriba",
+    "audioUrl": "/audio/hsk-w00426.mp3",
+    "hskLevel": 2,
+    "hskId": "w00426",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00427",
+    "hanzi": "上去",
+    "pinyin": "shàngqù",
+    "meaning": "subir hacia allá",
+    "audioUrl": "/audio/hsk-w00427.mp3",
+    "hskLevel": 2,
+    "hskId": "w00427",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00428",
+    "hanzi": "上网",
+    "pinyin": "shàngwǎng",
+    "meaning": "Navegar por internet; Estar en línea",
+    "audioUrl": "/audio/hsk-w00428.mp3",
+    "hskLevel": 2,
+    "hskId": "w00428",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00429",
+    "hanzi": "身体",
+    "pinyin": "shēntǐ",
+    "meaning": "Cuerpo; Salud",
+    "audioUrl": "/audio/hsk-w00429.mp3",
+    "hskLevel": 2,
+    "hskId": "w00429",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00430",
+    "hanzi": "生日",
+    "pinyin": "shēngrì",
+    "meaning": "Cumpleaños",
+    "audioUrl": "/audio/hsk-w00430.mp3",
+    "hskLevel": 2,
+    "hskId": "w00430",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00431",
+    "hanzi": "时",
+    "pinyin": "shí",
+    "meaning": "hora; momento",
+    "audioUrl": "/audio/hsk-w00431.mp3",
+    "hskLevel": 2,
+    "hskId": "w00431",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00432",
+    "hanzi": "事情",
+    "pinyin": "shìqing",
+    "meaning": "asunto; cosa",
+    "audioUrl": "/audio/hsk-w00432.mp3",
+    "hskLevel": 2,
+    "hskId": "w00432",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00433",
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "meaning": "Mano",
+    "audioUrl": "/audio/hsk-w00433.mp3",
+    "hskLevel": 2,
+    "hskId": "w00433",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00434",
+    "hanzi": "手表",
+    "pinyin": "shǒubiǎo",
+    "meaning": "Reloj de pulsera",
+    "audioUrl": "/audio/hsk-w00434.mp3",
+    "hskLevel": 2,
+    "hskId": "w00434",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00435",
+    "hanzi": "书包",
+    "pinyin": "shūbāo",
+    "meaning": "Mochila; Cartera escolar",
+    "audioUrl": "/audio/hsk-w00435.mp3",
+    "hskLevel": 2,
+    "hskId": "w00435",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00436",
+    "hanzi": "舒服",
+    "pinyin": "shūfu",
+    "meaning": "Cómodo; Sentirse bien",
+    "audioUrl": "/audio/hsk-w00436.mp3",
+    "hskLevel": 2,
+    "hskId": "w00436",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00437",
+    "hanzi": "送",
+    "pinyin": "sòng",
+    "meaning": "Regalar; Acompañar; Despedir",
+    "audioUrl": "/audio/hsk-w00437.mp3",
+    "hskLevel": 2,
+    "hskId": "w00437",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00438",
+    "hanzi": "虽然",
+    "pinyin": "suīrán",
+    "meaning": "aunque",
+    "audioUrl": "/audio/hsk-w00438.mp3",
+    "hskLevel": 2,
+    "hskId": "w00438",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00439",
+    "hanzi": "所以",
+    "pinyin": "suǒyǐ",
+    "meaning": "por eso; por lo tanto",
+    "audioUrl": "/audio/hsk-w00439.mp3",
+    "hskLevel": 2,
+    "hskId": "w00439",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00440",
+    "hanzi": "疼",
+    "pinyin": "téng",
+    "meaning": "doler; dolor",
+    "audioUrl": "/audio/hsk-w00440.mp3",
+    "hskLevel": 2,
+    "hskId": "w00440",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00441",
+    "hanzi": "踢",
+    "pinyin": "tī",
+    "meaning": "dar una patada",
+    "audioUrl": "/audio/hsk-w00441.mp3",
+    "hskLevel": 2,
+    "hskId": "w00441",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00442",
+    "hanzi": "题",
+    "pinyin": "tí",
+    "meaning": "pregunta; ejercicio; problema",
+    "audioUrl": "/audio/hsk-w00442.mp3",
+    "hskLevel": 2,
+    "hskId": "w00442",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00443",
+    "hanzi": "条",
+    "pinyin": "tiáo",
+    "meaning": "Banda; Clasificador para cosas largas y delgadas (cinta, río, camino, pantalones, etc.); Artículo",
+    "audioUrl": "/audio/hsk-w00443.mp3",
+    "hskLevel": 2,
+    "hskId": "w00443",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00444",
+    "hanzi": "跳舞",
+    "pinyin": "tiàowǔ",
+    "meaning": "Bailar",
+    "audioUrl": "/audio/hsk-w00444.mp3",
+    "hskLevel": 2,
+    "hskId": "w00444",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00445",
+    "hanzi": "头",
+    "pinyin": "tóu",
+    "meaning": "cabeza; clasificador de animales",
+    "audioUrl": "/audio/hsk-w00445.mp3",
+    "hskLevel": 2,
+    "hskId": "w00445",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word",
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00446",
+    "hanzi": "外国",
+    "pinyin": "wàiguó",
+    "meaning": "País extranjero",
+    "audioUrl": "/audio/hsk-w00446.mp3",
+    "hskLevel": 2,
+    "hskId": "w00446",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00447",
+    "hanzi": "外面",
+    "pinyin": "wàimiàn",
+    "meaning": "fuera; exterior",
+    "audioUrl": "/audio/hsk-w00447.mp3",
+    "hskLevel": 2,
+    "hskId": "w00447",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00448",
+    "hanzi": "完",
+    "pinyin": "wán",
+    "meaning": "Completo; Haber terminado; Entero",
+    "audioUrl": "/audio/hsk-w00448.mp3",
+    "hskLevel": 2,
+    "hskId": "w00448",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00449",
+    "hanzi": "万",
+    "pinyin": "wàn",
+    "meaning": "diez mil",
+    "audioUrl": "/audio/hsk-w00449.mp3",
+    "hskLevel": 2,
+    "hskId": "w00449",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "numeral"
+    ]
+  },
+  {
+    "id": "hsk-w00450",
+    "hanzi": "往",
+    "pinyin": "wǎng",
+    "meaning": "A; Hacia; Ir (en una dirección)",
+    "audioUrl": "/audio/hsk-w00450.mp3",
+    "hskLevel": 2,
+    "hskId": "w00450",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "preposition"
+    ]
+  },
+  {
+    "id": "hsk-w00451",
+    "hanzi": "网上",
+    "pinyin": "wǎngshang",
+    "meaning": "En internet",
+    "audioUrl": "/audio/hsk-w00451.mp3",
+    "hskLevel": 2,
+    "hskId": "w00451",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00452",
+    "hanzi": "忘",
+    "pinyin": "wàng",
+    "meaning": "Olvidar",
+    "audioUrl": "/audio/hsk-w00452.mp3",
+    "hskLevel": 2,
+    "hskId": "w00452",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00453",
+    "hanzi": "位",
+    "pinyin": "wèi",
+    "meaning": "clasificador respetuoso para personas",
+    "audioUrl": "/audio/hsk-w00453.mp3",
+    "hskLevel": 2,
+    "hskId": "w00453",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00454",
+    "hanzi": "为什么",
+    "pinyin": "wèi shénme",
+    "meaning": "¿por qué?; ¿por qué razón?",
+    "audioUrl": "/audio/hsk-w00454.mp3",
+    "hskLevel": 2,
+    "hskId": "w00454",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00455",
+    "hanzi": "希望",
+    "pinyin": "xīwàng",
+    "meaning": "Tener esperanza; Una esperanza; un deseo",
+    "audioUrl": "/audio/hsk-w00455.mp3",
+    "hskLevel": 2,
+    "hskId": "w00455",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00456",
+    "hanzi": "洗",
+    "pinyin": "xǐ",
+    "meaning": "Lavar",
+    "audioUrl": "/audio/hsk-w00456.mp3",
+    "hskLevel": 2,
+    "hskId": "w00456",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00457",
+    "hanzi": "洗手间",
+    "pinyin": "xǐshǒujiān",
+    "meaning": "Baño; Lavabo",
+    "audioUrl": "/audio/hsk-w00457.mp3",
+    "hskLevel": 2,
+    "hskId": "w00457",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00458",
+    "hanzi": "下来",
+    "pinyin": "xiàlái",
+    "meaning": "bajar hacia aquí",
+    "audioUrl": "/audio/hsk-w00458.mp3",
+    "hskLevel": 2,
+    "hskId": "w00458",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00459",
+    "hanzi": "下面",
+    "pinyin": "xiàmiàn",
+    "meaning": "debajo; parte inferior",
+    "audioUrl": "/audio/hsk-w00459.mp3",
+    "hskLevel": 2,
+    "hskId": "w00459",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00460",
+    "hanzi": "下去",
+    "pinyin": "xiàqù",
+    "meaning": "bajar hacia allá; continuar",
+    "audioUrl": "/audio/hsk-w00460.mp3",
+    "hskLevel": 2,
+    "hskId": "w00460",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00461",
+    "hanzi": "小孩儿",
+    "pinyin": "xiǎoháir",
+    "meaning": "Niño; Niña (pequeño)",
+    "audioUrl": "/audio/hsk-w00461.mp3",
+    "hskLevel": 2,
+    "hskId": "w00461",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00462",
+    "hanzi": "小时候",
+    "pinyin": "xiǎoshíhou",
+    "meaning": "En la infancia",
+    "audioUrl": "/audio/hsk-w00462.mp3",
+    "hskLevel": 2,
+    "hskId": "w00462",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00463",
+    "hanzi": "笑",
+    "pinyin": "xiào",
+    "meaning": "Reír; Sonreír",
+    "audioUrl": "/audio/hsk-w00463.mp3",
+    "hskLevel": 2,
+    "hskId": "w00463",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00464",
+    "hanzi": "姓",
+    "pinyin": "xìng",
+    "meaning": "apellido; apellidarse",
+    "audioUrl": "/audio/hsk-w00464.mp3",
+    "hskLevel": 2,
+    "hskId": "w00464",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00465",
+    "hanzi": "姓名",
+    "pinyin": "xìngmíng",
+    "meaning": "Nombre completo; Apellido y nombre",
+    "audioUrl": "/audio/hsk-w00465.mp3",
+    "hskLevel": 2,
+    "hskId": "w00465",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00466",
+    "hanzi": "颜色",
+    "pinyin": "yánsè",
+    "meaning": "color",
+    "audioUrl": "/audio/hsk-w00466.mp3",
+    "hskLevel": 2,
+    "hskId": "w00466",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00467",
+    "hanzi": "眼睛",
+    "pinyin": "yǎnjing",
+    "meaning": "ojos",
+    "audioUrl": "/audio/hsk-w00467.mp3",
+    "hskLevel": 2,
+    "hskId": "w00467",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00468",
+    "hanzi": "药",
+    "pinyin": "yào",
+    "meaning": "medicina; medicamento",
+    "audioUrl": "/audio/hsk-w00468.mp3",
+    "hskLevel": 2,
+    "hskId": "w00468",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00469",
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "meaning": "Farmacia",
+    "audioUrl": "/audio/hsk-w00469.mp3",
+    "hskLevel": 2,
+    "hskId": "w00469",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00470",
+    "hanzi": "爷爷",
+    "pinyin": "yéye",
+    "meaning": "Abuelo (paterno)",
+    "audioUrl": "/audio/hsk-w00470.mp3",
+    "hskLevel": 2,
+    "hskId": "w00470",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00471",
+    "hanzi": "一会儿",
+    "pinyin": "yíhuìr",
+    "meaning": "Un rato; En un momento",
+    "audioUrl": "/audio/hsk-w00471.mp3",
+    "hskLevel": 2,
+    "hskId": "w00471",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "quantity",
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00472",
+    "hanzi": "已经",
+    "pinyin": "yǐjīng",
+    "meaning": "Ya",
+    "audioUrl": "/audio/hsk-w00472.mp3",
+    "hskLevel": 2,
+    "hskId": "w00472",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00473",
+    "hanzi": "一起",
+    "pinyin": "yìqǐ",
+    "meaning": "Juntos",
+    "audioUrl": "/audio/hsk-w00473.mp3",
+    "hskLevel": 2,
+    "hskId": "w00473",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00474",
+    "hanzi": "意思",
+    "pinyin": "yìsi",
+    "meaning": "significado; idea",
+    "audioUrl": "/audio/hsk-w00474.mp3",
+    "hskLevel": 2,
+    "hskId": "w00474",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00475",
+    "hanzi": "阴",
+    "pinyin": "yīn",
+    "meaning": "nublado",
+    "audioUrl": "/audio/hsk-w00475.mp3",
+    "hskLevel": 2,
+    "hskId": "w00475",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00476",
+    "hanzi": "因为",
+    "pinyin": "yīnwèi",
+    "meaning": "Debido a; Porque; A causa de",
+    "audioUrl": "/audio/hsk-w00476.mp3",
+    "hskLevel": 2,
+    "hskId": "w00476",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "preposition",
+      "conjunction"
+    ]
+  },
+  {
+    "id": "hsk-w00477",
+    "hanzi": "游",
+    "pinyin": "yóu",
+    "meaning": "nadar; pasear",
+    "audioUrl": "/audio/hsk-w00477.mp3",
+    "hskLevel": 2,
+    "hskId": "w00477",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00478",
+    "hanzi": "游泳",
+    "pinyin": "yóuyǒng",
+    "meaning": "Nadar",
+    "audioUrl": "/audio/hsk-w00478.mp3",
+    "hskLevel": 2,
+    "hskId": "w00478",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00479",
+    "hanzi": "有意思",
+    "pinyin": "yǒu yìsi",
+    "meaning": "interesante; divertido",
+    "audioUrl": "/audio/hsk-w00479.mp3",
+    "hskLevel": 2,
+    "hskId": "w00479",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": []
+  },
+  {
+    "id": "hsk-w00480",
+    "hanzi": "有时",
+    "pinyin": "yǒushí",
+    "meaning": "a veces",
+    "audioUrl": "/audio/hsk-w00480.mp3",
+    "hskLevel": 2,
+    "hskId": "w00480",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00481",
+    "hanzi": "右",
+    "pinyin": "yòu",
+    "meaning": "Derecha",
+    "audioUrl": "/audio/hsk-w00481.mp3",
+    "hskLevel": 2,
+    "hskId": "w00481",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00482",
+    "hanzi": "右边",
+    "pinyin": "yòubian",
+    "meaning": "Derecha; Al lado derecho",
+    "audioUrl": "/audio/hsk-w00482.mp3",
+    "hskLevel": 2,
+    "hskId": "w00482",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00483",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "meaning": "pez; pescado",
+    "audioUrl": "/audio/hsk-w00483.mp3",
+    "hskLevel": 2,
+    "hskId": "w00483",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00484",
+    "hanzi": "远",
+    "pinyin": "yuǎn",
+    "meaning": "Lejos",
+    "audioUrl": "/audio/hsk-w00484.mp3",
+    "hskLevel": 2,
+    "hskId": "w00484",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00485",
+    "hanzi": "运动",
+    "pinyin": "yùndòng",
+    "meaning": "ejercicio; deporte; movimiento",
+    "audioUrl": "/audio/hsk-w00485.mp3",
+    "hskLevel": 2,
+    "hskId": "w00485",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00486",
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "meaning": "estación; ponerse de pie",
+    "audioUrl": "/audio/hsk-w00486.mp3",
+    "hskLevel": 2,
+    "hskId": "w00486",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00487",
+    "hanzi": "丈夫",
+    "pinyin": "zhàngfu",
+    "meaning": "marido",
+    "audioUrl": "/audio/hsk-w00487.mp3",
+    "hskLevel": 2,
+    "hskId": "w00487",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00488",
+    "hanzi": "这么",
+    "pinyin": "zhème",
+    "meaning": "así; tanto",
+    "audioUrl": "/audio/hsk-w00488.mp3",
+    "hskLevel": 2,
+    "hskId": "w00488",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00489",
+    "hanzi": "这样",
+    "pinyin": "zhèyàng",
+    "meaning": "así; de esta manera",
+    "audioUrl": "/audio/hsk-w00489.mp3",
+    "hskLevel": 2,
+    "hskId": "w00489",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00490",
+    "hanzi": "着",
+    "pinyin": "zhe",
+    "meaning": "(Partícula de acción continua)",
+    "audioUrl": "/audio/hsk-w00490.mp3",
+    "hskLevel": 2,
+    "hskId": "w00490",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "particle"
+    ]
+  },
+  {
+    "id": "hsk-w00491",
+    "hanzi": "正",
+    "pinyin": "zhèng",
+    "meaning": "recto; correcto",
+    "audioUrl": "/audio/hsk-w00491.mp3",
+    "hskLevel": 2,
+    "hskId": "w00491",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb",
+      "adjective"
+    ]
+  },
+  {
+    "id": "hsk-w00492",
+    "hanzi": "周",
+    "pinyin": "zhōu",
+    "meaning": "semana",
+    "audioUrl": "/audio/hsk-w00492.mp3",
+    "hskLevel": 2,
+    "hskId": "w00492",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun",
+      "measure word"
+    ]
+  },
+  {
+    "id": "hsk-w00493",
+    "hanzi": "准备",
+    "pinyin": "zhǔnbèi",
+    "meaning": "Preparar; Prepararse",
+    "audioUrl": "/audio/hsk-w00493.mp3",
+    "hskLevel": 2,
+    "hskId": "w00493",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00494",
+    "hanzi": "自己",
+    "pinyin": "zìjǐ",
+    "meaning": "El propio; Uno mismo",
+    "audioUrl": "/audio/hsk-w00494.mp3",
+    "hskLevel": 2,
+    "hskId": "w00494",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "pronoun"
+    ]
+  },
+  {
+    "id": "hsk-w00495",
+    "hanzi": "走",
+    "pinyin": "zǒu",
+    "meaning": "Caminar; Irse",
+    "audioUrl": "/audio/hsk-w00495.mp3",
+    "hskLevel": 2,
+    "hskId": "w00495",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00496",
+    "hanzi": "走路",
+    "pinyin": "zǒulù",
+    "meaning": "Caminar",
+    "audioUrl": "/audio/hsk-w00496.mp3",
+    "hskLevel": 2,
+    "hskId": "w00496",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "verb"
+    ]
+  },
+  {
+    "id": "hsk-w00497",
+    "hanzi": "足球",
+    "pinyin": "zúqiú",
+    "meaning": "fútbol; balón de fútbol",
+    "audioUrl": "/audio/hsk-w00497.mp3",
+    "hskLevel": 2,
+    "hskId": "w00497",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00498",
+    "hanzi": "最",
+    "pinyin": "zuì",
+    "meaning": "Más (superlativo)",
+    "audioUrl": "/audio/hsk-w00498.mp3",
+    "hskLevel": 2,
+    "hskId": "w00498",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "adverb"
+    ]
+  },
+  {
+    "id": "hsk-w00499",
+    "hanzi": "左",
+    "pinyin": "zuǒ",
+    "meaning": "Izquierda",
+    "audioUrl": "/audio/hsk-w00499.mp3",
+    "hskLevel": 2,
+    "hskId": "w00499",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  },
+  {
+    "id": "hsk-w00500",
+    "hanzi": "左边",
+    "pinyin": "zuǒbian",
+    "meaning": "Izquierda; Al lado izquierdo",
+    "audioUrl": "/audio/hsk-w00500.mp3",
+    "hskLevel": 2,
+    "hskId": "w00500",
+    "source": "HSK 3.0 2025 / HearMandarin",
+    "categories": [
+      "noun"
+    ]
+  }
+]
