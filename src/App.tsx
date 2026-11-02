@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { Volume2, VolumeX, ArrowRight, ArrowLeft, Settings2, Headphones, BookOpen, RotateCcw, Upload, Download, Check, Sparkles } from 'lucide-react'
 import { Rating } from 'ts-fsrs'
 import extraCsv from '../data/vocabulario_chino_extra.csv?raw'
-import { eligible, initial, load, parseVocabulary, rate, restore, save, shuffleIds, stats, toggleLearned, type Settings, type Snapshot, type Word } from './model'
+import { eligible, initial, load, offlineAudioUrls, parseVocabulary, rate, restore, save, shuffleIds, stats, toggleLearned, type Settings, type Snapshot, type Word } from './model'
 import './style.css'
 
 type Mode = 'study' | 'explore'
@@ -24,6 +24,7 @@ function App() {
   const [learnedFilter, setLearnedFilter] = useState('all')
   const [randomOrder, setRandomOrder] = useState<string[] | null>(null)
   const [listenFirst, setListenFirst] = useState(false)
+  const [offlineProgress, setOfflineProgress] = useState<{ count: number; ready: boolean } | null>(null)
   const audio = useRef<HTMLAudioElement | null>(null)
   const serial = useRef(0)
   const csvInput = useRef<HTMLInputElement>(null)
@@ -32,6 +33,24 @@ function App() {
   const latest = useRef<Snapshot | null>(null)
   const writes = useRef<Promise<void>>(Promise.resolve())
   useEffect(() => { load().then(d => { latest.current = d; setData(d); setCurrentId(eligible(d)[0]?.id ?? null); ready.current = true }).catch(() => { setError('No se puede abrir el almacenamiento. Comprueba que IndexedDB esté permitido y vuelve a cargar.'); const fallback = initial(); latest.current = fallback; setData(fallback) }) }, [])
+  useEffect(() => {
+    if (!('serviceWorker' in navigator) || !('caches' in window)) return
+    let alive = true
+    const expected = new Set(offlineAudioUrls.map(path => new URL(audioPath(path), location.href).pathname))
+    const check = async () => {
+      try {
+        const registration = await navigator.serviceWorker.getRegistration()
+        const names = (await caches.keys()).filter(name => name.startsWith('workbox-precache-'))
+        const found = new Set<string>()
+        for (const name of names) for (const request of await (await caches.open(name)).keys()) { const path = new URL(request.url).pathname; if (expected.has(path)) found.add(path) }
+        const ready = found.size === expected.size && !!registration?.active && !registration.installing
+        if (alive) { setOfflineProgress({ count: found.size, ready }); if (ready) window.clearInterval(timer) }
+      } catch { if (alive) setOfflineProgress(null) }
+    }
+    void check()
+    const timer = window.setInterval(() => void check(), 3000)
+    return () => { alive = false; window.clearInterval(timer) }
+  }, [])
   const persist = async (next: Snapshot) => {
     latest.current = next; setData(next)
     const write = writes.current.then(() => save(next)); writes.current = write.catch(() => {})
@@ -86,6 +105,7 @@ function App() {
       {mode === 'study' && revealed && <div className="rating-area"><p>¿Qué tal la recordabas?</p><div className="ratings">{([[Rating.Again,'Otra vez'],[Rating.Hard,'Difícil'],[Rating.Good,'Bien'],[Rating.Easy,'Fácil']] as const).map(([r,label]) => <button key={r} disabled={busy || !ready.current} onClick={() => void answer(r)}>{label}</button>)}</div></div>}</>}
       {!enabled && current && <button className="enable-audio" onClick={activate}><VolumeX size={19}/><span><strong>Activar audio</strong><small>Un toque para escuchar al avanzar</small></span><ArrowRight size={18}/></button>}
       <p className="status" role="status">{status}</p>{error && <p className="error" role="alert">{error}</p>}
+      {offlineProgress && <p className="offline-status" role="status">{offlineProgress.ready ? `✓ Listo para usar sin conexión · ${offlineProgress.count} audios` : `Preparando uso sin conexión · ${offlineProgress.count} / ${offlineAudioUrls.length} audios`}</p>}
       <div className="session-summary"><div><span>PARA HOY</span><strong>{summary.newLeft}</strong><small>nuevas disponibles</small></div><div><span>TU RITMO</span><strong>{summary.reviewed}</strong><small>repasos de hoy</small></div><div><span>ACIERTOS</span><strong>{summary.accuracy === null ? '—' : `${summary.accuracy}%`}</strong><small>sin contar «Otra vez»</small></div></div>
       <section className="settings" hidden={!settingsOpen}><div className="settings-head"><div><span className="eyebrow">HAZLO TUYO</span><h2>Ajustes</h2></div><button className="icon-button" aria-label="Cerrar ajustes" onClick={() => setSettingsOpen(false)}>×</button></div>
         <label className="setting"><span><strong>Velocidad de audio</strong><small>Encuentra tu ritmo para escuchar.</small></span><span className="range"><input type="range" min="0.55" max="1.15" step="0.05" value={data.settings.speed} onChange={e => setSetting({ speed: Number(e.target.value) })}/><output>{data.settings.speed.toFixed(2).replace('.',',')}×</output></span></label>
