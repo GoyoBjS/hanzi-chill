@@ -1,0 +1,5 @@
+Implementa ahora la PWA descrita en AGENTS.md, TASK.md y SPEC.md.
+
+El proyecto tiene un prototipo existente en legacy/chino_tarjetas_anki_audio.html, 30 fichas en data/base-deck.json, 30 MP3 reales en public/audio y otras 80 palabras en CSV. Utiliza esos activos; no inventes audios ni sustituyas por placeholders. Crea una PWA real en React + TypeScript + Vite, usable offline en Safari/iPhone, con reproducción automática del MP3 al pasar de tarjeta después de la primera interacción, control de velocidad, pinyin/traducción ocultables, Explorar/Repasar, FSRS, límite diario configurable, IndexedDB, importación/exportación, manifest, service worker, iconos, pruebas y README con los comandos para correr/desplegar.
+
+No hagas backend ni integración de IA en tiempo de ejecución: VoiceStudio se usará en el futuro para generar audios por lotes en el PC. Prioriza que la versión mínima funcione realmente. Ejecuta build y tests, corrige errores y explica brevemente el estado final y cualquier limitación de iOS.

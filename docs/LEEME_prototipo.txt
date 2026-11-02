@@ -1,0 +1,39 @@
+TARJETAS DE CHINO CON AUDIO — PAQUETE DE PRUEBA
+
+Archivos
+- chino_tarjetas_anki_audio.html: aplicación autónoma (30 tarjetas y audios ya integrados).
+- vocabulario_chino_extra.csv: 80 tarjetas opcionales adicionales; este CSV NO contiene audio.
+- generar_audios_voicestudio.py: genera archivos de audio mediante VoiceStudio LOCAL y los incrusta en un nuevo HTML.
+
+Uso básico (sin instalar nada)
+1. Abre chino_tarjetas_anki_audio.html en un navegador.
+2. Pulsa «Escuchar pronunciación» para activar el sonido. Después se reproduce al pasar de tarjeta.
+3. Ajusta la velocidad entre 0,55 y 1,15.
+4. En «Repasar», pulsa «Mostrar respuesta» y valora el recuerdo. En «Explorar», recorre libremente las tarjetas.
+5. Para añadir vocabulario, pulsa «Importar vocabulario CSV/TSV» y selecciona vocabulario_chino_extra.csv.
+   ATENCIÓN: esas tarjetas extra precisan una voz mandarín instalada en el dispositivo; no tienen audio pregrabado.
+
+Generar audio nuevo con VoiceStudio
+1. Instala y abre VoiceStudio (https://voicestudio.sh/) en tu PC.
+2. Descarga y selecciona un motor compatible con mandarín y con Windows/CUDA. CosyVoice 3 admite zh y CUDA; prueba primero la voz en la aplicación.
+3. Comprueba que funciona la API local en http://localhost:3900/health.
+4. En PowerShell, dentro de la carpeta donde están estos archivos, ejecuta:
+
+   py generar_audios_voicestudio.py --html chino_tarjetas_anki_audio.html --csv vocabulario_chino_extra.csv
+
+   Esto produce chino_tarjetas_con_voz_local.html con las 30 tarjetas iniciales y las 80 nuevas con sonido generado por VoiceStudio.
+
+5. Para sustituir también los audios originales y uniformar la voz, añade --regenerar.
+6. Para probar solo las primeras 5 tarjetas pendientes, añade --limite 5.
+
+No se han generado ni comprobado audios con VoiceStudio en este entorno. El script se ha probado contra una API simulada con el mismo formato.
+
+IMPORTANTE PARA APRENDER CHINO
+- El sonido de una IA no siempre reproduce correctamente el tono de un carácter aislado ni las variaciones de tono en una palabra.
+- Valida una muestra de pronunciaciones con fuentes nativas antes de usar una colección como material didáctico.
+- Para miles de audios, mejor una PWA alojada que sirva archivos MP3/Opus por separado. Un HTML con miles de clips incrustados puede hacerse demasiado grande.
+
+PROGRESO
+- El navegador guarda el progreso mediante localStorage cuando está permitido.
+- Si abres el archivo desde un móvil o en modo privado, el guardado puede ser inestable.
+- Exporta copias periódicas desde el botón «Guardar copia del progreso».

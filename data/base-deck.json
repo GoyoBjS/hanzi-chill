@@ -1,0 +1,242 @@
+[
+  {
+    "id": "base-001",
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "meaning": "tú",
+    "audioUrl": "/audio/base-001.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-002",
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "meaning": "bien / bueno",
+    "audioUrl": "/audio/base-002.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-003",
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning": "hola",
+    "audioUrl": "/audio/base-003.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-004",
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "meaning": "yo",
+    "audioUrl": "/audio/base-004.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-005",
+    "hanzi": "是",
+    "pinyin": "shì",
+    "meaning": "ser / estar",
+    "audioUrl": "/audio/base-005.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-006",
+    "hanzi": "不",
+    "pinyin": "bù",
+    "meaning": "no",
+    "audioUrl": "/audio/base-006.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-007",
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "meaning": "gracias",
+    "audioUrl": "/audio/base-007.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-008",
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "meaning": "adiós",
+    "audioUrl": "/audio/base-008.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-009",
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "meaning": "China",
+    "audioUrl": "/audio/base-009.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-010",
+    "hanzi": "人",
+    "pinyin": "rén",
+    "meaning": "persona",
+    "audioUrl": "/audio/base-010.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-011",
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "meaning": "estudiar",
+    "audioUrl": "/audio/base-011.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-012",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "meaning": "agua",
+    "audioUrl": "/audio/base-012.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-013",
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "meaning": "té",
+    "audioUrl": "/audio/base-013.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-014",
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "meaning": "comer",
+    "audioUrl": "/audio/base-014.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-015",
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "meaning": "beber",
+    "audioUrl": "/audio/base-015.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-016",
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "meaning": "gustar",
+    "audioUrl": "/audio/base-016.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-017",
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "meaning": "amigo / amiga",
+    "audioUrl": "/audio/base-017.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-018",
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "meaning": "hoy",
+    "audioUrl": "/audio/base-018.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-019",
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "meaning": "mañana",
+    "audioUrl": "/audio/base-019.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-020",
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "meaning": "profesor / profesora",
+    "audioUrl": "/audio/base-020.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-021",
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "meaning": "estudiante",
+    "audioUrl": "/audio/base-021.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-022",
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "meaning": "casa / familia",
+    "audioUrl": "/audio/base-022.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-023",
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "meaning": "qué",
+    "audioUrl": "/audio/base-023.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-024",
+    "hanzi": "书",
+    "pinyin": "shū",
+    "meaning": "libro",
+    "audioUrl": "/audio/base-024.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-025",
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "meaning": "por favor",
+    "audioUrl": "/audio/base-025.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-026",
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "meaning": "lo siento",
+    "audioUrl": "/audio/base-026.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-027",
+    "hanzi": "早上好",
+    "pinyin": "zǎoshang hǎo",
+    "meaning": "buenos días",
+    "audioUrl": "/audio/base-027.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-028",
+    "hanzi": "晚安",
+    "pinyin": "wǎn’ān",
+    "meaning": "buenas noches",
+    "audioUrl": "/audio/base-028.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-029",
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "meaning": "gato",
+    "audioUrl": "/audio/base-029.mp3",
+    "source": "prototype"
+  },
+  {
+    "id": "base-030",
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "meaning": "perro",
+    "audioUrl": "/audio/base-030.mp3",
+    "source": "prototype"
+  }
+]
