@@ -7,7 +7,7 @@ export interface Word { id: string; hanzi: string; pinyin: string; meaning: stri
 export interface Settings { speed: number; autoplay: boolean; showPinyin: boolean; newLimit: number }
 export interface Review { id: string; cardId: string; at: string; rating: number; introduced?: boolean }
 export interface Snapshot { version: 3; cards: Word[]; progress: Record<string, FSRSCard>; settings: Settings; reviews: Review[]; legacyArchive?: unknown }
-export const defaults: Settings = { speed: .85, autoplay: true, showPinyin: false, newLimit: 5 }
+export const defaults: Settings = { speed: 1, autoplay: true, showPinyin: false, newLimit: 5 }
 export const initial = (): Snapshot => ({ version: 3, cards: baseDeck, progress: {}, settings: { ...defaults }, reviews: [] })
 class Database extends Dexie { snapshots!: Table<{ id: string; data: Snapshot }, string>; constructor() { super('hanzi-chill'); this.version(1).stores({ snapshots: 'id' }) } }
 export const db = new Database()
