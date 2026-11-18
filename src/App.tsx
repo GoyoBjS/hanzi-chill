@@ -6,6 +6,7 @@ import extraCsv from '../data/vocabulario_chino_extra.csv?raw'
 import { ListeningExercise } from './ListeningExercise'
 import { ContextPractice, ContextText } from './ContextPractice'
 import { HandsFree } from './HandsFree'
+import { SentenceOrder } from './SentenceOrder'
 import { Today } from './Today'
 import { exampleFor } from './context'
 import { reminderCalendar } from './reminder'
@@ -14,7 +15,7 @@ import { eligible, initial, load, offlineAudioUrls, parseVocabulary, rate, resto
 import './style.css'
 
 type Mode = 'today' | 'study' | 'explore' | 'listen'
-type Practice = 'sounds' | 'cloze' | 'sentence' | 'handsfree'
+type Practice = 'sounds' | 'cloze' | 'sentence' | 'handsfree' | 'order'
 type Clip = Pick<Word, 'hanzi' | 'audioUrl'>
 type Confirmation = ReviewUndo & { word: Word; due: Date }
 const audioPath = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
@@ -56,7 +57,9 @@ function App() {
   const serial = useRef(0)
   const csvInput = useRef<HTMLInputElement>(null)
   const jsonInput = useRef<HTMLInputElement>(null)
-  const reminderForm = useRef<HTMLFormElement>(null)
+  const settingsDialog = useRef<HTMLDialogElement>(null)
+  const settingsOpener = useRef<HTMLButtonElement>(null)
+  const reminderTitle = useRef<HTMLHeadingElement>(null)
   useEffect(() => {
     const subscription = liveQuery(load).subscribe({
       next: snapshot => { setData(snapshot); setReady(true) },
@@ -218,10 +221,19 @@ function App() {
     setNow(at)
     if (next === 'study') setCurrentId(eligible(data, at).find(matches)?.id ?? null)
   }
-  const startToday = () => {
+  const resetStudyFilters = () => {
     setLevel('all'); setTopic('all'); setCategory('all'); setOnlyExamples(false)
+  }
+  const startToday = () => {
+    resetStudyFilters()
     changeMode('study')
     setCurrentId(eligible(data)[0]?.id ?? null)
+  }
+  const startOrder = () => {
+    resetStudyFilters()
+    setLearnedFilter('all')
+    setPractice('order')
+    changeMode('listen')
   }
   const advance = (direction = 1) => { if (mode === 'explore' && exploreWords.length) setIndex((index + direction + exploreWords.length) % exploreWords.length); else if (mode === 'study') { const i = available.findIndex(c => c.id === current?.id); if (available.length > 1) setCurrentId(available[(i + 1) % available.length].id); else setStatus('No hay más tarjetas disponibles ahora. Puedes explorar libremente.') } }
   const answer = async (rating: Rating) => {
@@ -291,8 +303,26 @@ function App() {
       setError(`No se pudo restaurar: ${(exception as Error).message}`)
     }
   }
+  const openSettings = (opener: HTMLButtonElement, showReminder = false) => {
+    const dialog = settingsDialog.current
+    if (!dialog || dialog.open) return
+    settingsOpener.current = opener
+    setStatus('')
+    dialog.showModal()
+    setSettingsOpen(true)
+    dialog.scrollTop = 0
+    if (showReminder) {
+      reminderTitle.current?.focus({ preventScroll: true })
+      reminderTitle.current?.scrollIntoView({ block: 'start' })
+    }
+  }
   return <div className="app-shell">
-    <header className="header"><div className="brand"><div className="brand-mark">汉</div><div><strong>汉字 <span>Chill</span></strong><small>CHINO A TU RITMO</small></div></div><button className="icon-button" aria-label="Abrir ajustes" aria-expanded={settingsOpen} onClick={() => setSettingsOpen(!settingsOpen)}><Settings2 size={20}/></button></header>
+    <header className="header">
+      <div className="brand"><div className="brand-mark">汉</div><div><strong>汉字 <span>Chill</span></strong><small>CHINO A TU RITMO</small></div></div>
+      <button className="secondary settings-toggle" aria-label="Abrir ajustes" aria-haspopup="dialog" aria-controls="settings" aria-expanded={settingsOpen} onClick={event => openSettings(event.currentTarget)}>
+        <Settings2 size={19}/> Ajustes
+      </button>
+    </header>
     <main>
       <nav className="tabs" aria-label="Modo de estudio">
         <button className={mode === 'today' ? 'active' : ''} aria-pressed={mode === 'today'} onClick={() => changeMode('today')}><CalendarDays size={17}/> Hoy</button>
@@ -301,16 +331,13 @@ function App() {
         <button className={mode === 'listen' ? 'active' : ''} aria-pressed={mode === 'listen'} onClick={() => changeMode('listen')}><Volume2 size={17}/> Oído</button>
       </nav>
       {mode === 'today' ? (
-        <Today data={data} now={now} start={startToday} explore={() => changeMode('explore')} reminder={() => {
-          setSettingsOpen(true)
-          requestAnimationFrame(() => reminderForm.current?.scrollIntoView({ block: 'center' }))
-        }}/>
+        <Today data={data} now={now} start={startToday} explore={() => changeMode('explore')} reminder={opener => openSettings(opener, true)} orderSentence={startOrder}/>
       ) : <>
       <div className="filters"><label>Nivel<select value={level} onChange={e => { setLevel(e.target.value); setIndex(0) }}><option value="all">Todos</option><option value="1">HSK 3.0 · 1</option><option value="2">HSK 3.0 · 2</option><option value="other">Sin nivel</option></select></label><label className="filter-topic">Tema<select value={topic} onChange={e => { setTopic(e.target.value); setIndex(0) }}><option value="all">Todos</option>{topics.map(t => <option key={t.id} value={t.id}>{t.label}</option>)}<option value="other">Otras palabras</option></select></label><label>Tipo<select value={category} onChange={e => { setCategory(e.target.value); setIndex(0) }}><option value="all">Todos</option><option value="noun">Sustantivos</option><option value="verb">Verbos</option><option value="adjective">Adjetivos</option><option value="pronoun">Pronombres</option><option value="numeral">Números</option><option value="measure word">Clasificadores</option><option value="particle">Partículas</option></select></label>{mode !== 'study' && <label>Estado<select value={learnedFilter} onChange={e => { setLearnedFilter(e.target.value); setIndex(0) }}><option value="all">Todas</option><option value="active">Por aprender</option><option value="seen">Ya vistas</option><option value="learned">Aprendidas</option></select></label>}</div>
       <div className="practice-options"><button className={onlyExamples ? 'selected' : ''} aria-pressed={onlyExamples} onClick={() => { setOnlyExamples(!onlyExamples); setIndex(0) }}>Con frase</button>{mode === 'explore' ? <button className={randomOrder ? 'selected' : ''} aria-pressed={!!randomOrder} onClick={() => { setRandomOrder(randomOrder ? null : shuffleIds(words)); setIndex(0) }}>⤨ {randomOrder ? 'Desactivar orden aleatorio' : 'Activar orden aleatorio'}</button> : mode === 'study' ? <button className={listenFirst ? 'selected' : ''} aria-pressed={listenFirst} onClick={() => { setListenFirst(!listenFirst); setRevealed(false) }}><Headphones size={16}/> {listenFirst ? 'Escuchar primero: sí' : 'Escuchar primero: no'}</button> : null}</div>
       {mode === 'listen' ? <>
-        <div className="exercise-tabs practice-tabs" role="group" aria-label="Práctica de oído">
-          {([['sounds', 'Palabras y tonos'], ['cloze', 'Completar frase'], ['sentence', 'Oír frase'], ['handsfree', 'Manos libres']] as const).map(([id, label]) => (
+        <div className="exercise-tabs practice-tabs" role="group" aria-label="Prácticas">
+          {([['sounds', 'Palabras y tonos'], ['cloze', 'Completar frase'], ['sentence', 'Oír frase'], ['handsfree', 'Manos libres'], ['order', 'Ordena la frase']] as const).map(([id, label]) => (
             <button key={id} aria-pressed={practice === id} onClick={() => { setPractice(id); setStatus('') }}>{label}</button>
           ))}
         </div>
@@ -319,6 +346,7 @@ function App() {
           <ContextPractice key={practice + practiceKey} words={exerciseWords} blank={practice === 'cloze'} autoplay={data.settings.autoplay} play={playClip} stop={stop}/>
         )}
         {practice === 'handsfree' && <HandsFree key={practiceKey + speed} words={exerciseWords} play={playClip} stop={stop}/>}
+        {practice === 'order' && <SentenceOrder key={practiceKey} words={exerciseWords} data={data} autoplay={data.settings.autoplay} play={playClip} stop={stop} study={startToday}/>}
       </> : <>
       <div className="section-heading"><div><span className="eyebrow">{mode === 'study' ? 'TU SESIÓN' : 'A TU AIRE'}</span><h2>{mode === 'study' ? 'Vamos a recordar' : 'Explora el mazo'}</h2></div><span className="counter">{mode === 'explore' ? `${current ? index % exploreWords.length + 1 : 0} / ${exploreWords.length}` : `${available.filter(c => !!data.progress[c.id]).length} pendientes`}</span></div>
       <section className="study-card" aria-label="Tarjeta de estudio">
@@ -338,15 +366,29 @@ function App() {
         <p role="status"><strong lang="zh-Hans">{lastReview.word.hanzi}</strong> vuelve el <time dateTime={lastReview.due.toISOString()}>{reviewTime.format(lastReview.due)}</time></p>
         <button className="secondary" disabled={busy} onClick={() => void undo()}><RotateCcw size={16}/> Deshacer repaso</button>
       </div>}
-      <p className="status" role="status">{status}</p>{error && <p className="error" role="alert">{error}</p>}
+      {!settingsOpen && <><p className="status" role="status">{status}</p>{error && <p className="error" role="alert">{error}</p>}</>}
       {offlineProgress && <p className="offline-status" role="status">{offlineProgress.ready ? `✓ Listo para usar sin conexión · ${offlineProgress.count} audios` : `Preparando uso sin conexión · ${offlineProgress.count} / ${offlineAudioUrls.length} audios`}</p>}
       {showCard && <div className="session-summary"><div><span>PARA HOY</span><strong>{summary.newLeft}</strong><small>nuevas disponibles</small></div><div><span>TU RITMO</span><strong>{summary.reviewed}</strong><small>repasos de hoy</small></div><div><span>RECORDADAS</span><strong>{summary.accuracy === null ? '—' : `${summary.accuracy}%`}</strong><small>calificadas sin «Otra vez»</small></div></div>}
-      <section className="settings" hidden={!settingsOpen}><div className="settings-head"><div><span className="eyebrow">HAZLO TUYO</span><h2>Ajustes</h2></div><button className="icon-button" aria-label="Cerrar ajustes" onClick={() => setSettingsOpen(false)}>×</button></div>
+      <dialog id="settings" ref={settingsDialog} className="settings settings-drawer" aria-labelledby="settings-title"
+        onClose={event => {
+          if (event.currentTarget.open) return
+          setSettingsOpen(false)
+          settingsOpener.current?.focus({ preventScroll: true })
+        }}
+        onClick={event => {
+          if (event.target === event.currentTarget && event.clientX < event.currentTarget.getBoundingClientRect().left) {
+            event.currentTarget.close()
+          }
+        }}>
+        <div className="settings-head">
+          <h2 id="settings-title">Ajustes</h2>
+          <button className="icon-button" aria-label="Cerrar ajustes" autoFocus onClick={() => settingsDialog.current?.close()}>×</button>
+        </div>
         <label className="setting"><span><strong>Velocidad de audio</strong><small>Encuentra tu ritmo para escuchar.</small></span><span className="range"><input type="range" min="0.55" max="1.15" step="0.05" value={data.settings.speed} onChange={e => setSetting({ speed: Number(e.target.value) })}/><output>{data.settings.speed.toFixed(2).replace('.',',')}×</output></span></label>
         <label className="setting"><span><strong>Reproducción automática</strong><small>Escuchar al cambiar de tarjeta.</small></span><input type="checkbox" checked={data.settings.autoplay} onChange={e => setSetting({ autoplay: e.target.checked })}/></label>
         <label className="setting"><span><strong>Mostrar pinyin</strong><small>Ver la pronunciación antes de revelar.</small></span><input type="checkbox" checked={data.settings.showPinyin} onChange={e => setSetting({ showPinyin: e.target.checked })}/></label>
          <label className="setting"><span><strong>Nuevas al día</strong><small>Las tarjetas pendientes siempre aparecen.</small></span><input className="number" type="number" min="0" max="999" value={data.settings.newLimit} onChange={e => setSetting({ newLimit: Math.max(0, Math.min(999, Math.floor(Number(e.target.value)))) })}/></label>
-         <form ref={reminderForm} className="data-tools reminder" onSubmit={event => {
+         <form className="data-tools reminder" onSubmit={event => {
            event.preventDefault()
            const time = new FormData(event.currentTarget).get('reminder-time')
            if (typeof time !== 'string' || !time) return
@@ -354,7 +396,7 @@ function App() {
            setSetting({ reminderTime: time })
            setStatus('Evento descargado. Impórtalo en tu calendario para activar el aviso.')
          }}>
-           <h3>Recordatorio diario</h3>
+           <h3 ref={reminderTitle} tabIndex={-1}>Recordatorio diario</h3>
            <p>Elige una hora e importa el evento en tu calendario para recibir el aviso con la app cerrada.</p>
            <div className="reminder-controls">
              <label>Hora del aviso <input type="time" name="reminder-time" required key={data.settings.reminderTime} defaultValue={data.settings.reminderTime ?? '19:00'}/></label>
@@ -363,8 +405,10 @@ function App() {
            <p>En iPhone puedes abrir el archivo adjunto desde Mail o crear un aviso con repetición diaria en Recordatorios. Cambia o elimina el evento desde tu calendario.</p>
          </form>
         <div className="data-tools"><h3>Tu vocabulario y progreso</h3><p>Todo se guarda en este dispositivo. Exporta una copia para llevarla contigo.</p><div className="tool-grid"><button onClick={() => void addVocabulary(extraCsv)}><Sparkles size={17}/> Añadir vocabulario extra</button><button onClick={() => csvInput.current?.click()}><Upload size={17}/> Importar CSV / TSV</button><button onClick={exportBackup}><Download size={17}/> Exportar copia</button><button onClick={() => jsonInput.current?.click()}><RotateCcw size={17}/> Restaurar copia</button></div><input ref={csvInput} hidden type="file" accept=".csv,.tsv,text/csv,text/tab-separated-values" onChange={e => { const f=e.target.files?.[0]; if (f) void f.text().then(addVocabulary).catch(() => setError('No se pudo leer el archivo.')); e.target.value='' }}/><input ref={jsonInput} hidden type="file" accept=".json,application/json" onChange={e => { const f=e.target.files?.[0]; if (f && window.confirm('Restaurar sustituirá el mazo, los ajustes y el progreso actuales. ¿Continuar?')) void importBackup(f); e.target.value='' }}/></div>
+        <p className="status" role="status">{settingsOpen ? status : ''}</p>
+        {settingsOpen && error && <p className="error" role="alert">{error}</p>}
         <div className="install"><strong>En tu iPhone</strong><p>Abre esta página en Safari, toca Compartir y después «Añadir a pantalla de inicio». Necesitas HTTPS o localhost para instalarla y usarla sin conexión tras la primera carga.</p></div>
-      </section>
+      </dialog>
       <footer><span>汉字 CHILL</span><p>Un pequeño momento para aprender algo nuevo.<br/>Las voces son sintéticas y las traducciones son orientativas; no han sido revisadas profesionalmente.</p><p>Datos HSK adaptados de <a href="https://hearmandarin.com/datasets/">HearMandarin · CC BY 4.0</a>. Traducciones adaptadas de <a href="https://github.com/nar-ran/hsk-vocab-es">nar-ran · MIT</a>. <a href={`${import.meta.env.BASE_URL}creditos-hsk.txt`}>Créditos y licencias</a>.</p></footer>
     </main>
   </div>

@@ -323,7 +323,9 @@
     "hanzi": "晚上我们去电影院看电影吧。",
     "pinyin": "Wǎnshang wǒmen qù diànyǐngyuàn kàn diànyǐng ba.",
     "meaning": "¿Y si esta noche vamos al cine a ver una película?",
-    "lastOccurrence": ["w00038"],
+    "lastOccurrence": [
+      "w00038"
+    ],
     "hskIds": [
       "w00217",
       "w00039",
@@ -350,7 +352,9 @@
     "hanzi": "我在大学学汉语。",
     "pinyin": "Wǒ zài dàxué xué Hànyǔ.",
     "meaning": "Estudio chino en la universidad.",
-    "lastOccurrence": ["w00247"],
+    "lastOccurrence": [
+      "w00247"
+    ],
     "hskIds": [
       "w00027",
       "w00247",
@@ -376,7 +380,9 @@
     "hanzi": "下课以后，我有一个问题想问你。",
     "pinyin": "Xiàkè yǐhòu, wǒ yǒu yí ge wèntí xiǎng wèn nǐ.",
     "meaning": "Cuando termine la clase, quiero hacerte una pregunta.",
-    "lastOccurrence": ["w00219"],
+    "lastOccurrence": [
+      "w00219"
+    ],
     "hskIds": [
       "w00229",
       "w00263",
@@ -469,5 +475,2056 @@
       "w00276"
     ],
     "audioUrl": "/audio/context-040.mp3"
+  },
+  {
+    "id": "context-041",
+    "hanzi": "我爱吃包子和鸡蛋。",
+    "pinyin": "Wǒ ài chī bāozi hé jīdàn.",
+    "meaning": "Me encanta comer baozi y huevos.",
+    "hskIds": [
+      "w00001",
+      "w00008",
+      "w00084"
+    ],
+    "audioUrl": "/audio/context-041.mp3"
+  },
+  {
+    "id": "context-042",
+    "hanzi": "八点半以前，请回家。",
+    "pinyin": "Bā diǎn bàn yǐqián, qǐng huí jiā.",
+    "meaning": "Por favor, vuelve a casa antes de las ocho y media.",
+    "hskIds": [
+      "w00002",
+      "w00007",
+      "w00165"
+    ],
+    "audioUrl": "/audio/context-042.mp3",
+    "variants": [
+      {
+        "hanzi": "回家",
+        "pinyin": "huí jiā"
+      }
+    ]
+  },
+  {
+    "id": "context-043",
+    "hanzi": "白天我去上课，晚上回来读书。",
+    "pinyin": "Báitiān wǒ qù shàngkè, wǎnshang huílái dúshū.",
+    "meaning": "Durante el día voy a clase. Por la noche vuelvo a casa y leo.",
+    "hskIds": [
+      "w00005",
+      "w00177",
+      "w00043",
+      "w00361"
+    ],
+    "audioUrl": "/audio/context-043.mp3"
+  },
+  {
+    "id": "context-044",
+    "hanzi": "我每晚读一页书。",
+    "pinyin": "Wǒ měi wǎn dú yí yè shū.",
+    "meaning": "Leo una página de un libro cada noche.",
+    "hskIds": [
+      "w00042",
+      "w00254",
+      "w00399"
+    ],
+    "audioUrl": "/audio/context-044.mp3"
+  },
+  {
+    "id": "context-045",
+    "hanzi": "买三个包子要十元。",
+    "pinyin": "Mǎi sān ge bāozi yào shí yuán.",
+    "meaning": "Comprar tres baozi cuesta diez yuanes.",
+    "hskIds": [
+      "w00173",
+      "w00252",
+      "w00184",
+      "w00268"
+    ],
+    "audioUrl": "/audio/context-045.mp3"
+  },
+  {
+    "id": "context-046",
+    "hanzi": "有一百个人住在这儿。",
+    "pinyin": "Yǒu yì bǎi ge rén zhù zài zhèr.",
+    "meaning": "Aquí viven cien personas.",
+    "hskIds": [
+      "w00006",
+      "w00170",
+      "w00294",
+      "w00283"
+    ],
+    "audioUrl": "/audio/context-046.mp3"
+  },
+  {
+    "id": "context-047",
+    "hanzi": "把那个杯子放在桌子上。",
+    "pinyin": "Bǎ nàge bēizi fàng zài zhuōzi shàng.",
+    "meaning": "Pon ese vaso en la mesa.",
+    "hskIds": [
+      "w00138",
+      "w00009",
+      "w00295",
+      "w00175"
+    ],
+    "audioUrl": "/audio/context-047.mp3"
+  },
+  {
+    "id": "context-048",
+    "hanzi": "这张纸的两边都有字。",
+    "pinyin": "Zhè zhāng zhǐ de liǎng biān dōu yǒu zì.",
+    "meaning": "Hay caracteres en los dos márgenes de esta hoja.",
+    "hskIds": [
+      "w00279",
+      "w00011",
+      "w00296"
+    ],
+    "audioUrl": "/audio/context-048.mp3"
+  },
+  {
+    "id": "context-049",
+    "hanzi": "医生说他的病不严重。",
+    "pinyin": "Yīshēng shuō tā de bìng bù yánzhòng.",
+    "meaning": "El médico dice que su enfermedad es leve.",
+    "hskIds": [
+      "w00012",
+      "w00200"
+    ],
+    "audioUrl": "/audio/context-049.mp3"
+  },
+  {
+    "id": "context-050",
+    "hanzi": "我不喝牛奶。",
+    "pinyin": "Wǒ bù hē niúnǎi.",
+    "meaning": "No bebo leche.",
+    "hskIds": [
+      "w00013",
+      "w00151"
+    ],
+    "audioUrl": "/audio/context-050.mp3"
+  },
+  {
+    "id": "context-051",
+    "hanzi": "“谢谢您！”“不客气。”",
+    "pinyin": "“Xièxie nín!” “Bú kèqi.”",
+    "meaning": "«¡Muchas gracias!» «De nada».",
+    "hskIds": [
+      "w00150",
+      "w00014"
+    ],
+    "audioUrl": "/audio/context-051.mp3"
+  },
+  {
+    "id": "context-052",
+    "hanzi": "请不要在图书馆说话。",
+    "pinyin": "Qǐng búyào zài túshūguǎn shuōhuà.",
+    "meaning": "Por favor, no hables en la biblioteca.",
+    "hskIds": [
+      "w00015",
+      "w00197"
+    ],
+    "audioUrl": "/audio/context-052.mp3"
+  },
+  {
+    "id": "context-053",
+    "hanzi": "大家都说这家饭店的菜好吃。",
+    "pinyin": "Dàjiā dōu shuō zhè jiā fàndiàn de cài hǎochī.",
+    "meaning": "Todo el mundo dice que la comida de este restaurante está rica.",
+    "hskIds": [
+      "w00026",
+      "w00051",
+      "w00016",
+      "w00072"
+    ],
+    "audioUrl": "/audio/context-053.mp3"
+  },
+  {
+    "id": "context-054",
+    "hanzi": "妹妹喜欢唱歌，这首歌很好听。",
+    "pinyin": "Mèimei xǐhuan chàng gē, zhè shǒu gē hěn hǎotīng.",
+    "meaning": "A mi hermana pequeña le gusta cantar. Esta canción suena muy bien.",
+    "hskIds": [
+      "w00123",
+      "w00018",
+      "w00074"
+    ],
+    "audioUrl": "/audio/context-054.mp3"
+  },
+  {
+    "id": "context-055",
+    "hanzi": "门外有一辆车。",
+    "pinyin": "Mén wài yǒu yí liàng chē.",
+    "meaning": "Fuera hay un coche.",
+    "hskIds": [
+      "w00212",
+      "w00020"
+    ],
+    "audioUrl": "/audio/context-055.mp3"
+  },
+  {
+    "id": "context-056",
+    "hanzi": "她穿了一件很漂亮的衣服。",
+    "pinyin": "Tā chuān le yí jiàn hěn piàoliang de yīfu.",
+    "meaning": "Se puso una prenda muy bonita.",
+    "hskIds": [
+      "w00023",
+      "w00108",
+      "w00079",
+      "w00158"
+    ],
+    "audioUrl": "/audio/context-056.mp3"
+  },
+  {
+    "id": "context-057",
+    "hanzi": "中国是一个大国。",
+    "pinyin": "Zhōngguó shì yí ge dà guó.",
+    "meaning": "China es un país grande.",
+    "hskIds": [
+      "w00289",
+      "w00025",
+      "w00066"
+    ],
+    "audioUrl": "/audio/context-057.mp3",
+    "lastOccurrence": [
+      "w00066"
+    ],
+    "variants": [
+      {
+        "hanzi": "一个",
+        "pinyin": "yí ge"
+      }
+    ]
+  },
+  {
+    "id": "context-058",
+    "hanzi": "我弟弟是大学生，他在北京上学。",
+    "pinyin": "Wǒ dìdi shì dàxuéshēng, tā zài Běijīng shàngxué.",
+    "meaning": "Mi hermano pequeño es universitario y estudia en Pekín.",
+    "hskIds": [
+      "w00032",
+      "w00028",
+      "w00179"
+    ],
+    "audioUrl": "/audio/context-058.mp3",
+    "variants": [
+      {
+        "hanzi": "北京",
+        "pinyin": "Běijīng"
+      }
+    ]
+  },
+  {
+    "id": "context-059",
+    "hanzi": "我们九点到商店。",
+    "pinyin": "Wǒmen jiǔ diǎn dào shāngdiàn.",
+    "meaning": "Llegamos a la tienda a las nueve.",
+    "hskIds": [
+      "w00095",
+      "w00029",
+      "w00174"
+    ],
+    "audioUrl": "/audio/context-059.mp3"
+  },
+  {
+    "id": "context-060",
+    "hanzi": "这是我第一次坐飞机。",
+    "pinyin": "Zhè shì wǒ dì yī cì zuò fēijī.",
+    "meaning": "Es la primera vez que viajo en avión.",
+    "hskIds": [
+      "w00031",
+      "w00054",
+      "w00323"
+    ],
+    "audioUrl": "/audio/context-060.mp3"
+  },
+  {
+    "id": "context-061",
+    "hanzi": "这家店卖茶和香蕉。",
+    "pinyin": "Zhè jiā diàn mài chá hé xiāngjiāo.",
+    "meaning": "Esta tienda vende té y plátanos.",
+    "hskIds": [
+      "w00034",
+      "w00117"
+    ],
+    "audioUrl": "/audio/context-061.mp3",
+    "variants": [
+      {
+        "hanzi": "香蕉",
+        "pinyin": "xiāngjiāo"
+      }
+    ]
+  },
+  {
+    "id": "context-062",
+    "hanzi": "那个电话是谁的？",
+    "pinyin": "Nàge diànhuà shì shéi de?",
+    "meaning": "¿De quién es ese teléfono?",
+    "hskIds": [
+      "w00035",
+      "w00181"
+    ],
+    "audioUrl": "/audio/context-062.mp3"
+  },
+  {
+    "id": "context-063",
+    "hanzi": "我用电脑上网，孩子们在看电视。",
+    "pinyin": "Wǒ yòng diànnǎo shàngwǎng, háizimen zài kàn diànshì.",
+    "meaning": "Yo uso el ordenador para navegar y los niños ven la tele.",
+    "hskIds": [
+      "w00036",
+      "w00428",
+      "w00068",
+      "w00124",
+      "w00037"
+    ],
+    "audioUrl": "/audio/context-063.mp3"
+  },
+  {
+    "id": "context-064",
+    "hanzi": "我在房间里找我的东西。",
+    "pinyin": "Wǒ zài fángjiān lǐ zhǎo wǒ de dōngxi.",
+    "meaning": "Busco mis cosas en la habitación.",
+    "hskIds": [
+      "w00052",
+      "w00110",
+      "w00278",
+      "w00040"
+    ],
+    "audioUrl": "/audio/context-064.mp3"
+  },
+  {
+    "id": "context-065",
+    "hanzi": "“七加二等于九，对吗？”",
+    "pinyin": "“Qī jiā èr děngyú jiǔ, duì ma?”",
+    "meaning": "«Siete más dos son nueve, ¿verdad?»",
+    "hskIds": [
+      "w00160",
+      "w00049",
+      "w00044"
+    ],
+    "audioUrl": "/audio/context-065.mp3"
+  },
+  {
+    "id": "context-066",
+    "hanzi": "“对不起，我来晚了。”“没关系。”",
+    "pinyin": "“Duìbuqǐ, wǒ lái wǎn le.” “Méi guānxi.”",
+    "meaning": "«Perdón por llegar tarde». «No pasa nada».",
+    "hskIds": [
+      "w00045",
+      "w00106",
+      "w00215",
+      "w00120"
+    ],
+    "audioUrl": "/audio/context-066.mp3"
+  },
+  {
+    "id": "context-067",
+    "hanzi": "这里人很多，椅子太少了。",
+    "pinyin": "Zhèlǐ rén hěn duō, yǐzi tài shǎo le.",
+    "meaning": "Hay mucha gente aquí y muy pocas sillas.",
+    "hskIds": [
+      "w00046",
+      "w00260",
+      "w00180"
+    ],
+    "audioUrl": "/audio/context-067.mp3"
+  },
+  {
+    "id": "context-068",
+    "hanzi": "她的儿子今年八岁，是小学生。",
+    "pinyin": "Tā de érzi jīnnián bā suì, shì xiǎoxuéshēng.",
+    "meaning": "Su hijo cumple ocho años este año y va a primaria.",
+    "hskIds": [
+      "w00048",
+      "w00093",
+      "w00199",
+      "w00238"
+    ],
+    "audioUrl": "/audio/context-068.mp3"
+  },
+  {
+    "id": "context-069",
+    "hanzi": "我非常高兴见到我的家人。",
+    "pinyin": "Wǒ fēicháng gāoxìng jiàndào wǒ de jiārén.",
+    "meaning": "Me alegra mucho ver a mi familia.",
+    "hskIds": [
+      "w00053",
+      "w00057",
+      "w00088",
+      "w00087"
+    ],
+    "audioUrl": "/audio/context-069.mp3"
+  },
+  {
+    "id": "context-070",
+    "hanzi": "现在是两点零五分。",
+    "pinyin": "Xiànzài shì liǎng diǎn líng wǔ fēn.",
+    "meaning": "Ahora son las dos y cinco.",
+    "hskIds": [
+      "w00232",
+      "w00112",
+      "w00223",
+      "w00055"
+    ],
+    "audioUrl": "/audio/context-070.mp3"
+  },
+  {
+    "id": "context-071",
+    "hanzi": "从这儿走十分钟就到了。",
+    "pinyin": "Cóng zhèr zǒu shí fēnzhōng jiù dào le.",
+    "meaning": "Desde aquí se tarda diez minutos a pie.",
+    "hskIds": [
+      "w00056",
+      "w00324",
+      "w00376"
+    ],
+    "audioUrl": "/audio/context-071.mp3"
+  },
+  {
+    "id": "context-072",
+    "hanzi": "我哥哥明年要去上海工作。",
+    "pinyin": "Wǒ gēge míngnián yào qù Shànghǎi gōngzuò.",
+    "meaning": "Mi hermano mayor se va a trabajar a Shanghái el año que viene.",
+    "hskIds": [
+      "w00059",
+      "w00128"
+    ],
+    "audioUrl": "/audio/context-072.mp3",
+    "variants": [
+      {
+        "hanzi": "上海",
+        "pinyin": "Shànghǎi"
+      }
+    ]
+  },
+  {
+    "id": "context-073",
+    "hanzi": "我觉得这部电影很好看。",
+    "pinyin": "Wǒ juéde zhè bù diànyǐng hěn hǎokàn.",
+    "meaning": "Me parece que esta película está muy bien.",
+    "hskIds": [
+      "w00096",
+      "w00073"
+    ],
+    "audioUrl": "/audio/context-073.mp3"
+  },
+  {
+    "id": "context-074",
+    "hanzi": "那个游戏真好玩儿。",
+    "pinyin": "Nàge yóuxì zhēn hǎowánr.",
+    "meaning": "Ese juego es muy divertido.",
+    "hskIds": [
+      "w00075",
+      "w00285"
+    ],
+    "audioUrl": "/audio/context-074.mp3"
+  },
+  {
+    "id": "context-075",
+    "hanzi": "我住在这条街的七号。",
+    "pinyin": "Wǒ zhù zài zhè tiáo jiē de qī hào.",
+    "meaning": "Vivo en el número siete de esta calle.",
+    "hskIds": [
+      "w00076",
+      "w00443"
+    ],
+    "audioUrl": "/audio/context-075.mp3"
+  },
+  {
+    "id": "context-076",
+    "hanzi": "饭后我回学校拿书。",
+    "pinyin": "Fàn hòu wǒ huí xuéxiào ná shū.",
+    "meaning": "Después de comer vuelvo a la escuela a por un libro.",
+    "hskIds": [
+      "w00080",
+      "w00081",
+      "w00405"
+    ],
+    "audioUrl": "/audio/context-076.mp3"
+  },
+  {
+    "id": "context-077",
+    "hanzi": "你家有几口人？",
+    "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+    "meaning": "¿Cuántas personas sois en tu familia?",
+    "hskIds": [
+      "w00085",
+      "w00104"
+    ],
+    "audioUrl": "/audio/context-077.mp3"
+  },
+  {
+    "id": "context-078",
+    "hanzi": "午饭吃饺子怎么样？",
+    "pinyin": "Wǔfàn chī jiǎozi zěnmeyàng?",
+    "meaning": "¿Qué te parece si comemos jiaozi al mediodía?",
+    "hskIds": [
+      "w00224",
+      "w00090",
+      "w00277"
+    ],
+    "audioUrl": "/audio/context-078.mp3"
+  },
+  {
+    "id": "context-079",
+    "hanzi": "我来开门，你去开车。",
+    "pinyin": "Wǒ lái kāi mén, nǐ qù kāichē.",
+    "meaning": "Yo abro la puerta y tú conduces.",
+    "hskIds": [
+      "w00097",
+      "w00098",
+      "w00400"
+    ],
+    "audioUrl": "/audio/context-079.mp3"
+  },
+  {
+    "id": "context-080",
+    "hanzi": "我看见他们在外边玩。",
+    "pinyin": "Wǒ kànjiàn tāmen zài wàibian wán.",
+    "meaning": "Los veo jugando fuera.",
+    "hskIds": [
+      "w00101",
+      "w00203",
+      "w00213",
+      "w00214"
+    ],
+    "audioUrl": "/audio/context-080.mp3"
+  },
+  {
+    "id": "context-081",
+    "hanzi": "我可以上这节课吗？",
+    "pinyin": "Wǒ kěyǐ shàng zhè jié kè ma?",
+    "meaning": "¿Puedo asistir a esta clase?",
+    "hskIds": [
+      "w00102",
+      "w00103"
+    ],
+    "audioUrl": "/audio/context-081.mp3"
+  },
+  {
+    "id": "context-082",
+    "hanzi": "这件衣服只要二十块。",
+    "pinyin": "Zhè jiàn yīfu zhǐ yào èrshí kuài.",
+    "meaning": "Esta prenda cuesta solo veinte yuanes.",
+    "hskIds": [
+      "w00105"
+    ],
+    "audioUrl": "/audio/context-082.mp3"
+  },
+  {
+    "id": "context-083",
+    "hanzi": "“你没事吧？”“我没有生病。”",
+    "pinyin": "“Nǐ méishì ba?” “Wǒ méiyǒu shēngbìng.”",
+    "meaning": "«¿Estás bien?» «Sí, no estoy enfermo».",
+    "hskIds": [
+      "w00121",
+      "w00122",
+      "w00183"
+    ],
+    "audioUrl": "/audio/context-083.mp3"
+  },
+  {
+    "id": "context-084",
+    "hanzi": "我中午想吃面条儿，晚上想吃米饭。",
+    "pinyin": "Wǒ zhōngwǔ xiǎng chī miàntiáor, wǎnshang xiǎng chī mǐfàn.",
+    "meaning": "Al mediodía quiero comer fideos y por la noche, arroz.",
+    "hskIds": [
+      "w00291",
+      "w00127"
+    ],
+    "audioUrl": "/audio/context-084.mp3"
+  },
+  {
+    "id": "context-085",
+    "hanzi": "你的名字叫什么？",
+    "pinyin": "Nǐ de míngzi jiào shénme?",
+    "meaning": "¿Cómo te llamas?",
+    "hskIds": [
+      "w00130"
+    ],
+    "audioUrl": "/audio/context-085.mp3",
+    "variants": [
+      {
+        "hanzi": "叫什么",
+        "pinyin": "jiào shénme"
+      }
+    ]
+  },
+  {
+    "id": "context-086",
+    "hanzi": "你在哪一所小学上学？",
+    "pinyin": "Nǐ zài nǎ yì suǒ xiǎoxué shàngxué?",
+    "meaning": "¿A qué escuela primaria vas?",
+    "hskIds": [
+      "w00131",
+      "w00237"
+    ],
+    "audioUrl": "/audio/context-086.mp3"
+  },
+  {
+    "id": "context-087",
+    "hanzi": "哪个是你的手机？",
+    "pinyin": "Nǎge shì nǐ de shǒujī?",
+    "meaning": "¿Cuál es tu teléfono móvil?",
+    "hskIds": [
+      "w00132",
+      "w00189"
+    ],
+    "audioUrl": "/audio/context-087.mp3"
+  },
+  {
+    "id": "context-088",
+    "hanzi": "你们要去哪儿？",
+    "pinyin": "Nǐmen yào qù nǎr?",
+    "meaning": "¿Adónde queréis ir?",
+    "hskIds": [
+      "w00148",
+      "w00134"
+    ],
+    "audioUrl": "/audio/context-088.mp3"
+  },
+  {
+    "id": "context-089",
+    "hanzi": "哪些是新书，哪些是旧书？",
+    "pinyin": "Nǎxiē shì xīn shū, nǎxiē shì jiù shū?",
+    "meaning": "¿Cuáles son los libros nuevos y cuáles los usados?",
+    "hskIds": [
+      "w00135",
+      "w00242"
+    ],
+    "audioUrl": "/audio/context-089.mp3"
+  },
+  {
+    "id": "context-090",
+    "hanzi": "那边有一家商店，这边也有。",
+    "pinyin": "Nàbiān yǒu yì jiā shāngdiàn, zhèbiān yě yǒu.",
+    "meaning": "Hay una tienda allí y también hay una por aquí.",
+    "hskIds": [
+      "w00137",
+      "w00280",
+      "w00253"
+    ],
+    "audioUrl": "/audio/context-090.mp3"
+  },
+  {
+    "id": "context-091",
+    "hanzi": "我们住在那里，离学校很近。",
+    "pinyin": "Wǒmen zhù zài nàlǐ, lí xuéxiào hěn jìn.",
+    "meaning": "Vivimos allí, muy cerca de la escuela.",
+    "hskIds": [
+      "w00139",
+      "w00389",
+      "w00371"
+    ],
+    "audioUrl": "/audio/context-091.mp3"
+  },
+  {
+    "id": "context-092",
+    "hanzi": "我去那儿等你。",
+    "pinyin": "Wǒ qù nàr děng nǐ.",
+    "meaning": "Te esperaré allí.",
+    "hskIds": [
+      "w00140",
+      "w00334"
+    ],
+    "audioUrl": "/audio/context-092.mp3"
+  },
+  {
+    "id": "context-093",
+    "hanzi": "那些人是我的同学，这些人是我的老师。",
+    "pinyin": "Nàxiē rén shì wǒ de tóngxué, zhèxiē rén shì wǒ de lǎoshī.",
+    "meaning": "Aquellas personas son mis compañeros de clase y estas son mis profesores.",
+    "hskIds": [
+      "w00141",
+      "w00284"
+    ],
+    "audioUrl": "/audio/context-093.mp3"
+  },
+  {
+    "id": "context-094",
+    "hanzi": "我们班有十个男同学、十二个女同学。",
+    "pinyin": "Wǒmen bān yǒu shí ge nán tóngxué, shí’èr ge nǚ tóngxué.",
+    "meaning": "En mi clase hay diez chicos y doce chicas.",
+    "hskIds": [
+      "w00142",
+      "w00152",
+      "w00304"
+    ],
+    "audioUrl": "/audio/context-094.mp3"
+  },
+  {
+    "id": "context-095",
+    "hanzi": "我的男朋友和她的女朋友都喜欢喝茶。",
+    "pinyin": "Wǒ de nánpéngyou hé tā de nǚpéngyou dōu xǐhuan hē chá.",
+    "meaning": "A mi novio y a su novia les gusta el té.",
+    "hskIds": [
+      "w00143",
+      "w00154"
+    ],
+    "audioUrl": "/audio/context-095.mp3"
+  },
+  {
+    "id": "context-096",
+    "hanzi": "我想喝茶，你呢？",
+    "pinyin": "Wǒ xiǎng hē chá, nǐ ne?",
+    "meaning": "Me apetece té, ¿y a ti?",
+    "hskIds": [
+      "w00144"
+    ],
+    "audioUrl": "/audio/context-096.mp3"
+  },
+  {
+    "id": "context-097",
+    "hanzi": "孩子太小，还不能自己出门。",
+    "pinyin": "Háizi tài xiǎo, hái bù néng zìjǐ chūmén.",
+    "meaning": "El niño es muy pequeño y aún no puede salir solo.",
+    "hskIds": [
+      "w00145",
+      "w00494",
+      "w00319"
+    ],
+    "audioUrl": "/audio/context-097.mp3"
+  },
+  {
+    "id": "context-098",
+    "hanzi": "去年我在这里住了一年。",
+    "pinyin": "Qùnián wǒ zài zhèlǐ zhù le yì nián.",
+    "meaning": "El año pasado viví aquí durante un año.",
+    "hskIds": [
+      "w00168",
+      "w00149"
+    ],
+    "audioUrl": "/audio/context-098.mp3",
+    "lastOccurrence": [
+      "w00149"
+    ]
+  },
+  {
+    "id": "context-099",
+    "hanzi": "这位女士的女儿在医院工作。",
+    "pinyin": "Zhè wèi nǚshì de nǚ’ér zài yīyuàn gōngzuò.",
+    "meaning": "La hija de esta señora trabaja en el hospital.",
+    "hskIds": [
+      "w00453",
+      "w00155",
+      "w00153"
+    ],
+    "audioUrl": "/audio/context-099.mp3"
+  },
+  {
+    "id": "context-100",
+    "hanzi": "这张机票要三千元。",
+    "pinyin": "Zhè zhāng jīpiào yào sān qiān yuán.",
+    "meaning": "Este billete de avión cuesta tres mil yuanes.",
+    "hskIds": [
+      "w00364",
+      "w00162"
+    ],
+    "audioUrl": "/audio/context-100.mp3"
+  },
+  {
+    "id": "context-101",
+    "hanzi": "请在上午十点前到车站。",
+    "pinyin": "Qǐng zài shàngwǔ shí diǎn qián dào chēzhàn.",
+    "meaning": "Llega a la estación antes de las diez de la mañana, por favor.",
+    "hskIds": [
+      "w00178",
+      "w00163",
+      "w00315"
+    ],
+    "audioUrl": "/audio/context-101.mp3"
+  },
+  {
+    "id": "context-102",
+    "hanzi": "这杯水太热了，等一下再喝。",
+    "pinyin": "Zhè bēi shuǐ tài rè le, děng yíxià zài hē.",
+    "meaning": "El agua está muy caliente. Espera un momento antes de beberla.",
+    "hskIds": [
+      "w00169",
+      "w00259",
+      "w00270"
+    ],
+    "audioUrl": "/audio/context-102.mp3"
+  },
+  {
+    "id": "context-103",
+    "hanzi": "昨天下午我认识了三个中学生。",
+    "pinyin": "Zuótiān xiàwǔ wǒ rènshi le sān ge zhōngxuéshēng.",
+    "meaning": "Ayer por la tarde conocí a tres estudiantes de secundaria.",
+    "hskIds": [
+      "w00297",
+      "w00230",
+      "w00171",
+      "w00293"
+    ],
+    "audioUrl": "/audio/context-103.mp3"
+  },
+  {
+    "id": "context-104",
+    "hanzi": "今天是六月一日。",
+    "pinyin": "Jīntiān shì liù yuè yī rì.",
+    "meaning": "Hoy es uno de junio.",
+    "hskIds": [
+      "w00269",
+      "w00172"
+    ],
+    "audioUrl": "/audio/context-104.mp3"
+  },
+  {
+    "id": "context-105",
+    "hanzi": "你在做什么事？",
+    "pinyin": "Nǐ zài zuò shénme shì?",
+    "meaning": "¿Qué estás haciendo?",
+    "hskIds": [
+      "w00299",
+      "w00182",
+      "w00187"
+    ],
+    "audioUrl": "/audio/context-105.mp3"
+  },
+  {
+    "id": "context-106",
+    "hanzi": "有时间的时候，我喜欢看书。",
+    "pinyin": "Yǒu shíjiān de shíhou, wǒ xǐhuan kàn shū.",
+    "meaning": "Cuando tengo tiempo, me gusta leer.",
+    "hskIds": [
+      "w00186",
+      "w00185"
+    ],
+    "audioUrl": "/audio/context-106.mp3"
+  },
+  {
+    "id": "context-107",
+    "hanzi": "他昨晚只睡了四个小时。",
+    "pinyin": "Tā zuówǎn zhǐ shuì le sì ge xiǎoshí.",
+    "meaning": "Anoche solo durmió cuatro horas.",
+    "hskIds": [
+      "w00194",
+      "w00198",
+      "w00236"
+    ],
+    "audioUrl": "/audio/context-107.mp3"
+  },
+  {
+    "id": "context-108",
+    "hanzi": "小朋友，该睡觉了。晚安！",
+    "pinyin": "Xiǎopéngyǒu, gāi shuìjiào le. Wǎn’ān!",
+    "meaning": "Es hora de dormir, peque. ¡Buenas noches!",
+    "hskIds": [
+      "w00235",
+      "w00195"
+    ],
+    "audioUrl": "/audio/context-108.mp3",
+    "variants": [
+      {
+        "hanzi": "晚安",
+        "pinyin": "wǎn’ān"
+      }
+    ]
+  },
+  {
+    "id": "context-109",
+    "hanzi": "那是一只猫，它在睡觉。",
+    "pinyin": "Nà shì yì zhī māo, tā zài shuìjiào.",
+    "meaning": "Ese es un gato. Está durmiendo.",
+    "hskIds": [
+      "w00201"
+    ],
+    "audioUrl": "/audio/context-109.mp3"
+  },
+  {
+    "id": "context-110",
+    "hanzi": "这两只鸟很小，它们还不会飞。",
+    "pinyin": "Zhè liǎng zhī niǎo hěn xiǎo, tāmen hái bú huì fēi.",
+    "meaning": "Estos dos pájaros son muy pequeños. Aún no saben volar.",
+    "hskIds": [
+      "w00411",
+      "w00204",
+      "w00340"
+    ],
+    "audioUrl": "/audio/context-110.mp3"
+  },
+  {
+    "id": "context-111",
+    "hanzi": "她们要在上海玩三天。",
+    "pinyin": "Tāmen yào zài Shànghǎi wán sān tiān.",
+    "meaning": "Van a pasar tres días haciendo turismo en Shanghái.",
+    "hskIds": [
+      "w00205",
+      "w00207"
+    ],
+    "audioUrl": "/audio/context-111.mp3"
+  },
+  {
+    "id": "context-112",
+    "hanzi": "喂，你能听见我吗？",
+    "pinyin": "Wèi, nǐ néng tīngjiàn wǒ ma?",
+    "meaning": "Hola, ¿me oyes?",
+    "hskIds": [
+      "w00218",
+      "w00210"
+    ],
+    "audioUrl": "/audio/context-112.mp3"
+  },
+  {
+    "id": "context-113",
+    "hanzi": "我先做饭，做好了再吃晚饭。",
+    "pinyin": "Wǒ xiān zuò fàn, zuò hǎo le zài chī wǎnfàn.",
+    "meaning": "Primero cocino y, cuando esté listo, cenamos.",
+    "hskIds": [
+      "w00300",
+      "w00216"
+    ],
+    "audioUrl": "/audio/context-113.mp3"
+  },
+  {
+    "id": "context-114",
+    "hanzi": "麻烦你把声音调小一点儿。",
+    "pinyin": "Máfan nǐ bǎ shēngyīn tiáo xiǎo yìdiǎnr.",
+    "meaning": "Por favor, baja un poco el volumen.",
+    "hskIds": [
+      "w00261"
+    ],
+    "audioUrl": "/audio/context-114.mp3"
+  },
+  {
+    "id": "context-115",
+    "hanzi": "你先坐下，我去买些水果。",
+    "pinyin": "Nǐ xiān zuò xià, wǒ qù mǎi xiē shuǐguǒ.",
+    "meaning": "Siéntate primero. Voy a comprar algo de fruta.",
+    "hskIds": [
+      "w00226",
+      "w00239"
+    ],
+    "audioUrl": "/audio/context-115.mp3"
+  },
+  {
+    "id": "context-116",
+    "hanzi": "早上好，张先生！",
+    "pinyin": "Zǎoshang hǎo, Zhāng xiānsheng!",
+    "meaning": "¡Buenos días, señor Zhang!",
+    "hskIds": [
+      "w00231"
+    ],
+    "audioUrl": "/audio/context-116.mp3",
+    "variants": [
+      {
+        "hanzi": "早上好",
+        "pinyin": "zǎoshang hǎo"
+      }
+    ]
+  },
+  {
+    "id": "context-117",
+    "hanzi": "这个星期，我们想去看雪。",
+    "pinyin": "Zhège xīngqī, wǒmen xiǎng qù kàn xuě.",
+    "meaning": "Esta semana queremos ir a ver la nieve.",
+    "hskIds": [
+      "w00243",
+      "w00251"
+    ],
+    "audioUrl": "/audio/context-117.mp3"
+  },
+  {
+    "id": "context-118",
+    "hanzi": "星期日早上八点，商店才开门。",
+    "pinyin": "Xīngqīrì zǎoshang bā diǎn, shāngdiàn cái kāimén.",
+    "meaning": "El domingo, la tienda abre a las ocho de la mañana.",
+    "hskIds": [
+      "w00244"
+    ],
+    "audioUrl": "/audio/context-118.mp3"
+  },
+  {
+    "id": "context-119",
+    "hanzi": "星期天你想去哪儿？",
+    "pinyin": "Xīngqītiān nǐ xiǎng qù nǎr?",
+    "meaning": "¿Adónde te apetece ir el domingo?",
+    "hskIds": [
+      "w00245"
+    ],
+    "audioUrl": "/audio/context-119.mp3"
+  },
+  {
+    "id": "context-120",
+    "hanzi": "我妹妹在这所中学学习。",
+    "pinyin": "Wǒ mèimei zài zhè suǒ zhōngxué xuéxí.",
+    "meaning": "Mi hermana pequeña estudia en este instituto.",
+    "hskIds": [
+      "w00292",
+      "w00249"
+    ],
+    "audioUrl": "/audio/context-120.mp3"
+  },
+  {
+    "id": "context-121",
+    "hanzi": "面包太大了，我只吃了一半。",
+    "pinyin": "Miànbāo tài dà le, wǒ zhǐ chī le yíbàn.",
+    "meaning": "El pan era demasiado grande. Solo me comí la mitad.",
+    "hskIds": [
+      "w00258"
+    ],
+    "audioUrl": "/audio/context-121.mp3"
+  },
+  {
+    "id": "context-122",
+    "hanzi": "桌子上有一些水果，有的是苹果，有的是香蕉。",
+    "pinyin": "Zhuōzi shàng yǒu yìxiē shuǐguǒ, yǒude shì píngguǒ, yǒude shì xiāngjiāo.",
+    "meaning": "Hay fruta en la mesa. Una parte son manzanas y otra, plátanos.",
+    "hskIds": [
+      "w00262",
+      "w00264"
+    ],
+    "audioUrl": "/audio/context-122.mp3"
+  },
+  {
+    "id": "context-123",
+    "hanzi": "有些人喜欢雪，有些人喜欢雨。",
+    "pinyin": "Yǒuxiē rén xǐhuan xuě, yǒuxiē rén xǐhuan yǔ.",
+    "meaning": "A algunas personas les gusta la nieve y a otras, la lluvia.",
+    "hskIds": [
+      "w00266",
+      "w00267"
+    ],
+    "audioUrl": "/audio/context-123.mp3"
+  },
+  {
+    "id": "context-124",
+    "hanzi": "请明天早一点儿来。",
+    "pinyin": "Qǐng míngtiān zǎo yìdiǎnr lái.",
+    "meaning": "Ven un poco más temprano mañana, por favor.",
+    "hskIds": [
+      "w00273"
+    ],
+    "audioUrl": "/audio/context-124.mp3"
+  },
+  {
+    "id": "context-125",
+    "hanzi": "我知道这双鞋多少钱。",
+    "pinyin": "Wǒ zhīdào zhè shuāng xié duōshao qián.",
+    "meaning": "Sé cuánto cuesta este par de zapatos.",
+    "hskIds": [
+      "w00288"
+    ],
+    "audioUrl": "/audio/context-125.mp3",
+    "variants": [
+      {
+        "hanzi": "多少钱",
+        "pinyin": "duōshao qián"
+      }
+    ]
+  },
+  {
+    "id": "context-126",
+    "hanzi": "她会说英语，我会说西班牙语。",
+    "pinyin": "Tā huì shuō Yīngyǔ, wǒ huì shuō Xībānyáyǔ.",
+    "meaning": "Ella sabe hablar inglés y yo sé hablar español.",
+    "hskIds": [],
+    "audioUrl": "/audio/context-126.mp3",
+    "variants": [
+      {
+        "hanzi": "英语",
+        "pinyin": "Yīngyǔ"
+      },
+      {
+        "hanzi": "西班牙语",
+        "pinyin": "Xībānyáyǔ"
+      }
+    ]
+  },
+  {
+    "id": "context-127",
+    "hanzi": "我买了两个包子和一碗面条。",
+    "pinyin": "Wǒ mǎi le liǎng ge bāozi hé yì wǎn miàntiáo.",
+    "meaning": "Compré dos baozi y un cuenco de fideos.",
+    "hskIds": [],
+    "audioUrl": "/audio/context-127.mp3",
+    "variants": [
+      {
+        "hanzi": "两个",
+        "pinyin": "liǎng ge"
+      },
+      {
+        "hanzi": "面条",
+        "pinyin": "miàntiáo"
+      }
+    ]
+  },
+  {
+    "id": "context-128",
+    "hanzi": "啊，原来你的爱好是画画！",
+    "pinyin": "A, yuánlái nǐ de àihào shì huà huà!",
+    "meaning": "¡Ah, conque tu afición es dibujar!",
+    "hskIds": [
+      "w00301",
+      "w00302",
+      "w00359"
+    ],
+    "audioUrl": "/audio/context-128.mp3"
+  },
+  {
+    "id": "context-129",
+    "hanzi": "这个白色的包里有一本本子和一支笔。",
+    "pinyin": "Zhège báisè de bāo lǐ yǒu yì běn běnzi hé yì zhī bǐ.",
+    "meaning": "En esta bolsa blanca hay un cuaderno y un bolígrafo.",
+    "hskIds": [
+      "w00303",
+      "w00307",
+      "w00308",
+      "w00310"
+    ],
+    "audioUrl": "/audio/context-129.mp3"
+  },
+  {
+    "id": "context-130",
+    "hanzi": "这条路比那条路长。",
+    "pinyin": "Zhè tiáo lù bǐ nà tiáo lù cháng.",
+    "meaning": "Esta calle es más larga que aquella.",
+    "hskIds": [
+      "w00392",
+      "w00309",
+      "w00314"
+    ],
+    "audioUrl": "/audio/context-130.mp3"
+  },
+  {
+    "id": "context-131",
+    "hanzi": "别动，我来帮你。",
+    "pinyin": "Bié dòng, wǒ lái bāng nǐ.",
+    "meaning": "No te muevas, que te ayudo.",
+    "hskIds": [
+      "w00311",
+      "w00338",
+      "w00305"
+    ],
+    "audioUrl": "/audio/context-131.mp3"
+  },
+  {
+    "id": "context-132",
+    "hanzi": "我搬不动这张床，你能帮忙吗？",
+    "pinyin": "Wǒ bān bu dòng zhè zhāng chuáng, nǐ néng bāngmáng ma?",
+    "meaning": "No puedo mover esta cama. ¿Puedes echarme una mano?",
+    "hskIds": [
+      "w00321",
+      "w00306"
+    ],
+    "audioUrl": "/audio/context-132.mp3"
+  },
+  {
+    "id": "context-133",
+    "hanzi": "不好意思，我拿错了书包。",
+    "pinyin": "Bù hǎoyìsi, wǒ ná cuò le shūbāo.",
+    "meaning": "Perdona, me he llevado la mochila equivocada.",
+    "hskIds": [
+      "w00313",
+      "w00326",
+      "w00435"
+    ],
+    "audioUrl": "/audio/context-133.mp3"
+  },
+  {
+    "id": "context-134",
+    "hanzi": "你的中文说得不错。",
+    "pinyin": "Nǐ de Zhōngwén shuō de búcuò.",
+    "meaning": "Hablas bastante bien chino.",
+    "hskIds": [
+      "w00332",
+      "w00312"
+    ],
+    "audioUrl": "/audio/context-134.mp3"
+  },
+  {
+    "id": "context-135",
+    "hanzi": "我没听懂，请慢慢地说。",
+    "pinyin": "Wǒ méi tīng dǒng, qǐng mànmàn de shuō.",
+    "meaning": "No te he entendido. Habla despacio, por favor.",
+    "hskIds": [
+      "w00337",
+      "w00397",
+      "w00333"
+    ],
+    "audioUrl": "/audio/context-135.mp3"
+  },
+  {
+    "id": "context-136",
+    "hanzi": "老师教我们读这个词。",
+    "pinyin": "Lǎoshī jiāo wǒmen dú zhège cí.",
+    "meaning": "El profesor nos enseña a leer esta palabra.",
+    "hskIds": [
+      "w00367",
+      "w00322"
+    ],
+    "audioUrl": "/audio/context-136.mp3"
+  },
+  {
+    "id": "context-137",
+    "hanzi": "我从小就喜欢打篮球。",
+    "pinyin": "Wǒ cóngxiǎo jiù xǐhuan dǎ lánqiú.",
+    "meaning": "Me gusta jugar al baloncesto desde pequeño.",
+    "hskIds": [
+      "w00325",
+      "w00327",
+      "w00387"
+    ],
+    "audioUrl": "/audio/context-137.mp3"
+  },
+  {
+    "id": "context-138",
+    "hanzi": "车刚出城，就开始下雨了。",
+    "pinyin": "Chē gāng chū chéng, jiù kāishǐ xià yǔ le.",
+    "meaning": "El coche acababa de salir de la ciudad cuando empezó a llover.",
+    "hskIds": [
+      "w00316",
+      "w00378"
+    ],
+    "audioUrl": "/audio/context-138.mp3"
+  },
+  {
+    "id": "context-139",
+    "hanzi": "我高中毕业后想出国旅游。",
+    "pinyin": "Wǒ gāozhōng bìyè hòu xiǎng chūguó lǚyóu.",
+    "meaning": "Cuando termine el bachillerato quiero viajar al extranjero.",
+    "hskIds": [
+      "w00342",
+      "w00317",
+      "w00394"
+    ],
+    "audioUrl": "/audio/context-139.mp3"
+  },
+  {
+    "id": "context-140",
+    "hanzi": "我在酒店门口，你出来吧。",
+    "pinyin": "Wǒ zài jiǔdiàn ménkǒu, nǐ chūlái ba.",
+    "meaning": "Estoy en la entrada del hotel. Sal, por favor.",
+    "hskIds": [
+      "w00375",
+      "w00401",
+      "w00318"
+    ],
+    "audioUrl": "/audio/context-140.mp3"
+  },
+  {
+    "id": "context-141",
+    "hanzi": "外面太冷了，别出去。",
+    "pinyin": "Wàimiàn tài lěng le, bié chūqù.",
+    "meaning": "Hace mucho frío fuera. No salgas.",
+    "hskIds": [
+      "w00447",
+      "w00320"
+    ],
+    "audioUrl": "/audio/context-141.mp3"
+  },
+  {
+    "id": "context-142",
+    "hanzi": "我打车去机场，你坐地铁吧。",
+    "pinyin": "Wǒ dǎchē qù jīchǎng, nǐ zuò dìtiě ba.",
+    "meaning": "Yo voy al aeropuerto en taxi. Tú puedes ir en metro.",
+    "hskIds": [
+      "w00328",
+      "w00363",
+      "w00335"
+    ],
+    "audioUrl": "/audio/context-142.mp3"
+  },
+  {
+    "id": "context-143",
+    "hanzi": "请打开窗户，但别开门。",
+    "pinyin": "Qǐng dǎkāi chuānghu, dàn bié kāi mén.",
+    "meaning": "Abre la ventana, por favor, pero deja la puerta cerrada.",
+    "hskIds": [
+      "w00329",
+      "w00330"
+    ],
+    "audioUrl": "/audio/context-143.mp3"
+  },
+  {
+    "id": "context-144",
+    "hanzi": "我想去，但我今天很累。",
+    "pinyin": "Wǒ xiǎng qù, dàn wǒ jīntiān hěn lèi.",
+    "meaning": "Quiero ir, pero hoy estoy muy cansado.",
+    "hskIds": [
+      "w00388"
+    ],
+    "audioUrl": "/audio/context-144.mp3"
+  },
+  {
+    "id": "context-145",
+    "hanzi": "我想点肉，但是今天没有。",
+    "pinyin": "Wǒ xiǎng diǎn ròu, dànshì jīntiān méiyǒu.",
+    "meaning": "Quería pedir carne, pero hoy no hay.",
+    "hskIds": [
+      "w00336",
+      "w00331",
+      "w00423"
+    ],
+    "audioUrl": "/audio/context-145.mp3"
+  },
+  {
+    "id": "context-146",
+    "hanzi": "我坐公交车过桥。",
+    "pinyin": "Wǒ zuò gōngjiāochē guò qiáo.",
+    "meaning": "Cruzo el puente en autobús.",
+    "hskIds": [
+      "w00346",
+      "w00347"
+    ],
+    "audioUrl": "/audio/context-146.mp3"
+  },
+  {
+    "id": "context-147",
+    "hanzi": "过年时，奶奶让我们过来吃饭。",
+    "pinyin": "Guònián shí, nǎinai ràng wǒmen guòlái chī fàn.",
+    "meaning": "En Año Nuevo, la abuela nos invita a ir a comer.",
+    "hskIds": [
+      "w00349",
+      "w00431",
+      "w00409",
+      "w00422",
+      "w00348"
+    ],
+    "audioUrl": "/audio/context-147.mp3"
+  },
+  {
+    "id": "context-148",
+    "hanzi": "桥对面有一家饭馆，我们走过去吧。",
+    "pinyin": "Qiáo duìmiàn yǒu yì jiā fànguǎn, wǒmen zǒu guòqù ba.",
+    "meaning": "Hay un restaurante al otro lado del puente. Vayamos allí a pie.",
+    "hskIds": [
+      "w00339",
+      "w00350"
+    ],
+    "audioUrl": "/audio/context-148.mp3"
+  },
+  {
+    "id": "context-149",
+    "hanzi": "我在这家酒店住过两次。",
+    "pinyin": "Wǒ zài zhè jiā jiǔdiàn zhù guo liǎng cì.",
+    "meaning": "Me he alojado dos veces en este hotel.",
+    "hskIds": [
+      "w00351"
+    ],
+    "audioUrl": "/audio/context-149.mp3"
+  },
+  {
+    "id": "context-150",
+    "hanzi": "你想喝红茶还是绿茶？",
+    "pinyin": "Nǐ xiǎng hē hóngchá háishi lǜchá?",
+    "meaning": "¿Quieres té negro o té verde?",
+    "hskIds": [
+      "w00354",
+      "w00352",
+      "w00395"
+    ],
+    "audioUrl": "/audio/context-150.mp3"
+  },
+  {
+    "id": "context-151",
+    "hanzi": "她穿着一件黑色外套和一条红色裤子。",
+    "pinyin": "Tā chuānzhe yí jiàn hēisè wàitào hé yì tiáo hóngsè kùzi.",
+    "meaning": "Lleva una chaqueta negra y unos pantalones rojos.",
+    "hskIds": [
+      "w00353",
+      "w00355",
+      "w00383",
+      "w00490"
+    ],
+    "audioUrl": "/audio/context-151.mp3"
+  },
+  {
+    "id": "context-152",
+    "hanzi": "桌子后面有一盆花。",
+    "pinyin": "Zhuōzi hòumiàn yǒu yì pén huā.",
+    "meaning": "Hay una maceta con flores detrás de la mesa.",
+    "hskIds": [
+      "w00356",
+      "w00358"
+    ],
+    "audioUrl": "/audio/context-152.mp3"
+  },
+  {
+    "id": "context-153",
+    "hanzi": "我花了一百元买门票。",
+    "pinyin": "Wǒ huā le yì bǎi yuán mǎi ménpiào.",
+    "meaning": "Me gasté cien yuanes en comprar entradas.",
+    "hskIds": [
+      "w00357",
+      "w00402"
+    ],
+    "audioUrl": "/audio/context-153.mp3"
+  },
+  {
+    "id": "context-154",
+    "hanzi": "我的手表坏了，我得回去拿手机。",
+    "pinyin": "Wǒ de shǒubiǎo huài le, wǒ děi huíqù ná shǒujī.",
+    "meaning": "Se me ha estropeado el reloj. Tengo que volver a por el móvil.",
+    "hskIds": [
+      "w00434",
+      "w00360",
+      "w00362"
+    ],
+    "audioUrl": "/audio/context-154.mp3"
+  },
+  {
+    "id": "context-155",
+    "hanzi": "我记得这间房里面有一张床。",
+    "pinyin": "Wǒ jìde zhè jiān fáng lǐmiàn yǒu yì zhāng chuáng.",
+    "meaning": "Recuerdo que dentro de esta habitación hay una cama.",
+    "hskIds": [
+      "w00365",
+      "w00366",
+      "w00390"
+    ],
+    "audioUrl": "/audio/context-155.mp3"
+  },
+  {
+    "id": "context-156",
+    "hanzi": "进教室前，请把手机关掉。",
+    "pinyin": "Jìn jiàoshì qián, qǐng bǎ shǒujī guāndiào.",
+    "meaning": "Apaga el móvil antes de entrar en el aula, por favor.",
+    "hskIds": [
+      "w00370",
+      "w00368"
+    ],
+    "audioUrl": "/audio/context-156.mp3"
+  },
+  {
+    "id": "context-157",
+    "hanzi": "请进来，我给你介绍一下我的朋友。",
+    "pinyin": "Qǐng jìnlái, wǒ gěi nǐ jièshào yíxià wǒ de péngyou.",
+    "meaning": "Pasa, por favor. Te presento a mi amigo.",
+    "hskIds": [
+      "w00372",
+      "w00369"
+    ],
+    "audioUrl": "/audio/context-157.mp3"
+  },
+  {
+    "id": "context-158",
+    "hanzi": "门开着，你可以进去。",
+    "pinyin": "Mén kāizhe, nǐ kěyǐ jìnqù.",
+    "meaning": "La puerta está abierta. Puedes entrar.",
+    "hskIds": [
+      "w00373"
+    ],
+    "audioUrl": "/audio/context-158.mp3"
+  },
+  {
+    "id": "context-159",
+    "hanzi": "我经常在那栋楼里喝咖啡。",
+    "pinyin": "Wǒ jīngcháng zài nà dòng lóu lǐ hē kāfēi.",
+    "meaning": "A menudo tomo café en aquel edificio.",
+    "hskIds": [
+      "w00374",
+      "w00391",
+      "w00377"
+    ],
+    "audioUrl": "/audio/context-159.mp3"
+  },
+  {
+    "id": "context-160",
+    "hanzi": "你能告诉我他有多高吗？",
+    "pinyin": "Nǐ néng gàosu wǒ tā yǒu duō gāo ma?",
+    "meaning": "¿Me puedes decir cuánto mide?",
+    "hskIds": [
+      "w00343",
+      "w00341"
+    ],
+    "audioUrl": "/audio/context-160.mp3"
+  },
+  {
+    "id": "context-161",
+    "hanzi": "我个子不高，但我喜欢跟朋友一起打篮球。",
+    "pinyin": "Wǒ gèzi bù gāo, dàn wǒ xǐhuan gēn péngyou yìqǐ dǎ lánqiú.",
+    "meaning": "No soy muy alto, pero me gusta jugar al baloncesto con mis amigos.",
+    "hskIds": [
+      "w00344",
+      "w00345"
+    ],
+    "audioUrl": "/audio/context-161.mp3"
+  },
+  {
+    "id": "context-162",
+    "hanzi": "明天就要开学了。",
+    "pinyin": "Míngtiān jiù yào kāixué le.",
+    "meaning": "Mañana empiezan las clases.",
+    "hskIds": [
+      "w00379"
+    ],
+    "audioUrl": "/audio/context-162.mp3"
+  },
+  {
+    "id": "context-163",
+    "hanzi": "这周可能要考中文。",
+    "pinyin": "Zhè zhōu kěnéng yào kǎo Zhōngwén.",
+    "meaning": "Puede que tengamos un examen de chino esta semana.",
+    "hskIds": [
+      "w00492",
+      "w00382",
+      "w00380"
+    ],
+    "audioUrl": "/audio/context-163.mp3"
+  },
+  {
+    "id": "context-164",
+    "hanzi": "这次考试一点儿也不难。",
+    "pinyin": "Zhè cì kǎoshì yìdiǎnr yě bù nán.",
+    "meaning": "Este examen no es nada difícil.",
+    "hskIds": [
+      "w00381"
+    ],
+    "audioUrl": "/audio/context-164.mp3"
+  },
+  {
+    "id": "context-165",
+    "hanzi": "公交车快要到了，快一点儿！",
+    "pinyin": "Gōngjiāochē kuàiyào dào le, kuài yìdiǎnr!",
+    "meaning": "¡Está a punto de llegar el autobús! ¡Un poco más rápido!",
+    "hskIds": [
+      "w00386",
+      "w00384"
+    ],
+    "audioUrl": "/audio/context-165.mp3",
+    "lastOccurrence": [
+      "w00384"
+    ]
+  },
+  {
+    "id": "context-166",
+    "hanzi": "生日那天我很快乐，因为全家人都来了。",
+    "pinyin": "Shēngrì nà tiān wǒ hěn kuàilè, yīnwèi quán jiārén dōu lái le.",
+    "meaning": "El día de mi cumpleaños estuve muy feliz porque vino toda mi familia.",
+    "hskIds": [
+      "w00430",
+      "w00385",
+      "w00476"
+    ],
+    "audioUrl": "/audio/context-166.mp3"
+  },
+  {
+    "id": "context-167",
+    "hanzi": "我有时在回家的路上买点水果。",
+    "pinyin": "Wǒ yǒushí zài huí jiā de lùshang mǎi diǎn shuǐguǒ.",
+    "meaning": "A veces compro algo de fruta de camino a casa.",
+    "hskIds": [
+      "w00480",
+      "w00393"
+    ],
+    "audioUrl": "/audio/context-167.mp3"
+  },
+  {
+    "id": "context-168",
+    "hanzi": "我最喜欢绿色的裤子。",
+    "pinyin": "Wǒ zuì xǐhuan lǜsè de kùzi.",
+    "meaning": "Los pantalones verdes son los que más me gustan.",
+    "hskIds": [
+      "w00498",
+      "w00396"
+    ],
+    "audioUrl": "/audio/context-168.mp3"
+  },
+  {
+    "id": "context-169",
+    "hanzi": "这个节目没意思，我们出去走走吧。",
+    "pinyin": "Zhège jiémù méi yìsi, wǒmen chūqù zǒuzou ba.",
+    "meaning": "Este programa es aburrido. Salgamos a dar un paseo.",
+    "hskIds": [
+      "w00398",
+      "w00495"
+    ],
+    "audioUrl": "/audio/context-169.mp3"
+  },
+  {
+    "id": "context-170",
+    "hanzi": "这张卡的两面都有照片。",
+    "pinyin": "Zhè zhāng kǎ de liǎng miàn dōu yǒu zhàopiàn.",
+    "meaning": "Hay fotos en las dos caras de esta tarjeta.",
+    "hskIds": [
+      "w00403"
+    ],
+    "audioUrl": "/audio/context-170.mp3"
+  },
+  {
+    "id": "context-171",
+    "hanzi": "我们请了两名学生来帮忙。",
+    "pinyin": "Wǒmen qǐng le liǎng míng xuésheng lái bāngmáng.",
+    "meaning": "Hemos pedido a dos estudiantes que vengan a ayudar.",
+    "hskIds": [
+      "w00404"
+    ],
+    "audioUrl": "/audio/context-171.mp3"
+  },
+  {
+    "id": "context-172",
+    "hanzi": "那么，我们下周再见。",
+    "pinyin": "Nàme, wǒmen xià zhōu zài jiàn.",
+    "meaning": "Entonces, nos vemos la semana que viene.",
+    "hskIds": [
+      "w00406"
+    ],
+    "audioUrl": "/audio/context-172.mp3"
+  },
+  {
+    "id": "context-173",
+    "hanzi": "别那样说话，别人会难过。",
+    "pinyin": "Bié nàyàng shuōhuà, biérén huì nánguò.",
+    "meaning": "No hables así. Puedes herir a los demás.",
+    "hskIds": [
+      "w00407"
+    ],
+    "audioUrl": "/audio/context-173.mp3"
+  },
+  {
+    "id": "context-174",
+    "hanzi": "她坐在我旁边喝奶茶。",
+    "pinyin": "Tā zuò zài wǒ pángbiān hē nǎichá.",
+    "meaning": "Está sentada a mi lado tomando té con leche.",
+    "hskIds": [
+      "w00413",
+      "w00408"
+    ],
+    "audioUrl": "/audio/context-174.mp3"
+  },
+  {
+    "id": "context-175",
+    "hanzi": "公园里有一个男孩儿和一个女孩儿。",
+    "pinyin": "Gōngyuán lǐ yǒu yí ge nánháir hé yí ge nǚháir.",
+    "meaning": "En el parque hay un niño y una niña.",
+    "hskIds": [
+      "w00410",
+      "w00412"
+    ],
+    "audioUrl": "/audio/context-175.mp3"
+  },
+  {
+    "id": "context-176",
+    "hanzi": "别跑，地上有水。",
+    "pinyin": "Bié pǎo, dìshang yǒu shuǐ.",
+    "meaning": "No corras. Hay agua en el suelo.",
+    "hskIds": [
+      "w00414"
+    ],
+    "audioUrl": "/audio/context-176.mp3"
+  },
+  {
+    "id": "context-177",
+    "hanzi": "他每天早上都去跑步。",
+    "pinyin": "Tā měitiān zǎoshang dōu qù pǎobù.",
+    "meaning": "Sale a correr todas las mañanas.",
+    "hskIds": [
+      "w00415"
+    ],
+    "audioUrl": "/audio/context-177.mp3"
+  },
+  {
+    "id": "context-178",
+    "hanzi": "我买了两张票，想跟妻子一起去看电影。",
+    "pinyin": "Wǒ mǎi le liǎng zhāng piào, xiǎng gēn qīzi yìqǐ qù kàn diànyǐng.",
+    "meaning": "Compré dos entradas para ir al cine con mi mujer.",
+    "hskIds": [
+      "w00416",
+      "w00417"
+    ],
+    "audioUrl": "/audio/context-178.mp3"
+  },
+  {
+    "id": "context-179",
+    "hanzi": "请站起来，往前面走两步。",
+    "pinyin": "Qǐng zhàn qǐlái, wǎng qiánmiàn zǒu liǎng bù.",
+    "meaning": "Ponte de pie y da dos pasos hacia delante, por favor.",
+    "hskIds": [
+      "w00486",
+      "w00418",
+      "w00450",
+      "w00419"
+    ],
+    "audioUrl": "/audio/context-179.mp3"
+  },
+  {
+    "id": "context-180",
+    "hanzi": "今天是晴天，孩子们在外面踢球。",
+    "pinyin": "Jīntiān shì qíngtiān, háizimen zài wàimiàn tī qiú.",
+    "meaning": "Hoy está despejado y los niños juegan al balón fuera.",
+    "hskIds": [
+      "w00420",
+      "w00441",
+      "w00421"
+    ],
+    "audioUrl": "/audio/context-180.mp3"
+  },
+  {
+    "id": "context-181",
+    "hanzi": "商场在地铁站的左边。",
+    "pinyin": "Shāngchǎng zài dìtiězhàn de zuǒbian.",
+    "meaning": "El centro comercial está a la izquierda de la estación de metro.",
+    "hskIds": [
+      "w00424",
+      "w00500"
+    ],
+    "audioUrl": "/audio/context-181.mp3"
+  },
+  {
+    "id": "context-182",
+    "hanzi": "我在楼上，你上来吧。",
+    "pinyin": "Wǒ zài lóushàng, nǐ shànglái ba.",
+    "meaning": "Estoy arriba. Sube.",
+    "hskIds": [
+      "w00425"
+    ],
+    "audioUrl": "/audio/context-182.mp3"
+  },
+  {
+    "id": "context-183",
+    "hanzi": "桌子上面有一张纸。",
+    "pinyin": "Zhuōzi shàngmiàn yǒu yì zhāng zhǐ.",
+    "meaning": "Hay una hoja de papel sobre la mesa.",
+    "hskIds": [
+      "w00426"
+    ],
+    "audioUrl": "/audio/context-183.mp3"
+  },
+  {
+    "id": "context-184",
+    "hanzi": "电梯在那边，我们上去吧。",
+    "pinyin": "Diàntī zài nàbiān, wǒmen shàngqù ba.",
+    "meaning": "El ascensor está allí. Vamos a subir.",
+    "hskIds": [
+      "w00427"
+    ],
+    "audioUrl": "/audio/context-184.mp3"
+  },
+  {
+    "id": "context-185",
+    "hanzi": "每天运动对身体好。",
+    "pinyin": "Měitiān yùndòng duì shēntǐ hǎo.",
+    "meaning": "Hacer ejercicio todos los días es bueno para la salud.",
+    "hskIds": [
+      "w00485",
+      "w00429"
+    ],
+    "audioUrl": "/audio/context-185.mp3"
+  },
+  {
+    "id": "context-186",
+    "hanzi": "这件事情我明天再告诉你。",
+    "pinyin": "Zhè jiàn shìqing wǒ míngtiān zài gàosu nǐ.",
+    "meaning": "Ya te contaré mañana lo de este asunto.",
+    "hskIds": [
+      "w00432"
+    ],
+    "audioUrl": "/audio/context-186.mp3"
+  },
+  {
+    "id": "context-187",
+    "hanzi": "吃饭前要洗手。",
+    "pinyin": "Chī fàn qián yào xǐ shǒu.",
+    "meaning": "Hay que lavarse las manos antes de comer.",
+    "hskIds": [
+      "w00456",
+      "w00433"
+    ],
+    "audioUrl": "/audio/context-187.mp3"
+  },
+  {
+    "id": "context-188",
+    "hanzi": "这把椅子坐着很舒服。",
+    "pinyin": "Zhè bǎ yǐzi zuòzhe hěn shūfu.",
+    "meaning": "Esta silla es muy cómoda.",
+    "hskIds": [
+      "w00436"
+    ],
+    "audioUrl": "/audio/context-188.mp3"
+  },
+  {
+    "id": "context-189",
+    "hanzi": "爷爷送了我一本书。",
+    "pinyin": "Yéye sòng le wǒ yì běn shū.",
+    "meaning": "Mi abuelo me regaló un libro.",
+    "hskIds": [
+      "w00470",
+      "w00437"
+    ],
+    "audioUrl": "/audio/context-189.mp3"
+  },
+  {
+    "id": "context-190",
+    "hanzi": "虽然我头疼，还是把这道题做完了。",
+    "pinyin": "Suīrán wǒ tóu téng, háishi bǎ zhè dào tí zuò wán le.",
+    "meaning": "Aunque me dolía la cabeza, terminé el ejercicio.",
+    "hskIds": [
+      "w00438",
+      "w00445",
+      "w00440",
+      "w00442",
+      "w00448"
+    ],
+    "audioUrl": "/audio/context-190.mp3"
+  },
+  {
+    "id": "context-191",
+    "hanzi": "门关了，所以我们在外面等。",
+    "pinyin": "Mén guān le, suǒyǐ wǒmen zài wàimiàn děng.",
+    "meaning": "La puerta está cerrada, así que esperamos fuera.",
+    "hskIds": [
+      "w00439"
+    ],
+    "audioUrl": "/audio/context-191.mp3"
+  },
+  {
+    "id": "context-192",
+    "hanzi": "我有几个外国朋友。",
+    "pinyin": "Wǒ yǒu jǐ ge wàiguó péngyou.",
+    "meaning": "Tengo varios amigos de otros países.",
+    "hskIds": [
+      "w00446"
+    ],
+    "audioUrl": "/audio/context-192.mp3"
+  },
+  {
+    "id": "context-193",
+    "hanzi": "我在网上看到这辆车要十万元。",
+    "pinyin": "Wǒ zài wǎngshang kàndào zhè liàng chē yào shí wàn yuán.",
+    "meaning": "Vi en internet que este coche cuesta cien mil yuanes.",
+    "hskIds": [
+      "w00451",
+      "w00449"
+    ],
+    "audioUrl": "/audio/context-193.mp3"
+  },
+  {
+    "id": "context-194",
+    "hanzi": "我忘了今天要准备什么。",
+    "pinyin": "Wǒ wàng le jīntiān yào zhǔnbèi shénme.",
+    "meaning": "Me he olvidado de lo que tenía que preparar hoy.",
+    "hskIds": [
+      "w00452",
+      "w00493"
+    ],
+    "audioUrl": "/audio/context-194.mp3"
+  },
+  {
+    "id": "context-195",
+    "hanzi": "我希望知道你为什么想学中文。",
+    "pinyin": "Wǒ xīwàng zhīdào nǐ wèi shénme xiǎng xué Zhōngwén.",
+    "meaning": "Me gustaría saber por qué quieres estudiar chino.",
+    "hskIds": [
+      "w00455",
+      "w00454"
+    ],
+    "audioUrl": "/audio/context-195.mp3"
+  },
+  {
+    "id": "context-196",
+    "hanzi": "我在楼下等你，你下来吧。",
+    "pinyin": "Wǒ zài lóuxià děng nǐ, nǐ xiàlái ba.",
+    "meaning": "Te espero abajo. Baja.",
+    "hskIds": [
+      "w00458"
+    ],
+    "audioUrl": "/audio/context-196.mp3"
+  },
+  {
+    "id": "context-197",
+    "hanzi": "椅子下面有一只猫。",
+    "pinyin": "Yǐzi xiàmiàn yǒu yì zhī māo.",
+    "meaning": "Hay un gato debajo de la silla.",
+    "hskIds": [
+      "w00459"
+    ],
+    "audioUrl": "/audio/context-197.mp3"
+  },
+  {
+    "id": "context-198",
+    "hanzi": "楼下有人找你，你下去看看吧。",
+    "pinyin": "Lóuxià yǒu rén zhǎo nǐ, nǐ xiàqù kànkan ba.",
+    "meaning": "Hay alguien preguntando por ti abajo. Baja a ver quién es.",
+    "hskIds": [
+      "w00460"
+    ],
+    "audioUrl": "/audio/context-198.mp3"
+  },
+  {
+    "id": "context-199",
+    "hanzi": "那个小孩儿看见我就笑了。",
+    "pinyin": "Nàge xiǎoháir kànjiàn wǒ jiù xiào le.",
+    "meaning": "El peque sonrió en cuanto me vio.",
+    "hskIds": [
+      "w00461",
+      "w00463"
+    ],
+    "audioUrl": "/audio/context-199.mp3"
+  },
+  {
+    "id": "context-200",
+    "hanzi": "我小时候常常在这里跳舞。",
+    "pinyin": "Wǒ xiǎoshíhou chángcháng zài zhèlǐ tiàowǔ.",
+    "meaning": "De pequeño solía bailar aquí.",
+    "hskIds": [
+      "w00462",
+      "w00444"
+    ],
+    "audioUrl": "/audio/context-200.mp3"
+  },
+  {
+    "id": "context-201",
+    "hanzi": "你姓什么？请把姓名写在这里。",
+    "pinyin": "Nǐ xìng shénme? Qǐng bǎ xìngmíng xiě zài zhèlǐ.",
+    "meaning": "¿Cuál es tu apellido? Escribe aquí tu nombre completo, por favor.",
+    "hskIds": [
+      "w00464",
+      "w00465"
+    ],
+    "audioUrl": "/audio/context-201.mp3"
+  },
+  {
+    "id": "context-202",
+    "hanzi": "你的眼睛是什么颜色？",
+    "pinyin": "Nǐ de yǎnjing shì shénme yánsè?",
+    "meaning": "¿De qué color son tus ojos?",
+    "hskIds": [
+      "w00467",
+      "w00466"
+    ],
+    "audioUrl": "/audio/context-202.mp3"
+  },
+  {
+    "id": "context-203",
+    "hanzi": "药店已经关门了，明天再来买药吧。",
+    "pinyin": "Yàodiàn yǐjīng guān mén le, míngtiān zài lái mǎi yào ba.",
+    "meaning": "La farmacia ya ha cerrado. Volvamos mañana a comprar el medicamento.",
+    "hskIds": [
+      "w00469",
+      "w00472",
+      "w00468"
+    ],
+    "audioUrl": "/audio/context-203.mp3",
+    "lastOccurrence": [
+      "w00468"
+    ]
+  },
+  {
+    "id": "context-204",
+    "hanzi": "我一会儿就回来，你先坐吧。",
+    "pinyin": "Wǒ yíhuìr jiù huílái, nǐ xiān zuò ba.",
+    "meaning": "Vuelvo en un rato. Siéntate mientras tanto.",
+    "hskIds": [
+      "w00471"
+    ],
+    "audioUrl": "/audio/context-204.mp3"
+  },
+  {
+    "id": "context-205",
+    "hanzi": "你知道这个词的意思吗？",
+    "pinyin": "Nǐ zhīdào zhège cí de yìsi ma?",
+    "meaning": "¿Sabes qué significa esta palabra?",
+    "hskIds": [
+      "w00474"
+    ],
+    "audioUrl": "/audio/context-205.mp3"
+  },
+  {
+    "id": "context-206",
+    "hanzi": "今天是阴天，可能会下雨。",
+    "pinyin": "Jīntiān shì yīntiān, kěnéng huì xià yǔ.",
+    "meaning": "Hoy está nublado. Puede que llueva.",
+    "hskIds": [
+      "w00475"
+    ],
+    "audioUrl": "/audio/context-206.mp3"
+  },
+  {
+    "id": "context-207",
+    "hanzi": "我能游两百米。",
+    "pinyin": "Wǒ néng yóu liǎng bǎi mǐ.",
+    "meaning": "Puedo nadar doscientos metros.",
+    "hskIds": [
+      "w00477"
+    ],
+    "audioUrl": "/audio/context-207.mp3"
+  },
+  {
+    "id": "context-208",
+    "hanzi": "我丈夫很喜欢游泳。",
+    "pinyin": "Wǒ zhàngfu hěn xǐhuan yóuyǒng.",
+    "meaning": "A mi marido le gusta mucho nadar.",
+    "hskIds": [
+      "w00487",
+      "w00478"
+    ],
+    "audioUrl": "/audio/context-208.mp3"
+  },
+  {
+    "id": "context-209",
+    "hanzi": "我们觉得学中文很有意思。",
+    "pinyin": "Wǒmen juéde xué Zhōngwén hěn yǒu yìsi.",
+    "meaning": "Nos parece muy interesante estudiar chino.",
+    "hskIds": [
+      "w00479"
+    ],
+    "audioUrl": "/audio/context-209.mp3"
+  },
+  {
+    "id": "context-210",
+    "hanzi": "在路口左转，然后一直走。",
+    "pinyin": "Zài lùkǒu zuǒ zhuǎn, ránhòu yìzhí zǒu.",
+    "meaning": "En el cruce gira a la izquierda y sigue recto.",
+    "hskIds": [
+      "w00499"
+    ],
+    "audioUrl": "/audio/context-210.mp3"
+  },
+  {
+    "id": "context-211",
+    "hanzi": "请往右转，银行在右边。",
+    "pinyin": "Qǐng wǎng yòu zhuǎn, yínháng zài yòubian.",
+    "meaning": "Gira a la derecha, por favor. El banco está a mano derecha.",
+    "hskIds": [
+      "w00481",
+      "w00482"
+    ],
+    "audioUrl": "/audio/context-211.mp3"
+  },
+  {
+    "id": "context-212",
+    "hanzi": "这条鱼这么大！",
+    "pinyin": "Zhè tiáo yú zhème dà!",
+    "meaning": "¡Qué grande es este pez!",
+    "hskIds": [
+      "w00483",
+      "w00488"
+    ],
+    "audioUrl": "/audio/context-212.mp3"
+  },
+  {
+    "id": "context-213",
+    "hanzi": "应该这样拿笔，字才能写得正。",
+    "pinyin": "Yīnggāi zhèyàng ná bǐ, zì cái néng xiě de zhèng.",
+    "meaning": "Hay que sujetar así el bolígrafo para que los caracteres queden rectos.",
+    "hskIds": [
+      "w00489",
+      "w00491"
+    ],
+    "audioUrl": "/audio/context-213.mp3"
+  },
+  {
+    "id": "context-214",
+    "hanzi": "这里离学校不远，我每天走路去上学。",
+    "pinyin": "Zhèlǐ lí xuéxiào bù yuǎn, wǒ měitiān zǒulù qù shàngxué.",
+    "meaning": "La escuela queda cerca de aquí, así que voy andando todos los días.",
+    "hskIds": [
+      "w00484",
+      "w00496"
+    ],
+    "audioUrl": "/audio/context-214.mp3"
+  },
+  {
+    "id": "context-215",
+    "hanzi": "我周末常跟朋友踢足球。",
+    "pinyin": "Wǒ zhōumò cháng gēn péngyou tī zúqiú.",
+    "meaning": "Los fines de semana suelo jugar al fútbol con mis amigos.",
+    "hskIds": [
+      "w00497"
+    ],
+    "audioUrl": "/audio/context-215.mp3"
   }
 ]

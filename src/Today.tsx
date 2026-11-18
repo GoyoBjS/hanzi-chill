@@ -4,12 +4,13 @@ import { stats, weekHistory, type Snapshot } from './model'
 const dayLabel = new Intl.DateTimeFormat('es', { weekday: 'short' })
 const fullDayLabel = new Intl.DateTimeFormat('es', { weekday: 'long', day: 'numeric', month: 'long' })
 
-export function Today({ data, now, start, explore, reminder }: {
+export function Today({ data, now, start, explore, reminder, orderSentence }: {
   data: Snapshot
   now: Date
   start: () => void
   explore: () => void
-  reminder: () => void
+  reminder: (opener: HTMLButtonElement) => void
+  orderSentence: () => void
 }) {
   const { due, newLeft } = stats(data, now)
   const { days, difficult } = weekHistory(data, now)
@@ -24,7 +25,8 @@ export function Today({ data, now, start, explore, reminder }: {
           <button className="primary" onClick={hasWork ? start : explore}>
             {hasWork ? 'Empezar repaso' : 'Explorar tarjetas'} <ArrowRight size={17}/>
           </button>
-          <button className="secondary" onClick={reminder}>Recordatorio diario</button>
+          <button className="secondary" onClick={event => reminder(event.currentTarget)}>Recordatorio diario</button>
+          <button className="secondary" onClick={orderSentence}>Ordena la frase</button>
         </div>
       </div>
       <div className="weekly-history">

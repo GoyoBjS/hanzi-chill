@@ -3,10 +3,10 @@ import { createEmptyCard, fsrs, Rating, State, type Card as FSRSCard, type Grade
 import Papa from 'papaparse'
 import baseDeck from '../data/base-deck.json'
 import hskDeck from '../data/hsk3-levels-1-2.json'
-import { contextExamples } from './context'
+import { contextExamples, type Sentence } from './context'
 import { shuffle } from './shuffle'
 
-export interface Word { id: string; hanzi: string; pinyin: string; meaning: string; audioUrl?: string; source?: string; hskId?: string; hskLevel?: 1 | 2; categories?: string[] }
+export interface Word { id: string; hanzi: string; pinyin: string; meaning: string; audioUrl?: string; source?: string; hskId?: string; hskLevel?: 1 | 2; categories?: string[]; example?: Sentence }
 export interface Settings { speed: number; autoplay: boolean; showPinyin: boolean; newLimit: number; reminderTime?: string }
 export interface Review { id: string; cardId: string; at: string; rating: number; introduced?: boolean }
 export interface ReviewUndo { review: Review; previous?: FSRSCard }
@@ -108,13 +108,27 @@ export function weekHistory(data: Snapshot, now: Date) {
   }).sort((a, b) => b.count - a.count).slice(0, 5)
   return { days, difficult }
 }
+function cleanSentence(raw: unknown, word: string): Sentence | null {
+  if (!raw || typeof raw !== 'object') return null
+  const { hanzi, pinyin, meaning } = raw as Record<string, unknown>
+  if (typeof hanzi !== 'string' || typeof pinyin !== 'string' || typeof meaning !== 'string') return null
+  const sentence = { hanzi: hanzi.trim(), pinyin: pinyin.trim(), meaning: meaning.trim() }
+  if (!sentence.hanzi.includes(word) || !sentence.pinyin || !sentence.meaning) return null
+  if (sentence.hanzi.length > 500 || sentence.pinyin.length > 1500 || sentence.meaning.length > 2000) return null
+  return sentence
+}
+
 function cleanWord(raw: unknown): Word | null {
   if (!raw || typeof raw !== 'object') return null
   const x = raw as Record<string, unknown>
   if (typeof x.hanzi !== 'string' || typeof x.pinyin !== 'string' || typeof x.meaning !== 'string') return null
   const hanzi = x.hanzi.trim(), pinyin = x.pinyin.trim(), meaning = x.meaning.trim()
   if (!hanzi || !pinyin || !meaning || !/\p{Script=Han}/u.test(hanzi) || hanzi.length > 200 || pinyin.length > 500 || meaning.length > 1000) return null
-  return { id: typeof x.id === 'string' && x.id ? x.id : crypto.randomUUID(), hanzi, pinyin, meaning, ...(typeof x.audioUrl === 'string' && /^\/?audio\/[\w.-]+\.mp3$/i.test(x.audioUrl) ? { audioUrl: x.audioUrl } : {}), ...(typeof x.source === 'string' ? { source: x.source } : {}), ...(typeof x.hskId === 'string' && /^w\d{5}$/.test(x.hskId) && (x.hskLevel === 1 || x.hskLevel === 2) ? { hskId: x.hskId, hskLevel: x.hskLevel, categories: Array.isArray(x.categories) ? x.categories.filter((v): v is string => typeof v === 'string') : [] } : {}) }
+  const exampleColumns = { hanzi: x.example_hanzi, pinyin: x.example_pinyin, meaning: x.example_meaning }
+  const hasExample = x.example !== undefined || Object.values(exampleColumns).some(value => typeof value === 'string' && value.trim())
+  const example = hasExample ? cleanSentence(x.example === undefined ? exampleColumns : x.example, hanzi) : undefined
+  if (example === null) return null
+  return { id: typeof x.id === 'string' && x.id ? x.id : crypto.randomUUID(), hanzi, pinyin, meaning, ...(example ? { example } : {}), ...(typeof x.audioUrl === 'string' && /^\/?audio\/[\w.-]+\.mp3$/i.test(x.audioUrl) ? { audioUrl: x.audioUrl } : {}), ...(typeof x.source === 'string' ? { source: x.source } : {}), ...(typeof x.hskId === 'string' && /^w\d{5}$/.test(x.hskId) && (x.hskLevel === 1 || x.hskLevel === 2) ? { hskId: x.hskId, hskLevel: x.hskLevel, categories: Array.isArray(x.categories) ? x.categories.filter((v): v is string => typeof v === 'string') : [] } : {}) }
 }
 export function parseVocabulary(text: string, existing: Word[]) {
   const parsed = Papa.parse<Record<string, string>>(text.replace(/^\uFEFF/, ''), { header: true, skipEmptyLines: 'greedy', transformHeader: h => h.trim().toLowerCase() })

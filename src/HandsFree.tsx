@@ -30,7 +30,7 @@ export function HandsFree({ words, play, stop }: {
 
   const playlist = words.flatMap(word => {
     const example = exampleFor(word)
-    return example && hasOfflineAudio(word) ? [{ word, example }] : []
+    return example?.audioUrl && hasOfflineAudio(word) ? [{ word, example }] : []
   })
 
   function end(text: string) {
