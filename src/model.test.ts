@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { Rating } from 'ts-fsrs'
-import { initial, eligible, keyOf, parseVocabulary, rate, restore, shuffleIds, stats, toggleLearned, withCatalog } from './model'
+import { initial, eligible, keyOf, parseVocabulary, rate, restore, shuffleIds, stats, toggleLearned, undoRating, weekHistory, withCatalog } from './model'
 
 describe('repaso FSRS', () => {
   it('programa y conserva las cuatro calificaciones y limita las nuevas', () => {
@@ -15,6 +15,29 @@ describe('repaso FSRS', () => {
     expect(imported.progress[id].reps).toBe(1)
     expect(imported.reviews).toHaveLength(1)
     for (const rating of [Rating.Again, Rating.Hard, Rating.Good, Rating.Easy]) expect(rate(initial(), id, rating, now).progress[id].due).toBeInstanceOf(Date)
+  })
+})
+describe('historial de repaso', () => {
+  it('reabre la cola el día siguiente y deshace solo el repaso seleccionado', () => {
+    const data = initial()
+    data.settings.newLimit = 2
+    const evening = new Date(2026, 10, 18, 23, 55)
+    const morning = new Date(2026, 10, 19, 8)
+    const [first, second] = data.cards
+    const afterFirst = rate(data, first.id, Rating.Easy, evening)
+    const afterSecond = rate(afterFirst, second.id, Rating.Again, evening)
+    expect(eligible(afterSecond, evening)).toHaveLength(0)
+    expect(eligible(afterSecond, morning).length).toBeGreaterThan(0)
+    expect(weekHistory(afterSecond, morning).days.map(day => day.count)).toEqual([0, 0, 0, 0, 0, 2, 0])
+    expect(weekHistory(afterSecond, morning).difficult[0]).toMatchObject({ word: { id: second.id }, count: 1 })
+    const undo = { review: afterFirst.reviews[0] }
+    const afterUndo = undoRating(afterSecond, undo)
+    expect(afterUndo.reviews.map(review => review.cardId)).toEqual([second.id])
+    expect(afterUndo.progress[first.id]).toBeUndefined()
+    expect(afterUndo.progress[second.id]).toEqual(afterSecond.progress[second.id])
+    expect(stats(afterUndo, evening).newLeft).toBe(1)
+    const later = rate(afterFirst, first.id, Rating.Good, new Date(2026, 11, 1))
+    expect(() => undoRating(later, undo)).toThrow('otra sesión')
   })
 })
 describe('importaciones', () => {

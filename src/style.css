@@ -7,5 +7,44 @@
 @media(max-width:600px){.filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.filters .filter-topic{grid-column:1/-1;order:-1}}
 .intro[hidden]{display:none}
 .practice-options{gap:8px;flex-wrap:wrap}
+select:focus-visible{outline:3px solid #d58b55;outline-offset:3px}
+.today{padding-top:26px}
+.today-card{padding:28px;background:#fffefa;border:1px solid #e2e7dd;border-radius:16px}
+.today-card h1{margin:0;font:40px Georgia,serif;color:#214b3b}
+.today-card p{margin:12px 0 18px;color:#536f5e;font-size:15px}
+.today-actions{display:flex;flex-wrap:wrap;gap:8px}
+.today-actions button{flex:none;padding:0 16px}
+.weekly-history{padding:22px 0}
+.weekly-history h2{font:24px Georgia,serif;margin:0 0 14px}
+.weekly-history h3{font-size:15px;margin:23px 0 10px}
+.week-days,.difficult-words{list-style:none;padding:0;margin:0}
+.week-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.week-days li{text-align:center;background:#fffefa;border:1px solid #e2e7dd;border-radius:8px;padding:9px 0;color:#536f5e;font-size:12px}
+.week-days li:last-child{background:#e5f0e4;color:#214b3b}
+.week-days strong{display:block;font-size:16px;margin-top:4px}
+.difficult-words li{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 0;border-bottom:1px solid #e2e7dd;font-size:13px}
+.difficult-words small{color:#536f5e;white-space:nowrap}
+.review-confirmation{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:16px;padding:12px;background:#eef4ea;border-radius:10px}
+.review-confirmation p{margin:0;font-size:14px;line-height:1.5}
+.review-confirmation button{flex:0 0 auto;padding:0 12px}
+.practice-tabs{margin:20px 0 12px}
+.practice-tabs button{flex:1 0 40%}
+.context-practice .exercise-card h3{margin-top:0}
+.context-hanzi mark{color:#214b3b;background:#e1e9ab;border-radius:4px}
+.context-hanzi,.context-pinyin{overflow-wrap:anywhere}
+.context-blank{color:#708a79}
+.context-replay{margin:12px auto 0}
+.duration-choice,.reminder-controls label{display:flex;align-items:center;gap:8px;color:#315743;font-size:13px;font-weight:700}
+.duration-choice select,.reminder-controls input{min-height:44px;border:1px solid #dce4d9;border-radius:8px;background:#fffefa;color:#315743;padding:0 10px;font:inherit}
+.reminder{padding-bottom:14px;border-bottom:1px solid #edf0e8}
+.reminder-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.reminder-controls .secondary{flex:none;padding:0 12px}
+@media(max-width:400px){
+  .tabs{gap:1px}
+  .tabs button{gap:4px;padding-inline:5px}
+  .tabs svg{width:15px}
+  .today-card{padding:22px}
+  .review-confirmation{align-items:stretch;flex-direction:column}
+}
 .context-example{margin-top:16px;padding:20px 22px;border:1px solid #dfe8dc;border-radius:14px;background:#f2f7ef}
 .context-example .eyebrow{margin-bottom:10px}.context-hanzi{font:25px/1.5 "PingFang SC","Microsoft YaHei",sans-serif;color:#214b3b;margin:0}.context-pinyin{font-size:14px;color:#668977;margin:4px 0}.context-meaning{font-size:13px;color:#536f5e;margin:8px 0 14px}.context-example .listen{background:#fffefa;min-height:44px}

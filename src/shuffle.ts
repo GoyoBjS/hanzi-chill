@@ -1,0 +1,10 @@
+export function shuffle<T>(items: readonly T[], random = Math.random): T[] {
+  const result = [...items]
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1))
+    const item = result[i]
+    result[i] = result[j]
+    result[j] = item
+  }
+  return result
+}

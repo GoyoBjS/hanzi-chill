@@ -1,4 +1,5 @@
 import { offlineAudioUrls, type Word } from './model'
+import { shuffle } from './shuffle'
 
 export type ListeningKind = 'words' | 'tones'
 export type WordQuestion = { kind: 'words'; target: Word; choices: Word[] }
@@ -17,12 +18,7 @@ const toneGroups: { syllable: string; items: [string, number][] }[] = [
 ]
 const bundledAudio = new Set(offlineAudioUrls.map(path => path.replace(/^\//, '')))
 const pick = <T,>(items: T[], random: () => number) => items[Math.floor(random() * items.length)]
-function shuffle<T>(items: T[], random: () => number): T[] {
-  const result = [...items]
-  for (let i = result.length - 1; i > 0; i--) { const j = Math.floor(random() * (i + 1)); [result[i], result[j]] = [result[j], result[i]] }
-  return result
-}
-function hasOfflineAudio(word: Word) { return !!word.audioUrl && bundledAudio.has(word.audioUrl.replace(/^\//, '')) }
+export function hasOfflineAudio(word: Word) { return !!word.audioUrl && bundledAudio.has(word.audioUrl.replace(/^\//, '')) }
 function readings(word: Word): string[] {
   return word.pinyin.normalize('NFC').toLocaleLowerCase().split('/').map(part => part.replace(/[\s’'\-]/g, '')).filter(Boolean)
 }

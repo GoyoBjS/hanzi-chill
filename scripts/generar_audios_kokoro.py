@@ -25,6 +25,9 @@ VOICE = 'zf_001'
 ROOT = Path(__file__).resolve().parent.parent
 # Lecturas de palabras aisladas con varias pronunciaciones, según el pinyin del mazo.
 PHONEME_OVERRIDES = {
+    # El mazo usa tono neutro para 上 en 早上.
+    'context-019': '我2ㄇㄟ3ㄊ言1/ㄗㄠ3ㄕㄤ5/ㄌ又4ㄉ言3/ㄑㄧ3ㄔ王2.',
+    'context-039': '我2ㄇㄟ3ㄊ言1/ㄗㄠ3ㄕㄤ5/ㄉㄡ1/ㄏㄜ1ㄔㄚ2.',
     'hsk-w00060': 'ㄍㄜ4', 'hsk-w00132': 'ㄋㄚ3ㄍㄜ5',
     'hsk-w00248': 'ㄒ月2ㄕㄥ1', 'hsk-w00275': 'ㄗㄠ3ㄕㄤ5',
     'hsk-w00287': 'ㄓ十1', 'hsk-w00314': 'ㄔㄤ2',

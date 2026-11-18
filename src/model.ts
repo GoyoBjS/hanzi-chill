@@ -4,10 +4,12 @@ import Papa from 'papaparse'
 import baseDeck from '../data/base-deck.json'
 import hskDeck from '../data/hsk3-levels-1-2.json'
 import { contextExamples } from './context'
+import { shuffle } from './shuffle'
 
 export interface Word { id: string; hanzi: string; pinyin: string; meaning: string; audioUrl?: string; source?: string; hskId?: string; hskLevel?: 1 | 2; categories?: string[] }
-export interface Settings { speed: number; autoplay: boolean; showPinyin: boolean; newLimit: number }
+export interface Settings { speed: number; autoplay: boolean; showPinyin: boolean; newLimit: number; reminderTime?: string }
 export interface Review { id: string; cardId: string; at: string; rating: number; introduced?: boolean }
+export interface ReviewUndo { review: Review; previous?: FSRSCard }
 export interface Snapshot { version: 3; cards: Word[]; progress: Record<string, FSRSCard>; settings: Settings; reviews: Review[]; learned?: string[]; legacyArchive?: unknown }
 export const defaults: Settings = { speed: 1, autoplay: true, showPinyin: false, newLimit: 5 }
 export const offlineAudioUrls = [...baseDeck, ...hskDeck, ...contextExamples].flatMap(card => card.audioUrl ? [card.audioUrl] : [])
@@ -30,18 +32,35 @@ export const initial = (): Snapshot => withCatalog({ version: 3, cards: baseDeck
 class Database extends Dexie { snapshots!: Table<{ id: string; data: Snapshot }, string>; constructor() { super('hanzi-chill'); this.version(1).stores({ snapshots: 'id' }) } }
 export const db = new Database()
 export async function load(): Promise<Snapshot> { const saved = (await db.snapshots.get('main'))?.data; return saved ? withCatalog(saved) : initial() }
-export async function save(data: Snapshot) { await db.snapshots.put({ id: 'main', data }) }
+export function updateSnapshot(change: (data: Snapshot) => Snapshot) {
+  return db.transaction('rw', db.snapshots, async () => {
+    const next = change(await load())
+    await db.snapshots.put({ id: 'main', data: next })
+  })
+}
 export function day(date = new Date()) { return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}` }
 export function stats(data: Snapshot, now = new Date()) {
   const today = day(now)
-  const introduced = new Set(data.reviews.filter(r => day(new Date(r.at)) === today && (r.introduced === true || (r.introduced === undefined && data.reviews.find(first => first.cardId === r.cardId)?.id === r.id))).map(r => r.cardId)).size
-  const todayReviews = data.reviews.filter(r => day(new Date(r.at)) === today)
+  const seen = new Set<string>()
+  const introduced = new Set<string>()
+  let reviewed = 0
+  let remembered = 0
+  for (const review of data.reviews) {
+    if (day(new Date(review.at)) === today) {
+      reviewed++
+      if (review.rating !== Rating.Again) remembered++
+      if (review.introduced ?? !seen.has(review.cardId)) introduced.add(review.cardId)
+    }
+    seen.add(review.cardId)
+  }
   const learned = new Set(data.learned ?? [])
-  return { due: data.cards.filter(c => !learned.has(c.id) && data.progress[c.id] && new Date(data.progress[c.id].due) <= now).length, newLeft: Math.max(0, data.settings.newLimit - introduced), reviewed: todayReviews.length, accuracy: todayReviews.length ? Math.round(100 * todayReviews.filter(r => r.rating !== Rating.Again).length / todayReviews.length) : null }
+  const remaining = data.cards.filter(card => !learned.has(card.id) && !data.progress[card.id]).length
+  return { due: data.cards.filter(c => !learned.has(c.id) && data.progress[c.id] && new Date(data.progress[c.id].due) <= now).length, newLeft: Math.min(remaining, Math.max(0, data.settings.newLimit - introduced.size)), reviewed, accuracy: reviewed ? Math.round(100 * remembered / reviewed) : null }
 }
 export function eligible(data: Snapshot, now = new Date()) {
   const learned = new Set(data.learned ?? [])
   const due = data.cards.filter(c => !learned.has(c.id) && data.progress[c.id] && new Date(data.progress[c.id].due) <= now)
+    .sort((a, b) => +new Date(data.progress[a.id].due) - +new Date(data.progress[b.id].due))
   const fresh = stats(data, now).newLeft ? data.cards.filter(c => !learned.has(c.id) && !data.progress[c.id]) : []
   return [...due, ...fresh]
 }
@@ -51,15 +70,43 @@ export function toggleLearned(data: Snapshot, id: string): Snapshot {
   return { ...data, learned: [...learned] }
 }
 export function shuffleIds(words: Word[], random = Math.random): string[] {
-  const ids = words.map(word => word.id)
-  for (let i = ids.length - 1; i > 0; i--) { const j = Math.floor(random() * (i + 1)); [ids[i], ids[j]] = [ids[j], ids[i]] }
-  return ids
+  return shuffle(words.map(word => word.id), random)
 }
 export function rate(data: Snapshot, id: string, rating: Rating, now = new Date()): Snapshot {
   const old = data.progress[id]
   const card = old ? { ...old, due: new Date(old.due), last_review: old.last_review ? new Date(old.last_review) : undefined } : createEmptyCard(now)
   const result = fsrs().next(card, now, rating as Grade)
   return { ...data, progress: { ...data.progress, [id]: result.card }, reviews: [...data.reviews, { id: crypto.randomUUID(), cardId: id, at: now.toISOString(), rating, introduced: !old }] }
+}
+export function undoRating(data: Snapshot, { review, previous }: ReviewUndo): Snapshot {
+  const index = data.reviews.findIndex(entry => entry.id === review.id)
+  if (index === -1 || data.reviews.slice(index + 1).some(entry => entry.cardId === review.cardId)) {
+    throw Error('La tarjeta ya cambió en otra sesión.')
+  }
+  const progress = { ...data.progress }
+  if (previous) progress[review.cardId] = previous
+  else delete progress[review.cardId]
+  return { ...data, progress, reviews: data.reviews.filter(entry => entry.id !== review.id) }
+}
+
+export function weekHistory(data: Snapshot, now: Date) {
+  const days = Array.from({ length: 7 }, (_, index) => {
+    const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() + index - 6)
+    return { date, count: 0 }
+  })
+  const byDay = new Map(days.map(entry => [day(entry.date), entry]))
+  const lapses = new Map<string, number>()
+  for (const review of data.reviews) {
+    const entry = byDay.get(day(new Date(review.at)))
+    if (!entry) continue
+    entry.count++
+    if (review.rating === Rating.Again) lapses.set(review.cardId, (lapses.get(review.cardId) ?? 0) + 1)
+  }
+  const difficult = data.cards.flatMap(word => {
+    const count = lapses.get(word.id)
+    return count ? [{ word, count }] : []
+  }).sort((a, b) => b.count - a.count).slice(0, 5)
+  return { days, difficult }
 }
 function cleanWord(raw: unknown): Word | null {
   if (!raw || typeof raw !== 'object') return null
@@ -98,7 +145,7 @@ export function restore(raw: unknown): Snapshot {
   if (x.learned !== undefined && (!Array.isArray(x.learned) || x.learned.some((id: unknown) => typeof id !== 'string' || !ids.has(id)))) throw Error('La copia contiene tarjetas aprendidas inválidas.')
   return withCatalog({ version: 3, cards: cards as Word[], progress, reviews: x.reviews, learned: x.learned ?? [], settings: validSettings(x.settings), ...(x.legacyArchive ? { legacyArchive: x.legacyArchive } : {}) })
 }
-function validSettings(raw: any): Settings { const s = raw || {}; return { speed: Math.max(.55, Math.min(1.15, Number(s.speed) || defaults.speed)), autoplay: s.autoplay !== false, showPinyin: s.showPinyin === true, newLimit: Math.max(0, Math.min(999, Math.floor(Number.isFinite(Number(s.newLimit)) ? Number(s.newLimit) : 5))) } }
+function validSettings(raw: any): Settings { const s = raw || {}; return { speed: Math.max(.55, Math.min(1.15, Number(s.speed) || defaults.speed)), autoplay: s.autoplay !== false, showPinyin: s.showPinyin === true, newLimit: Math.max(0, Math.min(999, Math.floor(Number.isFinite(Number(s.newLimit)) ? Number(s.newLimit) : 5))), ...(typeof s.reminderTime === 'string' && /^([01]\d|2[0-3]):[0-5]\d$/.test(s.reminderTime) ? { reminderTime: s.reminderTime } : {}) } }
 
 
 
